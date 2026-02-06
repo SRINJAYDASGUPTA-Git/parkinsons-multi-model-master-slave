@@ -1,0 +1,11 @@
+{
+  "oob_score": true,
+  "n_estimators": 400,
+  "min_weight_fraction_leaf": 0.0,
+  "min_samples_split": 2,
+  "min_samples_leaf": 1,
+  "min_impurity_decrease": 0.0,
+  "max_depth": 40,
+  "criterion": "squared_error",
+  "bootstrap": true
+}

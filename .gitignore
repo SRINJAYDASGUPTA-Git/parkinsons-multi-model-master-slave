@@ -1,0 +1,8 @@
+.venv/
+models/*.pkl
+models/*.pt
+
+data/processed/*.npy
+data/processed/*.pkl
+
+notebooks/*.db
