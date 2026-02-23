@@ -1,0 +1,593 @@
+@article{khedimi-2025,
+	author = {Khedimi, Madjda and Zhang, Tao and Dehmani, Chaima and Zhao, Xin and Geng, Yanzhang},
+	journal = {Bioengineering},
+	month = {6},
+	number = {7},
+	pages = {699},
+	title = {{A unified deep learning ensemble framework for Voice-Based Parkinson's disease detection and motor severity prediction}},
+	volume = {12},
+	year = {2025},
+	doi = {10.3390/bioengineering12070699},
+	url = {https://doi.org/10.3390/bioengineering12070699},
+	abstract = {This study presents a hybrid ensemble learning framework for the joint detection and motor severity prediction of Parkinson's disease (PD) using biomedical voice features. The proposed architecture integrates a deep multimodal fusion model with dense expert pathways, multi-head self-attention, and multitask output branches to simultaneously perform binary classification and regression. To ensure data quality and improve model generalization, preprocessing steps included outlier removal via Isolation Forest, two-stage feature scaling (RobustScaler followed by MinMaxScaler), and augmentation through polynomial and interaction terms. Borderline-SMOTE was employed to address class imbalance in the classification task. To enhance prediction performance, ensemble learning strategies were applied by stacking outputs from the fusion model with tree-based regressors (Random Forest, Gradient Boosting, and XGBoost), using diverse meta-learners including XGBoost, Ridge Regression, and a deep neural network. Among these, the Stacking Ensemble with XGBoost (SE-XGB) achieved the best results, with an R2 of 99.78% and RMSE of 0.3802 for UPDRS regression and 99.37% accuracy for PD classification. Comparative analysis with recent literature highlights the superior performance of our framework, particularly in regression settings. These findings demonstrate the effectiveness of combining advanced feature engineering, deep learning, and ensemble meta-modeling for building accurate and generalizable models in voice-based PD monitoring. This work provides a scalable foundation for future clinical decision support systems.}
+}
+@article{shastry-2023,
+	author = {Shastry, K. Aditya},
+	journal = {International Journal of Speech Technology},
+	month = {3},
+	number = {2},
+	pages = {433--457},
+	title = {{Ensemble machine learning regression model based predictive framework for Parkinson's UPDRS motor score prediction from speech data}},
+	volume = {26},
+	year = {2023},
+	doi = {10.1007/s10772-023-10026-z},
+	url = {https://doi.org/10.1007/s10772-023-10026-z},
+	abstract = {Parkinson's disease (PD) is a neurological illness that adversely affects many people. It is critical to make an accurate diagnosis of this condition in its initial phases if it is to be treated effectively. The Unified Parkinson's Disease Rating Scale (UPDRS) motor score is a technique for assessing the intensity and development of PD in patients. Higher UPDRS motor score indicates PD severity. For predicting the UPDRS scores the Machine Learning (ML) algorithms have shown promising results. Keeping these points in mind, in this work, the UPDRS motor score was predicted from different speech parameters such as Jitter, Shimmer, ratio of noise to tonal components in the speech, dynamical complexity measure, Signal fractal scaling exponent, measure of fundamental frequency variation, along with Age, Sex, and Time of Test. A framework consisting of feature preprocessing techniques including Correlation (CORR), Mutual Information (MI), Filter method (FM), Backward Elimination (BE), Recursive Feature Elimination (RFE), Embedded Method (EM) and a hybrid ensemble regression model consisting of Decision Tree Regression (DTR), and k Nearest Neighbor (kNNR) called Tree based Nearest Neighbor (TNN) technique was developed in this work. The proposed TNN technique performed with significant performance improvements over individual regression models such as Linear Regression (Lin-Reg), Polynomial Regression (Poly-Reg), Elastic Regression (Elas-Reg), Lasso Regression (Las-Reg), Random Forest Regressor (RFR), DTR, kNNR, and Gradient Boost Regressor (GBR) models and 28 ensemble regression models on features selected using BE with respect to the performance metrics R-square (R2) and Mean Absolute Error (MAE).}
+}
+@article{motamedi-2025,
+	author = {Motamedi, Behnaz and Villányi, Balázs},
+	journal = {Intelligence-Based Medicine},
+	month = {1},
+	pages = {100276},
+	title = {{A novel hybrid machine learning approach for early prediction of Parkinson's disease severity using optimized feature selection and ensemble learning}},
+	volume = {12},
+	year = {2025},
+	doi = {10.1016/j.ibmed.2025.100276},
+	url = {https://doi.org/10.1016/j.ibmed.2025.100276},
+	abstract = {Parkinson's disease (PD), a degenerative neurological condition that impairs motor and nonmotor skills, requires early and precise diagnosis for treatment. Machine learning for PD evaluation has improved, but accurate predictions, particularly for early diagnosis and progression, remain challenging. This study aims to improve the prediction of total and motor unified PD rating scale (UPDRS) scores by employing optimized ensemble learning models using the UCI Parkinson's telemonitoring dataset. Data preprocessing involves outlier removal, normalization, and three feature selection methods: all features, Pearson correlation coefficient (PCC), and variance inflation factor (VIF) to reduce multicollinearity. Model performance is improved using minimum redundancy maximum relevance (mRMR), and robust ReliefF (RRF) feature ranking algorithms. The bagged ensemble (BE) models are optimized using Bayesian and random search hyperparameter tuning, focusing on learning rate and the number of weak learners, and are validated using 10-fold cross-validation to find the optimum configuration. The final proposed models, Bayesian-optimized BE with RRF and VIF (VIF-BOBE-RRF) and random search-optimized BE with RRF and VIF (VIF-RSOBE-RRF), are benchmarked against leading models, including multiple linear regression (MLR), Gaussian process regression (GPR), support vector regression (SVR), multi-layer perceptron (MLP), boosting ensemble, decision tree regression (DTR), and their optimized variants. For total UPDRS, VIF-BOBE-RRF achieves R2=0.97, RMSE = 0.0400, MAE = 0.0169, while VIF-RSOBE-RRF records R2=0.97, RMSE = 0.0462, MAE = 0.0170. For motor UPDRS, VIF-BOBE-RRF attains R2=0.96, RMSE = 0.0454, MAE = 0.0190, while VIF-RSOBE-RRF achieves R2=0.96, RMSE = 0.0468, MAE = 0.0171. Shapley additive explanations analysis was employed to improve interpretability and identify clinically relevant predictors such as age, DFA, and test duration. Although enhancements over baseline models are constrained, the uniformity across datasets and increased model interpretability underscore the promise of these techniques as the preliminary instruments for PD monitoring. Further evaluation in real clinical environments is advised to evaluate their practical efficacy.},
+}
+@article{nilashi-2022,
+	author = {Nilashi, Mehrbakhsh and Abumalloh, Rabab Ali and Minaei-Bidgoli, Behrouz and Samad, Sarminah and Ismail, Muhammed Yousoof and Alhargan, Ashwaq and Zogaan, Waleed Abdu},
+	journal = {Journal of Healthcare Engineering},
+	month = {2},
+	pages = {1--17},
+	title = {{Predicting Parkinson's disease progression: Evaluation of ensemble methods in machine learning}},
+	volume = {2022},
+	year = {2022},
+	doi = {10.1155/2022/2793361},
+	url = {https://doi.org/10.1155/2022/2793361},
+	abstract = {Parkinson's disease (PD) is a complex neurodegenerative disease. Accurate diagnosis of this disease in the early stages is crucial for its initial treatment. This paper aims to present a comparative study on the methods developed by machine learning techniques in PD diagnosis. We rely on clustering and prediction learning approaches to perform the comparative study. Specifically, we use different clustering techniques for PD data clustering and support vector regression ensembles to predict Motor-UPDRS and Total-UPDRS. The results are then compared with the other prediction learning approaches, multiple linear regression, neurofuzzy, and support vector regression techniques. The comparative study is performed on a real-world PD dataset. The prediction results of data analysis on a PD real-world dataset revealed that expectation-maximization with the aid of SVR ensembles can provide better prediction accuracy in relation to decision trees, deep belief network, neurofuzzy, and support vector regression combined with other clustering techniques in the prediction of Motor-UPDRS and Total-UPDRS.},
+}
+@article{zhao-2024,
+	author = {Zhao, Siren and Zhang, Jilun and Zhang, Jianbin},
+	journal = {Journal of Cloud Computing Advances Systems and Applications},
+	month = {4},
+	number = {1},
+	title = {{Predicting UPDRS in Parkinson's disease using ensembles of self-organizing map and neuro-fuzzy}},
+	volume = {13},
+	year = {2024},
+	doi = {10.1186/s13677-024-00641-9},
+	url = {https://doi.org/10.1186/s13677-024-00641-9},
+	abstract = {Parkinson's Disease (PD) is a complex, degenerative disease that affects nerve cells that are responsible for body movement. Artificial Intelligence (AI) algorithms are widely used to diagnose and track the progression of this disease, which causes symptoms of Parkinson's disease in its early stages, by predicting the results of the Unified Parkinson's Disease Rating Scale (UPDRS). In this study, we aim to develop a method based on the integration of two methods, one complementary to the other, Ensembles of Self-Organizing Map and Neuro-Fuzzy, and an unsupervised learning algorithm. The proposed method relied on the higher effect of the variables resulting from the analysis of the initial readings to obtain a correct and accurate preliminary prediction. We evaluate the developed approach on a PD dataset including speech cues. The process was evaluated with root mean square error (RMSE) and modified R square (modified R2). Our findings reveal that the proposed method is effective in predicting UPDRS outcomes by a combination of speech signals (measures of hoarseness). As the preliminary results during the evaluation showed numbers that proved the worth of the proposed method, such as UPDRS = 0.955 and RMSE approximately 0.2769 during the prediction process.}
+}
+@article{chakole-2025,
+	author = {Chakole, Megha and Dorle, Sanjay and Agrawal, Rahul and Dasarwar, Priya and Yadav, Uma and Sharma, Rashmi},
+	journal = {MethodsX},
+	month = {10},
+	pages = {103662},
+	title = {{Vocal features based Parkinson's detection: An ensemble learning approach}},
+	volume = {15},
+	year = {2025},
+	doi = {10.1016/j.mex.2025.103662},
+	url = {https://doi.org/10.1016/j.mex.2025.103662},
+	abstract = {Parkinson's disease (PD) primarily affects the central nervous system. In 2019, over 8.5 million cases were reported, with numbers continuing to rise. This growing prevalence emphasizes the urgent need for early detection and preventive strategies. To resolve this, numerous methods have been introduced, one of them being machine learning technique. By employing deep learning methods on the large-scale datasets, the early prediction and detection of PD is possible. These methods should be precisely evaluated on the basis of vocal features and the best method to predict this neurodegenerative ailment is disclosed. The core objective of this research is to facilitate the medical centers by providing an optimal machine learning technique to early detect PD. In order to decide an ideal method, the renowned machine learning algorithms like Random Forest, K Nearest Neighbor, Naïve Bayes, Gradient Boosting and XGBoost are evaluated according to their performance. Gradient Boosting outperforms earlier results with high recall, low log loss, and overfitting resistance.
+	Vocal features proved to be valuable indicators for early-stage Parkinson's detection.
+	The Gradient Boosting model has scored the highest in terms of all the mentioned parameters, showing a promising result for predicting the occurrence of PD.
+	Machine learning can play a significant role in supporting clinical diagnosis and decision-making.}
+}
+@article{aladhadh-2025,
+	author = {Aladhadh, Suliman},
+	journal = {Diagnostics},
+	month = {11},
+	number = {22},
+	pages = {2892},
+	title = {{An Explainable Ensemble and Deep Learning Framework for Accurate and Interpretable Parkinson's Disease Detection from Voice Biomarkers}},
+	volume = {15},
+	year = {2025},
+	doi = {10.3390/diagnostics15222892},
+	url = {https://doi.org/10.3390/diagnostics15222892},
+	abstract = {Background: Parkinson’s disease (PD) is a degenerative neurological disorder that greatly affects motor and speech functions; therefore, early diagnosis is vital for improving patients’ quality of life. This work introduces a unified and explainable AI framework for PD detection that integrates ensemble and deep learning models with transparent interpretability techniques. Methods: Acoustic features were extracted from the Parkinson’s Voice Disorder Dataset, and a broad suite of machine learning and deep learning models was evaluated, including traditional classifiers (Logistic Regression, Decision Tree, KNN, Linear Regression, SVM), ensemble methods (Random Forest, Gradient Boosting, XGBoost, LightGBM), and neural architectures (CNN, LSTM, GAN). Results: The ensemble methods—specifically LightGBM (LGBM) and Random Forest (RF)—achieved the best performance, reaching state-of-the-art accuracy (98.01%) and ROC-AUC (0.9914). Deep learning models like CNN and GAN produced competitive results, validating their ability to capture nonlinear and generative voice patterns. XAI analysis revealed that nonlinear acoustic biomarkers such as spread2, PPE, and RPDE are the most influential predictors, consistent with clinical evidence of dysphonia in PD. Conclusions: The proposed framework achieves a strong balance between predictive accuracy and interpretability, representing a clinically relevant, scalable, and non-invasive solution for early Parkinson’s detection.}
+}
+@article{omodunbi-2025,
+	author = {Omodunbi, Bolaji A. and Olawade, David B. and Awe, Omosigho F. and Soladoye, Afeez A. and Aderinto, Nicholas and Ovsepian, Saak V. and Boussios, Stergios},
+	journal = {Diagnostics},
+	month = {6},
+	number = {12},
+	pages = {1467},
+	title = {{Stacked ensemble learning for classification of Parkinson's disease using telemonitoring vocal features}},
+	volume = {15},
+	year = {2025},
+	doi = {10.3390/diagnostics15121467},
+	url = {https://doi.org/10.3390/diagnostics15121467},
+	abstract = {Background: Parkinson’s disease (PD) is a progressive neurodegenerative condition that impairs motor and non-motor functions. Early and accurate diagnosis is critical for effective management and care. Leveraging machine learning (ML) techniques, this study aimed to develop a robust prediction system for PD using a stacked ensemble learning approach, addressing challenges such as imbalanced datasets and feature optimization. Methods: An open-access PD dataset comprising 22 vocal attributes and 195 instances from 31 subjects was utilized. To prevent data leakage, subjects were divided into training (22 subjects) and testing (9 subjects) groups, ensuring no subject appeared in both sets. Preprocessing included data cleaning and normalization via min–max scaling. The synthetic minority oversampling technique (SMOTE) was applied exclusively to the training set to address class imbalance. Feature selection techniques—forward search, gain ratio, and Kruskal–Wallis test—were employed using subject-wise cross-validation to identify significant attributes. The developed system combined support vector machine (SVM), random forest (RF), K-nearest neighbor (KNN), and decision tree (DT) as base classifiers, with logistic regression (LR) as the meta-classifier in a stacked ensemble learning framework. Performance was evaluated using both recording-wise and subject-wise metrics to ensure clinical relevance. Results: The stacked ensemble learning model achieved realistic performance with a recording-wise accuracy of 84.7% and subject-wise accuracy of 77.8% on completely unseen subjects, outperforming individual classifiers including KNN (81.4%), RF (79.7%), and SVM (76.3%). Cross-validation within the training set showed 89.2% accuracy, with the performance difference highlighting the importance of proper validation methodology. Feature selection results showed that using the top 10 features ranked by gain ratio provided optimal balance between performance and clinical interpretability. The system’s methodological robustness was validated through rigorous subject-wise evaluation, demonstrating the critical impact of validation methodology on reported performance. Conclusions: By implementing subject-wise validation and preventing data leakage, this study demonstrates that proper validation yields substantially different (and more realistic) results compared to flawed recording-wise approaches. The findings underscore the critical importance of validation methodology in healthcare ML applications and provide a template for methodologically sound PD classification research. Future research should focus on validating the model with larger, multi-center datasets and implementing standardized validation protocols to enhance clinical applicability.}
+}
+@article{sheikhi-2022,
+	author = {Sheikhi, Saeid and Kheirabadi, Mohammad Taghi},
+	journal = {Journal of Healthcare Engineering},
+	month = {6},
+	pages = {1--9},
+	title = {{An efficient rotation Forest-Based ensemble approach for predicting severity of Parkinson's disease}},
+	volume = {2022},
+	year = {2022},
+	doi = {10.1155/2022/5524852},
+	url = {https://doi.org/10.1155/2022/5524852},
+	abstract = {Parkinson’s disease (PD) is a neurodegenerative nervous system disorder that mainly affects body movement, and it is one of the most common diseases, particularly in elderly individuals. This paper proposes a new machine learning approach to predict Parkinson’s disease severity using UCI’s Parkinson’s telemonitoring voice dataset. The proposed method analyses the patient's voice data and classifies them into “severe” and “nonsevere” classes. At first, a subset of features was selected, then a novel approach with a combination of Rotation Forest and Random Forest was applied on selected features to determine each patient’s disease severity. Analysis of the experimental results shows that the proposed approach can detect the severity of PD patients in the early stages. Moreover, the proposed model is compared with several algorithms, and the results indicate that the model is highly successful in classifying records and outperformed the other methods concerning classification accuracy and F1-measure rate.}
+}
+@article{khalili-2013,
+	author = {Khalili, Abbas and Lin, Shili},
+	journal = {Biometrics},
+	month = {4},
+	number = {2},
+	pages = {436--446},
+	title = {{Regularization in finite mixture of regression models with diverging number of parameters}},
+	volume = {69},
+	year = {2013},
+	doi = {10.1111/biom.12020},
+	url = {https://doi.org/10.1111/biom.12020},
+	abstract = {Feature (variable) selection has become a fundamentally important problem in recent statistical literature. Sometimes, in applications, many variables are introduced to reduce possible modeling biases, but the number of variables a model can accommodate is often limited by the amount of data available. In other words, the number of variables considered depends on the sample size, which reflects the estimability of the parametric model. In this article, we consider the problem of feature selection in finite mixture of regression models when the number of parameters in the model can increase with the sample size. We propose a penalized likelihood approach for feature selection in these models. Under certain regularity conditions, our approach leads to consistent variable selection. We carry out extensive simulation studies to evaluate the performance of the proposed approach under controlled settings. We also applied the proposed method to two real data. The first is on telemonitoring of Parkinson's disease (PD), where the problem concerns whether dysphonic features extracted from the patients’ speech signals recorded at home can be used as surrogates to study PD severity and progression. The second is on breast cancer prognosis, in which one is interested in assessing whether cell nuclear features may offer prognostic values on long-term survival of breast cancer patients. Our analysis in each of the application revealed a mixture structure in the study population and uncovered a unique relationship between the features and the response variable in each of the mixture component.}
+}
+@article{raza-2025,
+	author = {Raza, Wajih Hassan and Shah, Aamir Bader and Wen, Yu and Shen, Yidan and Lemus, Juan Diego Martinez and Schiess, Mya Caryn and Ellmore, Timothy Michael and Hu, Renjie and Fu, Xin},
+	journal = {arXiv (Cornell University)},
+	month = {6},
+	title = {{NEUROMOE: A Transformer-Based Mixture-of-Experts Framework for Multi-Modal Neurological Disorder Classification}},
+	year = {2025},
+	doi = {10.48550/arxiv.2506.14970},
+	url = {http://arxiv.org/abs/2506.14970},
+	abstract = {The integration of multi-modal Magnetic Resonance Imaging (MRI) and clinical data holds great promise for enhancing the diagnosis of neurological disorders (NDs) in real-world clinical settings. Deep Learning (DL) has recently emerged as a powerful tool for extracting meaningful patterns from medical data to aid in diagnosis. However, existing DL approaches struggle to effectively leverage multi-modal MRI and clinical data, leading to suboptimal performance.
+To address this challenge, we utilize a unique, proprietary multi-modal clinical dataset curated for ND research. Based on this dataset, we propose a novel transformer-based Mixture-of-Experts (MoE) framework for ND classification, leveraging multiple MRI modalities-anatomical (aMRI), Diffusion Tensor Imaging (DTI), and functional (fMRI)-alongside clinical assessments. Our framework employs transformer encoders to capture spatial relationships within volumetric MRI data while utilizing modality-specific experts for targeted feature extraction. A gating mechanism with adaptive fusion dynamically integrates expert outputs, ensuring optimal predictive performance. Comprehensive experiments and comparisons with multiple baselines demonstrate that our multi-modal approach significantly enhances diagnostic accuracy, particularly in distinguishing overlapping disease states. Our framework achieves a validation accuracy of 82.47\%, outperforming baseline methods by over 10\%, highlighting its potential to improve ND diagnosis by applying multi-modal learning to real-world clinical data.}
+}
+@article{gaba-2025,
+	author = {Gaba, Seema and Kaur, Harpreet},
+	journal = {Tuijin Jishu/Journal of Propulsion Technology},
+	number = {2},
+	pages = {4224--4241},
+	title = {{View of Predictive modeling for Parkinson's Disease detection: A Systematic Review of Machine Learning techniques}},
+	volume = {45},
+	year = {2025},
+	url = {https://www.propulsiontechjournal.com/index.php/journal/article/view/6607/4325},
+	abstract = {This  systematic  review  investigates  the  utilization  of  machine  learning  (ML)  methodologies  in predictive  modeling  for  the identification  of  Parkinson's  disease  (PD).  This  review  evaluates  the  efficacy  and constraints  of  different  machine  learning  algorithms,  such  as  support  vector  machines,  random  forests,  neural networks, and ensemble approaches, in detecting Parkinson's disease by a thorough examination and analysis of pertinent literature. The current environment is comprehensively examined by scrutinizing key features such as data  types,  feature  selection  methods,  model  performance  indicators,  and  validation  methodologies.  The  study discusses  several  problems,  including  variations  in  datasets,  limited  sample  sizes,  and  the  ability  of  models  to apply  to  different  situations.  It  also  emphasizes  positive  results  in  specific  studies,  such  as  high  accuracy  and sensitivity  in  prediction.  This  study  intends  to  use  the  synthesis  of  these  findings  to  guide  future  research  in order  to  develop  more  robust  and  practically  useful  predictive  models.  The  ultimate  goal  is  to  improve  early detection and management of Parkinson's disease.}
+}
+@book{jasim-2025,
+	author = {Jasim, Huda and Alshakarchy, Noor D.},
+	booktitle = {Communications in computer and information science},
+	month = {1},
+	pages = {57--71},
+	title = {{Parkinson's Disease Prediction and Progression Based on Voice Analysis: A Literature survey}},
+	year = {2025},
+	doi = {10.1007/978-3-031-81065-7_4},
+	url = {https://doi.org/10.1007/978-3-031-81065-7_4},
+	abstract = {Parkinson's disease (PD) is a worldwide health problem with a wide range of motor symptoms and non-motor symptoms signs caused by the death of dopamine-producing neurons. Voice loss shows up early, which is very helpful for making a quick evaluation. Speech signal processing shows voice as a deep phenotype, which makes it possible for digital measures to speed up evaluations. Traditional testing methods that use neuroimaging and standardized scales have problems, which makes it even more important to come up with new ideas. Using different datasets, machine learning (ML) and deep learning (DL) are revolutionizing how we can predict PD. AI systems improve the accuracy of diagnoses by spotting small patterns. Deep learning, especially convolutional and recurrent neural networks, is very good at catching the complicated voice patterns that come with Parkinson's disease getting worse. There are still problems with using AI to predict PD, such as making sure that data is consistent, models can be understood, and there are social issues to think about. The search for a complete non-invasive clinical screening method goes on, which calls for new tools. This survey reviews recent research findings of artificial intelligence techniques for Parkinson's disease prediction, analyzes the employed methods, techniques, and challenges encountered by researchers, and elucidates their contributions to the field.}
+}
+@article{sechidis-2021,
+	author = {Sechidis, Konstantinos and Fusaroli, Riccardo and Orozco-Arroyave, Juan Rafael and Wolf, Detlef and Zhang, Yan-Ping},
+	journal = {Artificial Intelligence in Medicine},
+	month = {4},
+	pages = {102061},
+	title = {{A machine learning perspective on the emotional content of Parkinsonian speech}},
+	volume = {115},
+	year = {2021},
+	doi = {10.1016/j.artmed.2021.102061},
+	url = {https://doi.org/10.1016/j.artmed.2021.102061},
+	abstract = {Patients with Parkinson's disease (PD) have distinctive voice patterns, often perceived as expressing sad emotion. While this characteristic of Parkinsonian speech has been supported through the perspective of listeners, where both PD and healthy control (HC) subjects repeat the same speaking tasks, it has never been explored through a machine learning modelling approach. Our work provides an objective evaluation of this characteristic of the PD speech, by building a transfer learning system to assess how the PD pathology affects the sadness perception. To do so we introduce a Mixture-of-Experts (MoE) architecture for speech emotion recognition designed to be transferable across datasets. Firstly, by relying on publicly available emotional speech corpora, we train the MoE model and then we use it to quantify perceived sadness in never seen before PD and matched HC speech recordings. To build our models (experts), we extracted spectral features of the voicing parts of speech and we trained a gradient boosting decision trees model in each corpus to predict happiness vs. sadness. MoE predictions are created by weighting each expert's prediction according to the distance between the new sample and the expert-specific training samples. The MoE approach systematically infers more negative emotional characteristics in PD speech than in HC. Crucially, these judgments are related to the disease severity and the severity of speech impairment in the PD patients: the more impairment, the more likely the speech is to be judged as sad. Our findings pave the way towards a better understanding of the characteristics of PD speech and show how publicly available datasets can be used to train models that provide interesting insights on clinical data.}
+}
+@article{wang-2025,
+	author = {Wang, Zhe and Ru, Yuhua and Chetouani, Aladine and Chen, Fang and Bauer, Fabian and Zhang, Liping and Hans, Didier and Jennane, Rachid and Jarraya, Mohamed and Chen, Yung Hsin},
+	journal = {arXiv (Cornell University)},
+	month = {4},
+	title = {{MOEDIFF-SR: Mixture of Experts-Guided Diffusion Model for Region-Adaptive MRI Super-Resolution}},
+	year = {2025},
+	doi = {10.48550/arxiv.2504.07308},
+	url = {https://doi.org/10.48550/arxiv.2504.07308},
+	abstract = {Magnetic Resonance Imaging (MRI) at lower field strengths (e.g., 3T) suffers from limited spatial resolution, making it challenging to capture fine anatomical details essential for clinical diagnosis and neuroimaging research. To overcome this limitation, we propose MoEDiff-SR, a Mixture of Experts (MoE)-guided diffusion model for region-adaptive MRI Super-Resolution (SR). Unlike conventional diffusion-based SR models that apply a uniform denoising process across the entire image, MoEDiff-SR dynamically selects specialized denoising experts at a fine-grained token level, ensuring region-specific adaptation and enhanced SR performance. Specifically, our approach first employs a Transformer-based feature extractor to compute multi-scale patch embeddings, capturing both global structural information and local texture details. The extracted feature embeddings are then fed into an MoE gating network, which assigns adaptive weights to multiple diffusion-based denoisers, each specializing in different brain MRI characteristics, such as centrum semiovale, sulcal and gyral cortex, and grey-white matter junction. The final output is produced by aggregating the denoised results from these specialized experts according to dynamically assigned gating probabilities. Experimental results demonstrate that MoEDiff-SR outperforms existing state-of-the-art methods in terms of quantitative image quality metrics, perceptual fidelity, and computational efficiency. Difference maps from each expert further highlight their distinct specializations, confirming the effective region-specific denoising capability and the interpretability of expert contributions. Additionally, clinical evaluation validates its superior diagnostic capability in identifying subtle pathological features, emphasizing its practical relevance in clinical neuroimaging.}
+}
+@INPROCEEDINGS{dasgupta-2025,
+  author={Dasgupta, Srinjay and Dey, Debopriya and Pal, Debrupa and Karmakar, Samadrita and Chatterjee, Prabuddha and Baul, Anik and Guraia, Mrinmoy},
+  booktitle={2025 IEEE Pune Section International Conference (PuneCon)}, 
+  title={UPDRS Score Estimation from Telemonitoring Voice Data Using Hybrid Ensemble Methods}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  abstract={Parkinson's disease (PD) is a complex neurodegenerative disorder characterized by a wide range of motor and non-motor symptoms, necessitating reliable and continuous monitoring tools for effective management. This study explores the use of voice-based biomarkers for predicting motor and total Unified Parkinson's Disease Rating Scale (UPDRS) scores through machine learning techniques. Using the Oxford Parkinson's Disease Telemonitoring Dataset, which includes sustained phonation recordings and demographic information from individuals with PD, we developed and evaluated multiple predictive models. A key focus of the study is the implementation of a hybrid stacking ensemble that integrates neural network and decision tree-based learners to enhance predictive accuracy. The proposed approach emphasizes non-invasive, cost-effective assessment, making it well-suited for remote monitoring and telemedicine applications. To support real-world deployment, the models are embedded within a clinician-oriented application via a secure RESTful API, enabling seamless integration into healthcare workflows. This work contributes to the growing body of research on digital health technologies and underscores the potential of voice analysis as a practical and scalable tool for personalized PD monitoring and early intervention strategies.},
+  keywords={Parkinson's disease;Telemedicine;Stacking;Neural networks;Restful API;Predictive models;Biomarkers;Motors;Reliability;Random forests;Parkinson's disease;Unified Parkinson's Disease Rating Scale (UPDRS);Voice biomarkers;Stacking ensemble learning;Random forest regression;Neural network},
+  doi={10.1109/PuneCon67554.2025.11379148},
+  ISSN={2831-5022},
+  month={Dec},}
+
+@article{datta-2026,
+	author = {Datta, Dristi and Debnath, Tanmoy and Chau, Minh and Paul, Manoranjan and Adhikary, Gourab and Rahman, Md Geaur},
+	journal = {arXiv (Cornell University)},
+	month = {1},
+	title = {{A Sparse-Attention deep learning model integrating heterogeneous multimodal features for Parkinson's disease severity profiling}},
+	year = {2026},
+	doi = {10.48550/arxiv.2601.00519},
+	url = {https://doi.org/10.48550/arxiv.2601.00519},
+	abstract = {Characterising the heterogeneous presentation of Parkinson's disease (PD) requires integrating biological and clinical markers within a unified predictive framework. While multimodal data provide complementary information, many existing computational models struggle with interpretability, class imbalance, or effective fusion of high-dimensional imaging and tabular clinical features. To address these limitations, we propose the Class-Weighted Sparse-Attention Fusion Network (SAFN), an interpretable deep learning framework for robust multimodal profiling. SAFN integrates MRI cortical thickness, MRI volumetric measures, clinical assessments, and demographic variables using modality-specific encoders and a symmetric cross-attention mechanism that captures nonlinear interactions between imaging and clinical representations. A sparsity-constrained attention-gating fusion layer dynamically prioritises informative modalities, while a class-balanced focal loss (beta = 0.999, gamma = 1.5) mitigates dataset imbalance without synthetic oversampling. Evaluated on 703 participants (570 PD, 133 healthy controls) from the Parkinson's Progression Markers Initiative using subject-wise five-fold cross-validation, SAFN achieves an accuracy of 0.98 plus or minus 0.02 and a PR-AUC of 1.00 plus or minus 0.00, outperforming established machine learning and deep learning baselines. Interpretability analysis shows a clinically coherent decision process, with approximately 60 percent of predictive weight assigned to clinical assessments, consistent with Movement Disorder Society diagnostic principles. SAFN provides a reproducible and transparent multimodal modelling paradigm for computational profiling of neurodegenerative disease.}
+}
+@article{titouni-2026,
+	author = {Titouni, Salem and Djeffal, Nadhir and Belazzoug, Massinissa and Hammache, Boualem and Messaoudene, Idris and Hedir, Abdallah},
+	journal = {Electronics},
+	month = {1},
+	number = {3},
+	pages = {587},
+	title = {{A Confidence-Gated hybrid CNN ensemble for accurate detection of Parkinson's disease using speech analysis}},
+	volume = {15},
+	year = {2026},
+	doi = {10.3390/electronics15030587},
+	url = {https://doi.org/10.3390/electronics15030587},
+	abstract = {Parkinson’s Disease (PD) is a progressive neurodegenerative disorder for which early and reliable diagnosis remains challenging. To address this challenge, the key innovation of this work is a confidence-gated fusion mechanism that dynamically weights classifier outputs based on per-sample prediction certainty, overcoming the limitations of static ensemble strategies. Building on this idea, we propose a Confidence-Gated Hybrid CNN Ensemble that integrates CNN-based acoustic feature extraction with heterogeneous classifiers, including XGBoost, Support Vector Machines, and Random Forest. By adaptively modulating the contribution of each classifier at the sample level, the proposed framework enhances robustness against data imbalance, inter-speaker variability, and feature complexity. The method is evaluated on two benchmark PD speech datasets, where it consistently outperforms conventional machine learning and ensemble approaches, achieving a best classification accuracy of up to 97.9% while maintaining computational efficiency compatible with real-time deployment. These results highlight the effectiveness and clinical potential of confidence-aware ensemble learning for non-invasive PD detection.}
+}
+@article{hadia-2025,
+	author = {Hadia, Aliyya and Afifa, Tariq and Gamal, Fawzi},
+	journal = {Preprints.org},
+	month = {4},
+	title = {{MOE at Scale: From modular design to deployment in Large-Scale Machine Learning systems}},
+	year = {2025},
+	doi = {10.20944/preprints202504.1313.v1},
+	url = {https://doi.org/10.20944/preprints202504.1313.v1},
+	abstract = {Mixture of Experts (MoE) architectures have rapidly emerged as a foundational building block for scaling deep neural networks efficiently, enabling models with hundreds of billions of parameters to be trained and deployed with only a fraction of their total capacity active per input. By conditionally activating a sparse subset of expert modules, MoEs decouple model capacity from computation cost, offering an elegant and powerful framework for modular representation learning. This survey provides a comprehensive and systematic review of the MoE literature, spanning early formulations in ensemble learning and hierarchical mixtures to modern sparse MoEs powering large-scale language and vision models. We categorize MoE architectures along dimensions of gating mechanisms, expert sparsity, hierarchical composition, and cross-domain generalization. Further, we examine core algorithmic components such as routing strategies, load balancing, training dynamics, expert specialization, and infrastructure-aware deployment. We explore their applications across natural language processing, computer vision, speech, and multi-modal learning, and highlight their impact on foundation model development. Despite their success, MoEs raise open challenges in routing stability, interpretability, dynamic capacity allocation, and continual learning, which we discuss in depth alongside emerging research directions including federated MoEs, compositional generalization, and neuro-symbolic expert modules. We conclude by identifying trends that point toward MoEs as a central abstraction for building efficient, modular, and general-purpose AI systems. This survey serves as both a foundational reference and a forward-looking roadmap for researchers and practitioners seeking to understand and advance the state of Mixture of Experts.}
+}
+@techreport{al-shedivat-2020,
+	author = {Al-Shedivat, Maruan and Dubey, Avinava and Xing, Eric},
+	month = {10},
+	title = {{Contextual Explanation Networks}},
+	volume = {21},
+	year = {2020},
+	url = {https://www.jmlr.org/papers/volume21/18-856/18-856.pdf},
+	Modern learning algorithms excel at producing accurate but complex models of the data. However, deploying such models in the real-world requires extra care: we must ensure their reliability, robustness, and absence of undesired biases. This motivates the development of models that are equally accurate but can be also easily inspected and assessed beyond their predictive performance. To this end, we introduce contextual explanation networks (CENs)— a class of architectures that learn to predict by generating and utilizing intermediate, simplified probabilistic models. Specifically, CENs generate parameters for intermediate graphical models which are further used for prediction and play the role of explanations. Contrary to the existing post-hoc model-explanation tools, CENs learn to predict and to explain simultaneously. Our approach offers two major advantages: (i) for each prediction, valid, instance-specific explanation is generated with no computational overhead and (ii) prediction via explanation acts as a regularizer and boosts performance in data-scarce settings. We analyze the proposed framework theoretically and experimentally. Our results on image and text classification and survival analysis tasks demonstrate that CENs are not only competitive with the state-of-the-art methods but also offer additional insights behind each prediction, that can be valuable for decision support. We also show that while post-hoc methods may produce misleading explanations in certain cases, CENs are consistent and allow to detect such cases systematically.}
+}
+@article{hassan-2023,
+	author = {Hassan, Ahmad and Ahmed, Arslan},
+	journal = {Computer Science},
+	month = {9},
+	title = {{Predicting Parkinson's Disease Progression: A Non-Invasive Method Leveraging Voice Inputs}},
+	year = {2023},
+	doi = {10.53070/bbd.1350356},
+	url = {https://doi.org/10.53070/bbd.1350356},
+	abstract = {Parkinson's Disease (PD) is a complex neurodegenerative condition with a global impact, demanding precise disease progression prediction to facilitate effective treatment strategies. To assess PD symptoms, the Unified Parkinson's Disease Rating Scale (UPDRS) is widely adopted, encompassing both motor and non-motor assessments. This research delves into voice inputs as a non-intrusive method to predict total UPDRS and motor UPDRS scores, offering new possibilities for Parkinson's assessment. Feature engineering and data augmentation techniques address challenges related to class imbalance and diverse demographics, including an original imbalanced dataset with more females than males. Additionally, three new datasets are created: oversampled balanced, only-female, and only-male datasets. Ensemble-based stacking model, including random forest and extreme gradient boosting as base models and the gradient boosting regressor as the meta-regressor, demonstrate promising performance and robustness in predicting UPDRS scores, showcasing the efficacy of voice inputs for PD assessment. Furthermore, the feature importance analysis provides insights into crucial contributors influencing predictions. Various performance metrics, such as accuracy, mean squared error (MSE), root mean squared error (RMSE), mean absolute error (MAE), and R-squared (R2), are used to evaluate the model’s performance. Additionally, by incorporating telemonitoring capabilities, the voice-based approach offers the possibility of remote and continuous PD assessment, allowing for real-time monitoring and early detection. This advancement could significantly improve the quality of life for PD patients and facilitate more personalized and effective treatment plans.}
+}
+@book{wang-2016,
+	address = {es},
+	author = {Wang, Yali and Brubaker, Marcus and Chaib-Draa, Brahim and Urtasun, Raquel},
+	booktitle = {Proceedings of the 19th International Conference on Artificial Intelligence and Statistics},
+	edition = {},
+	month = {5},
+	pages = {694--703},
+	publisher = {PMLR},
+	title = {{Sequential inference for deep gaussian process}},
+	volume = {51},
+	year = {2016},
+	url = {https://proceedings.mlr.press/v51/wang16c.html},
+	abstract = {A deep Gaussian process (DGP) is a deep network in which each layer is modelled with a Gaussian process (GP). It is a flexible model that can capture highly-nonlinear functions for complex data sets. However, the network structure of DGP often makes inference computationally expensive. In this paper, we propose an efficient sequential inference framework for DGP, where the data is processed sequentially. We also propose two DGP extensions to handle heteroscedasticity and multi-task learning. Our experimental evaluation shows the effectiveness of our sequential inference framework on a number of important learning tasks.}
+}
+@article{konyar-2025,
+	author = {Konyar, Elif and Gahrooei, Mostafa Reisi and Paynabar, Kamran},
+	journal = {arXiv (Cornell University)},
+	month = {8},
+	title = {{Tensorized Multi-Task Learning for Personalized Modeling of Heterogeneous Individuals with High-Dimensional Data}},
+	year = {2025},
+	doi = {10.48550/arxiv.2508.15676},
+	url = {http://arxiv.org/abs/2508.15676},
+	abstract = {Effective modeling of heterogeneous subpopulations presents a significant challenge due to variations in individual characteristics and behaviors. This paper proposes a novel approach to address this issue through multi-task learning (MTL) and low-rank tensor decomposition techniques. Our MTL approach aims to enhance personalized modeling by leveraging shared structures among similar tasks while accounting for distinct subpopulation-specific variations. We introduce a framework where low-rank decomposition decomposes the collection of task model parameters into a low-rank structure that captures commonalities and variations across tasks and subpopulations. This approach allows for efficient learning of personalized models by sharing knowledge between similar tasks while preserving the unique characteristics of each subpopulation. Experimental results in simulation and case study datasets demonstrate the superior performance of the proposed method compared to several benchmarks, particularly in scenarios with high variability among subpopulations. The proposed framework not only improves prediction accuracy but also enhances interpretability by revealing underlying patterns that contribute to the personalization of models.}
+}
+@article{chaithanya-2025,
+	author = {Chaithanya, Aravalli Sainath and Kumar, Nadipudi Kiran and Prasad, Gugulothu Venkatesh and Keerthana, Bejawada},
+	journal = {Healthcare Informatics Research},
+	month = {7},
+	number = {3},
+	pages = {274--283},
+	title = {{Advancements in Parkinson's Disease Prediction Using Machine Learning: A Neurological perspective}},
+	volume = {31},
+	year = {2025},
+	doi = {10.4258/hir.2025.31.3.274},
+	url = {https://doi.org/10.4258/hir.2025.31.3.274},
+	abstract = {Objectives
+This study aims to predict the severity of Parkinson’s disease (PD) by leveraging a comprehensive dataset integrating cerebrospinal fluid protein and peptide data sourced from UniProt, normalized protein expression metrics, clinical assessments, and gait data. The dataset comprised 248 PD patients monitored longitudinally, with periodic evaluations including 227 proteins, 971 peptides, gait parameters, and Movement Disorder Society-sponsored revision of the Unified Parkinson’s Disease Rating Scale (MDS-UPDRS) scores at baseline 0, 6, 12, and 24 months.
+Methods
+A multifaceted machine learning framework was employed, consisting of random forest, TensorFlow decision forests, and a custom-developed phase-shift ensembling model. Additionally, regression techniques such as linear regression, random forest regressor, decision tree regressor, and K-nearest neighbors were utilized to support the predictions. These models aimed to forecast PD severity as reflected by UPDRS scores.
+Results
+The custom phase-shift ensembling model demonstrated superior predictive performance, achieving an average symmetric mean absolute percentage error (sMAPE) of 55 across all UPDRS sections. Notably, the random forest regressor excelled in predicting motor function severity (UPDRS-III), attaining an sMAPE of 77.32, indicating its ability to model complex disease progression dynamics effectively.
+Conclusions
+Integrating biological markers, clinical scores, and gait dynamics facilitates accurate modeling of PD progression. The ensemble-based approach, particularly phase-shift ensembling, improves prediction robustness and interpretability, offering a powerful strategy for the early prediction of PD severity. This study highlights the value of multi-source data fusion and advanced machine learning techniques in supporting early diagnosis and informed treatment planning for neurodegenerative diseases.}
+}
+@article{cao-2025,
+	author = {Cao, Jiangbo and Long, Xiaojing},
+	journal = {Applied Sciences},
+	month = {4},
+	number = {8},
+	pages = {4513},
+	title = {{RACF: a multimodal deep learning framework for Parkinson's disease diagnosis using SNP and MRI data}},
+	volume = {15},
+	year = {2025},
+	doi = {10.3390/app15084513},
+	url = {https://doi.org/10.3390/app15084513},
+	abstract = {The clinical diagnosis of Parkinson’s disease (PD) primarily relies on clinician-administered observational assessment tools, such as the Unified Parkinson’s Disease Rating Scale (UPDRS). However, these approaches are significantly influenced by subjectivity and exhibit insufficient sensitivity for early-stage symptom detection. The introduction of deep learning techniques has opened new avenues for the early diagnosis of PD. In contrast to traditional methods, deep learning models are capable of processing large-scale, high-dimensional, and complex datasets to automatically learn latent feature relationships, making them particularly suitable for scenarios involving multimodal data fusion. The multimodal diagnosis of PD is confronted with two enduring challenges: (1) the dependence on pre-existing knowledge of established genetic risk loci, and (2) the low efficiency and limited interpretability in handling interactions among cross-modal features. To address these challenges, this study introduces an innovative multimodal deep learning framework with two primary contributions: (1) a Genome-Wide Association Study (GWAS)-Transformer architecture that autonomously selects single nucleotide polymorphism (SNP) features through GWAS and utilizes a multi-head attention mechanism to model potential associations between non-risk loci, thereby eliminating the reliance on known susceptibility genes; (2) a Residual Attention Contrastive Fusion (RACF) module that tackles the heterogeneity of cross-modal features by dynamically allocating attention weights and applying contrastive loss constraints. Evaluation results on the Parkinson’s Progression Markers Initiative (PPMI) dataset demonstrate that our model achieves a classification accuracy of 91.2% and an AUC of 0.94, and predicts nine potential novel risk loci. This work presents a novel paradigm for the discovery of new risk loci based on deep learning and offers valuable insights from a multi-omics perspective for advancing PD research.}
+}
+@article{tong-2025,
+	author = {Tong, Ran and Wang, Lanruo and Wang, Tong and Yan, Wei},
+	journal = {arXiv (Cornell University)},
+	month = {7},
+	title = {{Predicting Parkinson's disease progression using statistical and neural mixed effects models: Comparative study on longitudinal biomarkers}},
+	year = {2025},
+	doi = {10.48550/arxiv.2507.20058},
+	url = {https://doi.org/10.48550/arxiv.2507.20058},
+	abstract = {Predicting Parkinson's Disease (PD) progression is crucial, and voice biomarkers offer a non-invasive method for tracking symptom severity (UPDRS scores) through telemonitoring. Analyzing this longitudinal data is challenging due to within-subject correlations and complex, nonlinear patient-specific progression patterns. This study benchmarks LMMs against two advanced hybrid approaches: the Generalized Neural Network Mixed Model (GNMM) (Mandel 2021), which embeds a neural network within a GLMM structure, and the Neural Mixed Effects (NME) model (Wortwein 2023), allowing nonlinear subject-specific parameters throughout the network. Using the Oxford Parkinson's telemonitoring voice dataset, we evaluate these models' performance in predicting Total UPDRS to offer practical guidance for PD research and clinical applications.}
+}
+@article{cai-2017,
+	author = {Cai, Zhennao and Gu, Jianhua and Chen, Hui-Ling},
+	journal = {IEEE Access},
+	month = {1},
+	pages = {17188--17200},
+	title = {{A new hybrid intelligent framework for predicting Parkinson's disease}},
+	volume = {5},
+	year = {2017},
+	doi = {10.1109/access.2017.2741521},
+	url = {https://doi.org/10.1109/access.2017.2741521},
+	abstract = {Parkinson's disease (PD) is a progressive neurodegenerative motor system disorder. Early diagnosis of PD is important to control the symptoms appropriately. Recent voice and speech recognition techniques provide alternative solutions for PD screening. In this paper, an optimal support vector machine (SVM) based on bacterial foraging optimization (BFO) was established to predict PD effectively. The effectiveness of the proposed method, BFO-SVM, was validated on a PD data set based on vocal measurements. The proposed method was compared with two of the most frequently used parameter optimization methods, including an SVM based on the grid search method and an SVM based on particle swarm optimization. Additionally, to further boost the prediction accuracy, the relief feature selection was employed prior to the BFO-SVM method, consequently the RF-BFO-SVM was proposed. The experimental results have demonstrated that the proposed framework exhibited excellent classification performance with a superior classification accuracy of 97.42%.}
+}
+@article{kim-2019,
+	author = {Kim, Hojoong M. and Nazor, Carter and Zabetian, Cyrus P. and Quinn, Joseph F. and Chung, Kathryn A. and Hiller, Amie L. and Hu, Shu-Ching and Leverenz, James B. and Montine, Thomas J. and Edwards, Karen L. and Cholerton, Brenna},
+	journal = {Clinical Parkinsonism & Related Disorders},
+	month = {1},
+	pages = {91--97},
+	title = {{Prediction of cognitive progression in Parkinson's disease using three cognitive screening measures}},
+	volume = {1},
+	year = {2019},
+	doi = {10.1016/j.prdoa.2019.08.006},
+	url = {https://doi.org/10.1016/j.prdoa.2019.08.006},
+	abstract = {Introduction
+Cognitive impairment is a common complication of Parkinson's disease (PD) and identifying risk factors for progression to Parkinson's disease dementia (PDD) is important. However, little research has been done comparing the utility of commonly used cognitive screening tests in predicting cognitive progression in PD.
+Methods
+We retrospectively reviewed data from patients with PD enrolled in the Pacific Udall Center who had baseline and longitudinal neuropsychological and global cognitive screening tests. The diagnostic accuracies of 3 common screening tests were compared: Montreal Cognitive Assessment (MoCA), Mattis Dementia Rating Scale (DRS-2), and Mini Mental Status Examination (MMSE). Cognitive diagnoses of PD with mild cognitive impairment (PD-MCI) and PDD were based on full neuropsychological testing and established Movement Disorder Society criteria. Logistic regression and Cox proportional hazards regression models were used to examine predictors of cognitive decline.
+Results
+Four hundred seventy patients for whom scores on all 3 screening tests were available from the same assessment were included in a cross-sectional analysis. The MoCA demonstrated the best overall diagnostic accuracy for PD-MCI (AUC = 0.79, sensitivity = 76.4%) and for PDD (AUC = 0.89, sensitivity = 81.0%) compared to the DRS-2 and MMSE.
+A longitudinal analysis was performed on the subset of patients (316/470; 67.2%) who were nondemented at baseline and had undergone two or more assessments. After controlling for covariates, the MoCA was the only test associated with progression to PDD (OR = 1.27 95% CI 1.1–1.5, p = 0.001) and faster time to dementia (HR = 1.3, 95% CI 1.1–1.4, p < 0.0001).
+Conclusions
+This study provides additional support for the use of the MoCA as a primary screening tool for cognitive impairment in PD and is the first to show that the MoCA is a predictor of conversion to PDD.}
+}
+@article{maetzler-2009,
+	author = {Maetzler, Walter and Liepelt, Inga and Berg, Daniela},
+	journal = {The Lancet Neurology},
+	month = {11},
+	number = {12},
+	pages = {1158--1171},
+	title = {{Progression of Parkinson's disease in the clinical phase: potential markers}},
+	volume = {8},
+	year = {2009},
+	doi = {10.1016/s1474-4422(09)70291-1},
+	url = {https://doi.org/10.1016/s1474-4422(09)70291-1},
+	abstract = {Neuromodulatory or even neuroprotective therapy could soon be available for Parkinson's disease (PD), raising the question of how we should define and measure disease progression. Reported evidence suggests that several symptoms worsen with disease duration. Bradykinesia, rigidity, and activities of daily living deteriorate faster at the beginning of the disease, and this deterioration is paralleled by a decline in functional presynaptic dopaminergic activity, as shown by imaging techniques. Cognitive, speech, sleep, and gait difficulties might progress linearly in proportion to disease duration. Reduced variability in heart rate, orthostatic dysfunction, and visual hallucinations start to develop at mid-stage disease and are more common in late stages than earlier stages. In this Review, we summarise our current understanding of the progression of PD-associated symptoms and markers and conclude that an effective measurement of progression of PD must adapt to the different stages of the disease. In addition to routine clinical rating scales, new quantitative assessments of motor and non-motor symptoms, which should be more broadly available, reasonably priced, and easy-to-use, are needed.}
+}
+@article{nilashi-2016,
+	author = {Nilashi, Mehrbakhsh and Ibrahim, Othman and Ahani, Ali},
+	journal = {Scientific Reports},
+	month = {9},
+	number = {1},
+	pages = {34181},
+	title = {{Accuracy improvement for predicting Parkinson's disease progression}},
+	volume = {6},
+	year = {2016},
+	doi = {10.1038/srep34181},
+	url = {https://doi.org/10.1038/srep34181},
+	abstract = {Parkinson’s disease (PD) is a member of a larger group of neuromotor diseases marked by the progressive death of dopamineproducing cells in the brain. Providing computational tools for Parkinson disease using a set of data that contains medical information is very desirable for alleviating the symptoms that can help the amount of people who want to discover the risk of disease at an early stage. This paper proposes a new hybrid intelligent system for the prediction of PD progression using noise removal, clustering and prediction methods. Principal Component Analysis (PCA) and Expectation Maximization (EM) are respectively employed to address the multi-collinearity problems in the experimental datasets and clustering the data. We then apply Adaptive Neuro-Fuzzy Inference System (ANFIS) and Support Vector Regression (SVR) for prediction of PD progression. Experimental results on public Parkinson’s datasets show that the proposed method remarkably improves the accuracy of prediction of PD progression. The hybrid intelligent system can assist medical practitioners in the healthcare practice for early detection of Parkinson disease.}
+}
+@article{tsanas-2009,
+	author = {Tsanas, A. and Little, M.A. and McSharry, P.E. and Ramig, L.O.},
+	journal = {IEEE Transactions on Biomedical Engineering},
+	month = {11},
+	number = {4},
+	pages = {884--893},
+	title = {{Accurate telemonitoring of Parkinson's disease progression by noninvasive speech tests}},
+	volume = {57},
+	year = {2009},
+	doi = {10.1109/tbme.2009.2036000},
+	url = {https://doi.org/10.1109/tbme.2009.2036000},
+	abstract = {Tracking Parkinson's disease (PD) symptom progression often uses the unified Parkinson's disease rating scale (UPDRS) that requires the patient's presence in clinic, and time-consuming physical examinations by trained medical staff. Thus, symptom monitoring is costly and logistically inconvenient for patient and clinical staff alike, also hindering recruitment for future large-scale clinical trials. Here, for the first time, we demonstrate rapid, remote replication of UPDRS assessment with clinically useful accuracy (about 7.5 UPDRS points difference from the clinicians' estimates), using only simple, self-administered, and noninvasive speech tests. We characterize speech with signal processing algorithms, extracting clinically useful features of average PD progression. Subsequently, we select the most parsimonious model with a robust feature selection algorithm, and statistically map the selected subset of features to UPDRS using linear and nonlinear regression techniques that include classical least squares and nonparametric classification and regression trees. We verify our findings on the largest database of PD speech in existence (~6000 recordings from 42 PD patients, recruited to a six-month, multicenter trial). These findings support the feasibility of frequent, remote, and accurate UPDRS tracking. This technology could play a key part in telemonitoring frameworks that enable large-scale clinical trials into novel PD treatments.}
+}
+@article{little-2008,
+	author = {Little, M.A. and McSharry, P.E. and Hunter, E.J. and Spielman, J. and Ramig, L.O.},
+	journal = {IEEE Transactions on Biomedical Engineering},
+	month = {9},
+	number = {4},
+	pages = {1015--1022},
+	title = {{Suitability of dysphonia measurements for telemonitoring of Parkinson's disease}},
+	volume = {56},
+	year = {2008},
+	doi = {10.1109/tbme.2008.2005954},
+	url = {https://doi.org/10.1109/tbme.2008.2005954},
+	abstract = {In this paper, we present an assessment of the practical value of existing traditional and nonstandard measures for discriminating healthy people from people with Parkinson's disease (PD) by detecting dysphonia. We introduce a new measure of dysphonia, pitch period entropy (PPE), which is robust to many uncontrollable confounding effects including noisy acoustic environments and normal, healthy variations in voice frequency. We collected sustained phonations from 31 people, 23 with PD. We then selected ten highly uncorrelated measures, and an exhaustive search of all possible combinations of these measures finds four that in combination lead to overall correct classification performance of 91.4%, using a kernel support vector machine. In conclusion, we find that nonstandard methods in combination with traditional harmonics-to-noise ratios are best able to separate healthy from PD subjects. The selected nonstandard methods are robust to many uncontrollable variations in acoustic environment and individual subjects, and are thus well suited to telemonitoring applications.}
+}
+@article{masood-2021,
+	author = {Masood, Sarfaraz and Maqsood, Khwaja Wisal and Pal, Om and Kumar, Chanchal},
+	journal = {Mathematical Methods in the Applied Sciences},
+	month = {11},
+	title = {{An ensemble‐based feature selection framework for early detection of Parkinson's disease based on feature correlation analysis}},
+	year = {2021},
+	doi = {10.1002/mma.7835},
+	url = {https://doi.org/10.1002/mma.7835},
+	abstract = {Parkinson's disease (PD) is a highly common neurological disease affecting a large population worldwide. Several studies reveal that the degradation of voice is one of its initial symptoms, which is also known as dysarthria. This work explores the correlation between various features in the voice samples observed in PD subjects, using which a novel two-level ensemble-based feature selection method has been proposed. This selected feature set is fed to a custom fine-tuned multilayer perceptron (MLP)-based classifier while using k-fold cross-validation as the resampling strategy. For a robust model training and analysis, three separate benchmark datasets of voice samples were used for the experimentation. Several performance metrics including accuracy, precision, area under the curve (AUC), Matthew's correlation coefficient (MCC), and F1-score were evaluated from the trained model. Results strongly suggest that the proposed feature selection framework helps in identifying an optimal set of features which greatly assist the MLP classifier for a highly accurate identification of PD patients. The proposed model achieves an overall accuracy of 98.3%, 95.1%, and 100% on the three selected datasets. These results are significantly better than those achieved by the non-feature selection-based studies, and even the recently proposed chi-square based feature selection option.}
+}
+@article{simone-2025,
+	author = {Simone, Lorenzo and Camporeale, Mauro Giuseppe and Rubino, Vito Marco and Gervasi, Vincenzo and Dimauro, Giovanni},
+	journal = {arXiv (Cornell University)},
+	month = {4},
+	title = {{Interpretable Early Detection of Parkinson's Disease through Speech Analysis}},
+	year = {2025},
+	doi = {10.48550/arxiv.2504.17739},
+	url = {http://arxiv.org/abs/2504.17739},
+	abstract = {Parkinson's disease is a progressive neurodegenerative disorder affecting motor and non-motor functions, with speech impairments among its earliest symptoms. Speech impairments offer a valuable diagnostic opportunity, with machine learning advances providing promising tools for timely detection. In this research, we propose a deep learning approach for early Parkinson's disease detection from speech recordings, which also highlights the vocal segments driving predictions to enhance interpretability. This approach seeks to associate predictive speech patterns with articulatory features, providing a basis for interpreting underlying neuromuscular impairments. We evaluated our approach using the Italian Parkinson's Voice and Speech Database, containing 831 audio recordings from 65 participants, including both healthy individuals and patients. Our approach showed competitive classification performance compared to state-of-the-art methods, while providing enhanced interpretability by identifying key speech features influencing predictions.}
+}
+@article{swain-2024,
+	author = {Swain, K.P. and Samal, S. R. and Ravi, Vinayakumar and Nayak, Soumya Ranjan and Alahmadi, Tahani Jaser and Singh, Prabhishek and Diwakar, Manoj},
+	journal = {The Open Biomedical Engineering Journal},
+	month = {4},
+	number = {1},
+	title = {{Towards Early Intervention: Detecting Parkinson's Disease through Voice Analysis with Machine Learning}},
+	volume = {18},
+	year = {2024},
+	doi = {10.2174/0118741207294056240322075602},
+	url = {https://doi.org/10.2174/0118741207294056240322075602},
+	abstract = {Introduction/ Background
+This study aims to utilize machine learning algorithms for early detection of Parkinson's Disease (PD) through voice recording analysis. Employing advanced machine learning techniques and a comprehensive dataset of voice samples, the objective is to develop a non-invasive, accurate, and reliable method for PD diagnosis, contributing to early intervention and management of the disease.
+
+Parkinson's Disease (PD) is a prevalent neurodegenerative disorder impacting millions globally. Early and accurate diagnosis is crucial for effective management and treatment. This study leverages Machine Learning (ML) algorithms to analyze voice recordings, aiming to improve PD detection.
+
+Materials and Methods
+We utilized a dataset of 195 voice samples with 23 attributes, applying machine learning algorithms such as Linear Discriminant Analysis (LDA), Support Vector Machine (SVM), K-Nearest Neighbors (KNN), and Convolutional Neural Networks (CNN). The dataset was preprocessed, balanced, and evaluated using various performance metrics.
+
+Results
+The K-Nearest Neighbors (KNN) model demonstrated superior performance, achieving high precision (0.96-1.00), recall (0.97-1.00), and F1-scores (0.98-0.99) for both PD and non-PD classes, demonstrating an overall accuracy of 0.98 across 59 samples. This showcases its effectiveness in PD detection via voice analysis.
+
+Discussion
+This research underscores the potential of ML in revolutionizing PD detection through non-invasive methods. By comparing various algorithms, the study not only identifies the most effective model but also contributes to the broader understanding of applying ML techniques in healthcare.
+
+Conclusion
+The study's findings advocate for the KNN model as a promising tool for early and accurate PD diagnosis through voice analysis. The success of this model opens avenues for future research, including the exploration of more advanced algorithms and the integration of these models into practical diagnostic applications.}
+}
+@article{shokrpour-2025,
+	author = {Shokrpour, Sahar and MoghadamFarid, AmirMehdi and Abkenar, Sepideh Bazzaz and Kashani, Mostafa Haghi and Akbari, Mohammad and Sarvizadeh, Mostafa},
+	journal = {npj Parkinson s Disease},
+	month = {7},
+	number = {1},
+	pages = {187},
+	title = {{Machine learning for Parkinson's disease: a comprehensive review of datasets, algorithms, and challenges}},
+	volume = {11},
+	year = {2025},
+	doi = {10.1038/s41531-025-01025-9},
+	url = {https://doi.org/10.1038/s41531-025-01025-9},
+	abstract = {Parkinson’s disease (PD) is a devastating neurological ailment affecting both mobility and cognitive function, posing considerable problems to the health of the elderly across the world. The absence of a conclusive treatment underscores the requirement to investigate cutting-edge diagnostic techniques to improve patient outcomes. Machine learning (ML) has the potential to revolutionize PD detection by applying large repositories of structured data to enhance diagnostic accuracy. 133 papers published between 2021 and April 2024 were reviewed using a systematic literature review (SLR) methodology, and subsequently classified into five categories: acoustic data, biomarkers, medical imaging, movement data, and multimodal datasets. This comprehensive analysis offers valuable insights into the applications of ML in PD diagnosis. Our SLR identifies the datasets and ML algorithms used for PD diagnosis, as well as their merits, limitations, and evaluation factors. We also discuss challenges, future directions, and outstanding issues.}
+}
+@article{rabie-2025,
+	author = {Rabie, Hajar and Akhloufi, Moulay A.},
+	journal = {Discover Artificial Intelligence},
+	month = {3},
+	number = {1},
+	pages = {24},
+	title = {{A review of machine learning and deep learning for Parkinson's disease detection}},
+	volume = {5},
+	year = {2025},
+	doi = {10.1007/s44163-025-00241-9},
+	url = {https://doi.org/10.1007/s44163-025-00241-9},
+	abstract = {Millions of people worldwide suffer from Parkinson’s disease (PD), a neurodegenerative disorder marked by motor symptoms such as tremors, bradykinesia, and stiffness. Accurate early diagnosis is crucial for effective management and treatment. This article presents a novel review of Machine Learning (ML) and Deep Learning (DL) techniques for PD detection and progression monitoring, offering new perspectives by integrating diverse data sources. We examine the public datasets recently used in studies, including audio recordings, gait analysis, and medical imaging. We discuss the preprocessing methods applied, the state-of-the-art models utilized, and their performance. Our evaluation included different algorithms such as support vector machines (SVM), random forests (RF), convolutional neural networks (CNN). These algorithms have shown promising results in PD diagnosis with accuracy rates exceeding 99% in some studies combining data sources. Our analysis particularly showcases the effectiveness of audio analysis in early symptom detection and gait analysis, including the Unified Parkinson’s Disease Rating Scale (UPDRS), in monitoring disease progression. Medical imaging, enhanced by DL techniques, has improved the identification of PD. The application of ML and DL in PD research offers significant potential for improving diagnostic accuracy. However, challenges like the need for large and diverse datasets, data privacy concerns, and data quality in healthcare remain. Additionally, developing explainable AI is crucial to ensure that clinicians can trust and understand ML and DL models. Our review highlights these key challenges that must be addressed to enhance the robustness and applicability of AI models in PD diagnosis, setting the groundwork for future research to overcome these obstacles.}
+}
+@article{reddy-2024,
+	author = {Reddy, Varun},
+	journal = {arXiv (Cornell University)},
+	month = {6},
+	title = {{PPINToNUS: Early detection of Parkinson's Disease using Deep-Learning Tonal Analysis}},
+	year = {2024},
+	doi = {10.48550/arxiv.2406.02608},
+	url = {http://arxiv.org/abs/2406.02608},
+	abstract = {PPINtonus is a system for the early detection of Parkinson's Disease (PD) utilizing deep-learning tonal analysis, providing a cost-effective and accessible alternative to traditional neurological examinations. Partnering with the Parkinson's Voice Project (PVP), PPINtonus employs a semi-supervised conditional generative adversarial network to generate synthetic data points, enhancing the training dataset for a multi-layered deep neural network. Combined with PRAAT phonetics software, this network accurately assesses biomedical voice measurement values from a simple 120-second vocal test performed with a standard microphone in typical household noise conditions. The model's performance was validated using a confusion matrix, achieving an impressive 92.5 \% accuracy with a low false negative rate. PPINtonus demonstrated a precision of 92.7 \%, making it a reliable tool for early PD detection. The non-intrusive and efficient methodology of PPINtonus can significantly benefit developing countries by enabling early diagnosis and improving the quality of life for millions of PD patients through timely intervention and management.}
+}
+@article{neto-2024,
+	author = {Neto, Osmar Pinto},
+	journal = {Journal of Voice},
+	month = {5},
+	title = {{Harnessing voice analysis and machine learning for early diagnosis of Parkinson's disease: a comparative study across three datasets}},
+	year = {2024},
+	doi = {10.1016/j.jvoice.2024.04.020},
+	url = {https://doi.org/10.1016/j.jvoice.2024.04.020},
+	abstract = {Objective
+This study evaluates the efficacy of voice analysis combined with machine learning (ML) techniques in enabling the diagnosis of Parkinson's disease (PD).
+Methods
+Voice data, phonation of the vowel “a,” from three distinct datasets (two from the University of California Irvine ML Repository and one from figshare) for 432 participants (278 PD patients) were analyzed. We employed four ML models—Artificial Neural Networks, Random Forest, Gradient Boosting (GB), and Support Vector Machine (SVM)—alongside two ensemble methods (soft voting classifier—Ensemble Voting Classifier and stacking method—Ensemble Stacking Model (ESM)). The models underwent 50 iterations of evaluation, involving various data splits and 10-fold cross-validation. Comparative analysis was done using one-way Analysis of Variance followed by Bonferroni posthoc corrections.
+Results
+The ESM, SVM, and GB models emerged as the top performers, demonstrating superior performance across metrics, including accuracy, sensitivity, specificity, precision, F1 score, and area under the receiver operating characteristic curve (ROC AUC). Despite data heterogeneity and variable selection limitations, the models showed high values for all metrics.
+Conclusions
+ML integration with voice analysis, mainly through ESM, SVM, and GB, is promising for early PD diagnosis. Using multi-source data and a large sample size enhances our findings' validity, reliability, and generalizability.
+Significance
+Integrating advanced ML techniques with voice analysis demonstrates substantial potential for improving early PD detection, offering valuable tools for speech-language pathologists (SLPs). These findings provide clinically relevant insights that can be applied within the scope of SLP practice to refine diagnostic processes and facilitate early intervention.}
+}
+@article{tracy-2019,
+	author = {Tracy, John M. and Özkanca, Yasin and Atkins, David C. and Ghomi, Reza Hosseini},
+	journal = {Journal of Biomedical Informatics},
+	month = {12},
+	pages = {103362},
+	title = {{Investigating voice as a biomarker: Deep phenotyping methods for early detection of Parkinson's disease}},
+	volume = {104},
+	year = {2019},
+	doi = {10.1016/j.jbi.2019.103362},
+	url = {https://doi.org/10.1016/j.jbi.2019.103362},
+	abstract = {Voice technology has grown tremendously in recent years and using voice as a biomarker has also been gaining evidence. We demonstrate the potential of voice in serving as a deep phenotype for Parkinson’s Disease (PD), the second most common neurodegenerative disorder worldwide, by presenting methodology for voice signal processing for clinical analysis. Detection of PD symptoms typically requires an exam by a movement disorder specialist and can be hard to access and inconsistent in findings. A vocal digital biomarker could supplement the cumbersome existing manual exam by detecting and quantifying symptoms to guide treatment. Specifically, vocal biomarkers of PD are a potentially effective method of assessing symptoms and severity in daily life, which is the focus of the current research. We analyzed a database of PD patient and non-PD subjects containing voice recordings that were used to extract paralinguistic features, which served as inputs to machine learning models to predict PD severity. The results are presented here and the limitations are discussed given the nature of the recordings. We note that our methodology only advances biomarker research and is not cleared for clinical use. Specifically, we demonstrate that conventional machine learning models applied to voice signals can be used to differentiate participants with PD who exhibit little to no symptoms from healthy controls. This work highlights the potential of voice to be used for early detection of PD and indicates that voice may serve as a deep phenotype for PD, enabling precision medicine by improving the speed, accuracy, accessibility, and cost of PD management.}
+}
+@article{xu-2025,
+	author = {Xu, Huanqing and Xie, Wei and Pang, Mingzhen and Li, Ya and Jin, Luhua and Huang, Fangliang and Shao, Xian},
+	journal = {Frontiers in Aging Neuroscience},
+	month = {4},
+	pages = {1586273},
+	title = {{Non-invasive detection of Parkinson's disease based on speech analysis and interpretable machine learning}},
+	volume = {17},
+	year = {2025},
+	doi = {10.3389/fnagi.2025.1586273},
+	url = {https://doi.org/10.3389/fnagi.2025.1586273},
+	abstract = {Objective: Parkinson’s disease (PD) is a progressive neurodegenerative disorder that significantly impacts motor function and speech patterns. Early detection of PD through non-invasive methods, such as speech analysis, can improve treatment outcomes and quality of life for patients. This study aims to develop an interpretable machine learning model that uses speech recordings and acoustic features to predict PD.Methods: A dataset of speech recordings from individuals with and without PD was analyzed. The dataset includes features such as fundamental frequency (Fo), jitter, shimmer, noise-to-harmonics ratio (NHR), and non-linear dynamic complexity measures. Exploratory data analysis (EDA) was conducted to identify patterns and relationships in the data. The dataset was split into 70% training and 30% testing sets. To address class imbalance, synthetic minority oversampling technique (SMOTE) was applied. Several machine learning algorithms, including K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Decision Trees, Random Forests, and Neural Networks, were implemented and evaluated. Model performance was assessed using accuracy, recall, F1 score, and area under the receiver operating characteristic curve (AUC-ROC) metrics. SHapley Additive exPlanations (SHAP) were used to explain the models and evaluate feature contributions.Results: The analysis revealed that features related to speech instability, such as jitter, shimmer, and NHR, were highly predictive of PD. Non-linear metrics, including Recurrence Plot Dimension Entropy (RPDE) and Pitch Period Entropy (PPE), also made significant contributions to the model’s predictive power. Random Forest and Gradient Boosting models achieved the highest performance, with an AUC-ROC of 0.98, recall of 0.95, ensuring minimal false negatives. SHAp values highlighted the importance of fundamental frequency variation and harmonic-to-noise ratio in distinguishing PD patients from healthy individuals.Conclusion: The developed machine learning model accurately predicts Parkinson’s disease using speech recordings, with Random Forest and Gradient Boosting algorithms demonstrating superior performance. Key predictive features include jitter, shimmer, and non-linear dynamic complexity measures. This study provides a reliable, non-invasive tool for early PD detection and underscores the potential of speech analysis in diagnosing neurodegenerative diseases.}
+}
+@article{hossain-2025,
+	author = {Hossain, Mohammad Amran and Traini, Enea and Amenta, Francesco},
+	journal = {Inventions},
+	month = {6},
+	number = {4},
+	pages = {48},
+	title = {{Machine Learning Applications for Diagnosing Parkinson's Disease via Speech, Language, and Voice Changes: A Systematic review}},
+	volume = {10},
+	year = {2025},
+	doi = {10.3390/inventions10040048},
+	url = {https://doi.org/10.3390/inventions10040048},
+	abstract = {Parkinson’s disease (PD) is a progressive neurodegenerative disorder leading to movement impairment, cognitive decline, and psychiatric symptoms. Key manifestations of PD include bradykinesia (the slowness of movement), changes in voice or speech, and gait disturbances. The quantification of neurological disorders through voice analysis has emerged as a rapidly expanding research domain, offering the potential for non-invasive and large-scale monitoring. This review explores existing research on the application of machine learning (ML) in speech, voice, and language processing for the diagnosis of PD. It comprehensively analyzes current methodologies, highlights key findings and their associated limitations, and proposes strategies to address existing challenges. A systematic review was conducted following PRISMA guidelines. We searched four databases: PubMed, Web of Science, Scopus, and IEEE Xplore. The primary focus was on the diagnosis, detection, or identification of PD through voice, speech, and language characteristics. We included 34 studies that used ML techniques to detect or classify PD based on vocal features. The most used approaches involved free speech and reading-speech tasks. In addition to widely used feature extraction toolkits, several studies implemented custom-built feature sets. Although nearly all studies reported high classification performance, significant limitations were identified, including challenges in comparability and incomplete integration with clinical applications. Emerging trends in this field include the collection of real-world, everyday speech data to facilitate longitudinal tracking and capture participants’ natural behaviors. Another promising direction involves the incorporation of additional modalities alongside voice analysis, which may enhance both analytical performance and clinical applicability. Further research is required to determine optimal methodologies for leveraging speech and voice changes as early biomarkers of PD, thereby enhancing early detection and informing clinical intervention strategies.}
+}
+@article{kumar-2025,
+	author = {Kumar, Ajay and Singh, Jay Parkash and Paygude, Priyanka and Daimary, Rachan and Prasad, Sandeep},
+	journal = {Digital Health},
+	month = {5},
+	pages = {20552076251342878},
+	title = {{Advanced comparative analysis of machine learning algorithms for early Parkinson's disease detection using vocal biomarkers}},
+	volume = {11},
+	year = {2025},
+	doi = {10.1177/20552076251342878},
+	url = {https://doi.org/10.1177/20552076251342878},
+	abstract = {Objective
+To investigate the potential of voice analysis—specifically sustained vowel phonation—as a non-invasive, cost-effective diagnostic method for early detection of Parkinson's disease (PD) using machine learning techniques.
+Methods
+A publicly available dataset from the University of California, Irvine (UCI) repository, comprising 252 voice recordings (188 from PD patients and 64 from healthy individuals), was analyzed. Machine learning classifiers, including k-nearest neighbors (KNN), AdaBoost, and artificial neural networks (ANNs), were trained and tested on the dataset. Model evaluation was conducted using accuracy, precision, recall, F1 score, and area under the receiver operating characteristic curve. Kernel density estimation was applied to visualize and interpret classifier performance.
+Results
+Among the classifiers, KNN demonstrated the best performance with an accuracy of 98.52% and a mean accuracy of 97.33%. ANN and AdaBoost achieved mean accuracies of 93.15% and 91.77%, respectively. All models performed well across standard evaluation metrics, indicating strong discriminative ability for detecting PD from voice data.
+Conclusion
+The study confirms the feasibility of using sustained vowel phonation and machine learning for early PD diagnosis. The KNN classifier, in particular, shows excellent diagnostic accuracy. These findings support the integration of voice-based machine learning tools into clinical workflows, potentially enhancing early detection and management of PD.}
+}
+@article{tsiouris-2017,
+	author = {Tsiouris, Kostas M. and Rigas, Georgios and Gatsios, Dimitrios and Antonini, Angelo and Konitsiotis, Spiros and Koutsouris, Dimitrios D. and Fotiadis, Dimitrios I.},
+	journal = {2017 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},
+	month = {7},
+	pages = {3898--3901},
+	title = {{Predicting rapid progression of Parkinson's Disease at baseline patients evaluation}},
+	volume = {71},
+	year = {2017},
+	doi = {10.1109/embc.2017.8037708},
+	url = {https://doi.org/10.1109/embc.2017.8037708},
+	abstract = {The rate of Parkinson's Disease (PD) progression in the initial post-diagnosis years can vary significantly. In this work, a methodology for the extraction of the most informative features for predicting rapid progression of the disease is proposed, using public data from the Parkinson's Progression Markers Initiative (PPMI) and machine learning techniques. The aim is to determine if a patient is at risk of expressing rapid progression of PD symptoms from the baseline evaluation and as close to diagnosis as possible. By examining the records of 409 patients from the PPMI dataset, the features with the best predictive value at baseline patient evaluation are found to be sleep problems, daytime sleepiness and fatigue, motor symptoms at legs, cognition impairment, early axial and facial symptoms and in the most rapidly advanced cases speech issues, loss of smell and affected leg muscle reflexes.}
+}
+@article{little-2007,
+	author = {Little, Max A and McSharry, Patrick E and Roberts, Stephen J and Costello, Declan Ae and Moroz, Irene M},
+	journal = {BioMedical Engineering OnLine},
+	month = {1},
+	number = {1},
+	pages = {23},
+	title = {{Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection}},
+	volume = {6},
+	year = {2007},
+	doi = {10.1186/1475-925x-6-23},
+	url = {https://doi.org/10.1186/1475-925x-6-23},
+	abstract = {Background
+Voice disorders affect patients profoundly, and acoustic tools can potentially measure voice function objectively. Disordered sustained vowels exhibit wide-ranging phenomena, from nearly periodic to highly complex, aperiodic vibrations, and increased "breathiness". Modelling and surrogate data studies have shown significant nonlinear and non-Gaussian random properties in these sounds. Nonetheless, existing tools are limited to analysing voices displaying near periodicity, and do not account for this inherent biophysical nonlinearity and non-Gaussian randomness, often using linear signal processing methods insensitive to these properties. They do not directly measure the two main biophysical symptoms of disorder: complex nonlinear aperiodicity, and turbulent, aeroacoustic, non-Gaussian randomness. Often these tools cannot be applied to more severe disordered voices, limiting their clinical usefulness.
+
+Methods
+This paper introduces two new tools to speech analysis: recurrence and fractal scaling, which overcome the range limitations of existing tools by addressing directly these two symptoms of disorder, together reproducing a "hoarseness" diagram. A simple bootstrapped classifier then uses these two features to distinguish normal from disordered voices.
+
+Results
+On a large database of subjects with a wide variety of voice disorders, these new techniques can distinguish normal from disordered cases, using quadratic discriminant analysis, to overall correct classification performance of 91.8 ± 2.0%. The true positive classification performance is 95.4 ± 3.2%, and the true negative performance is 91.5 ± 2.3% (95% confidence). This is shown to outperform all combinations of the most popular classical tools.
+
+Conclusion
+Given the very large number of arbitrary parameters and computational complexity of existing techniques, these new techniques are far simpler and yet achieve clinically useful classification performance using only a basic classification technique. They do so by exploiting the inherent nonlinearity and turbulent randomness in disordered voice signals. They are widely applicable to the whole range of disordered voice phenomena by design. These new measures could therefore be used for a variety of practical clinical purposes.}
+}

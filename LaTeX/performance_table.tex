@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+	\centering
+	\caption{Performance comparison of individual experts and the proposed entropy-regularized Mixture of Experts on the test set.}
+	\label{tab:performance_comparison}
+	\begin{tabular}{lrrrrrr}
+		\hline
+		Model & Motor $R^2$ & Total $R^2$ & Avg $R^2$ & RMSE & MAE & MSE \\
+		\hline
+		Random Forest & 0.9131 & 0.9237 & 0.9184 & 2.6457 & 1.9089 & 6.9999 \\
+		MoE (Entropy) & 0.9088 & 0.9177 & 0.9133 & 2.7333 & 1.9740 & 7.4710 \\
+		Neural Network & 0.8935 & 0.9039 & 0.8987 & 2.9534 & 2.1894 & 8.7228 \\
+		Ridge & 0.1157 & 0.1514 & 0.1335 & 8.6743 & 7.2073 & 75.2427 \\
+		ElasticNet & 0.1142 & 0.1519 & 0.1331 & 8.6753 & 7.2096 & 75.2605 \\
+		\hline
+	\end{tabular}
+\end{table}

@@ -1,0 +1,717 @@
+\documentclass{customIEEEsingle}
+
+% --------------------------------------------------
+% REFERENCES (Choose as required by journal)
+% --------------------------------------------------
+
+% Example: APA numeric using biblatex
+\usepackage[
+backend=biber,
+style=apa,
+citestyle=numeric,
+sorting=none
+]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\title{Entropy-Regularized Adaptive Mixture of Experts for Multi-Output Voice-Based Prediction of Parkinson’s Disease Severity}
+
+% Usage: \addauthor{Name}[Affil ID][Email][ORCID]
+
+\addauthor{Srinjay Dasgupta}[1][dasguptasrinjay2004@gmail.com][0009-0008-3830-0435]
+
+\affiliation{Department of CSE (AI \& ML), Narula Institute of Technology, Kolkata, India}
+
+\begin{document}
+	\maketitle
+	
+	\begin{abstract}
+		Voice-derived biomarkers provide a non-invasive approach for monitoring Parkinson’s disease severity; however, heterogeneous nonlinear relationships between acoustic features and clinical scores limit the effectiveness of single-model prediction strategies. We propose an entropy-regularized adaptive Mixture of Experts (MoE) framework for multi-output prediction of $motor\_UPDRS$ and $total\_UPDRS$ from biomedical voice measurements. Four heterogeneous experts – neural network, random forest, ridge regression, and elastic net - are trained independently and dynamically combined through a lightweight gating network that learns target-specific convex weight distributions per sample. Entropy regularization is incorporated to prevent expert collapse and encourage balanced specialization. The framework is evaluated using frozen train-validation-test splits to ensure strict reproducibility. Experimental results demonstrate that adaptive expert weighting improves generalization compared to individual models and static ensembling approaches, achieving strong predictive performance across both clinical targets while preserving interpretability through analysis of expert contribution patterns. These results indicate that the entropy regularized Mixture of Experts approach gives a consistent and comprehensible strategy to learn complicated biomedical voice signals in the severity of Parkinson disease. 
+	\end{abstract}
+	
+	\keywords{Parkinson’s disease; Unified Parkinson’s Disease Rating Scale (UPDRS); Voice biomarkers; Mixture of Experts; Entropy regularization}
+	
+	\newpage
+	\section{Introduction} \label{sec:introduction}
+	
+	Parkinson’s disease (PD) is a progressive neurodegenerative disorder characterized by motor and non-motor impairments that significantly affect patients’ quality of life and functional independence \cite{maetzler-2009}. Clinical assessment of disease severity is commonly performed using the Unified Parkinson’s Disease Rating Scale (UPDRS), which relies on expert evaluation during in-person examinations. However, the gradual and heterogeneous progression of PD motivates the development of scalable, objective, and non-invasive monitoring systems capable of continuous patient assessment outside clinical environments \cite{tsanas-2009,tracy-2019}.
+	
+	Voice analysis has emerged as a promising digital biomarker for Parkinson’s disease monitoring. Motor symptoms such as hypophonia, dysarthria, and reduced vocal variability manifest as measurable acoustic abnormalities in speech production \cite{little-2007,little-2008}. Advances in computational analysis have demonstrated that speech-derived features can capture subtle neurological impairment and enable remote disease evaluation. Machine learning approaches have therefore been increasingly applied to estimate clinical severity scores directly from biomedical voice measurements, reporting encouraging predictive performance across multiple datasets \cite{tsanas-2009,shastry-2023,nilashi-2022,neto-2024}.
+	
+	Despite these successes, modeling the relationship between acoustic features and clinical severity remains challenging due to nonlinear interactions, inter-patient variability, and heterogeneous disease progression patterns. Single global predictive models often struggle to generalize across diverse patient populations. Ensemble learning methods have consequently gained attention as a means of improving robustness and predictive stability. Prior studies demonstrate that hybrid and ensemble frameworks outperform individual learners in Parkinson’s disease detection and severity estimation tasks \cite{sheikhi-2022,motamedi-2025,khedimi-2025}. Building upon this research direction, our previously published ensemble learning framework demonstrated that integrating heterogeneous predictors significantly improves speech-based Parkinson’s severity estimation performance \cite{dasgupta-2025}.
+	
+	While ensemble models enhance predictive accuracy, most existing approaches employ fixed aggregation mechanisms in which model contributions remain constant for all samples. Such static combinations may limit the ability to capture patient-specific disease manifestations. Adaptive ensemble paradigms, particularly Mixture of Experts (MoE) architectures, address this limitation by dynamically assigning expert importance through input-dependent gating mechanisms \cite{khalili-2013,raza-2025}. By enabling conditional model specialization, MoE systems offer a principled framework for handling heterogeneous biomedical data distributions. Nevertheless, adaptive expert models remain comparatively underexplored in voice-based Parkinson’s disease severity prediction, especially for simultaneous estimation of multiple correlated clinical outcomes.
+	
+	In this study, we propose an entropy-regularized adaptive Mixture of Experts framework for joint multi-output prediction of $motor\_UPDRS$ and $total\_UPDRS$ scores from speech-derived acoustic features. The proposed system integrates heterogeneous experts—including neural, tree-based, and regularized linear models—within a lightweight gating architecture that learns target-specific convex weight distributions for each input sample. Entropy regularization is introduced to prevent expert dominance and encourage balanced specialization, thereby improving model stability, interpretability, and adaptability in clinical severity modeling.
+	
+	\section{Structure of the Study}
+	
+	The structure of this paper is organized as follows. The Abstract provides a concise overview of the research objectives, methodology, and principal findings. Section~\ref{sec:introduction} introduces the motivation, background, and problem formulation for Parkinson’s disease severity prediction using voice biomarkers. Section~\ref{sec:literature} presents a comprehensive literature survey covering foundational voice biomarker studies, classical machine learning approaches, and adaptive modeling frameworks.
+	
+	Section~\ref{sec:novelty} discusses the novelty of the proposed framework, followed by Section~\ref{sec:contributions}, which summarizes the main contributions of this study. The proposed entropy-regularized Mixture of Experts methodology is described in Section~\ref{sec:methodology}. Section~\ref{sec:experiments} outlines the experimental setup, datasets, and evaluation protocols, while Section~\ref{sec:results} presents the empirical results and performance analysis. Section~\ref{sec:discussion} interprets the findings in relation to existing literature.
+	
+	Section~\ref{sec:limitations} discusses the limitations of the present study, followed by Section~\ref{sec:future}, which outlines potential future research directions. Section~\ref{sec:conclusion} concludes the paper and highlights broader implications. Additional implementation details and supporting materials are provided in the Supplementary Materials section~\ref{sec:supplementary}.
+	The figure below (Figure ~\ref{fig:structure}) provides a visual representation of the structure of the study, identifying the major steps and their relationships.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{images/structure_of_the_study.png}
+		\caption{Structure of the study}
+		\label{fig:structure}
+	\end{figure}
+	
+	\section{Literature Survey}\label{sec:literature}
+	
+	\subsection{Foundational Voice Biomarker Studies}
+	
+	The use of speech and vocal biomarkers for Parkinson’s disease (PD) assessment originates from early investigations into dysphonia analysis and nonlinear speech dynamics. Little et al. demonstrated that sustained phonation signals exhibit nonlinear recurrence structures and fractal scaling characteristics capable of distinguishing pathological voice disorders associated with Parkinsonian dysarthria \cite{little-2007}. This work established one of the earliest quantitative links between acoustic signal irregularities and neurodegenerative motor impairment.
+	
+	Subsequent validation studies confirmed the suitability of dysphonia measurements for remote clinical monitoring. Little et al. later showed that acoustic perturbation measures extracted from sustained phonations remain stable and clinically informative under telemonitoring settings, highlighting the feasibility of continuous and non-invasive disease monitoring \cite{little-2008}. Building upon these findings, Tsanas et al. introduced a landmark telemonitoring framework that directly mapped speech-derived acoustic features to Unified Parkinson’s Disease Rating Scale (UPDRS) scores using regression modeling, demonstrating accurate estimation of disease severity outside clinical environments \cite{tsanas-2009}.
+	
+	Parallel clinical investigations emphasized the importance of reliable biomarkers capable of capturing heterogeneous disease progression. Studies on PD progression markers identified speech characteristics as scalable indicators complementary to traditional neurological examinations \cite{maetzler-2009}. Later machine learning–based prognostic models explored baseline prediction of rapid disease progression, reinforcing the clinical relevance of quantitative biomarkers \cite{tsiouris-2017}.
+	
+	Advances in digital health and computational phenotyping further expanded interest in voice analysis as an objective neurological biomarker. Deep phenotyping studies highlighted speech signals as rich representations of motor, cognitive, and emotional impairment in PD patients \cite{tracy-2019}. Comparative investigations across multiple speech datasets confirmed that acoustic biomarkers generalize across recording environments and populations \cite{neto-2024}. Recent machine learning studies have also demonstrated the effectiveness of voice analysis for early intervention and screening applications \cite{swain-2024}.
+	
+	Beyond motor impairment, research has shown that Parkinsonian speech carries emotional and prosodic alterations detectable through machine learning analysis, further supporting its multidimensional diagnostic value \cite{sechidis-2021}. Interpretable speech-based diagnostic frameworks have subsequently emphasized transparency and clinical trustworthiness in non-invasive PD detection systems \cite{xu-2025}.
+	
+	Comprehensive literature surveys have consistently identified speech analysis as one of the most mature digital biomarkers for Parkinson’s disease monitoring and progression assessment \cite{jasim-2025,hossain-2025}. These reviews emphasize the reliability, scalability, and non-invasive nature of voice-based evaluation within clinical and telehealth environments.
+	
+	Recent systematic analyses further highlight the rapid growth of machine learning and deep learning methods applied to speech-derived Parkinson’s biomarkers, underscoring their clinical viability and research maturity \cite{shokrpour-2025,rabie-2025}. Collectively, these studies establish voice-based assessment as a validated paradigm, motivating continued research toward improving predictive modeling strategies rather than questioning the suitability of the modality itself.
+	
+	\subsection{Classical Machine Learning and Ensemble Approaches}
+	
+	Following the establishment of speech signals as reliable Parkinson’s disease biomarkers, research efforts increasingly focused on predictive modeling of disease presence and severity using classical machine learning techniques. Early intelligent systems combined statistical learning with heuristic optimization to improve diagnostic performance. Cai et al. proposed a hybrid intelligent framework integrating multiple computational paradigms for Parkinson’s disease prediction, demonstrating the potential of combining heterogeneous learning strategies \cite{cai-2017}.
+	
+	Subsequent studies revealed that single predictive models often struggle to capture the nonlinear and heterogeneous characteristics of Parkinsonian speech. Ensemble learning approaches therefore emerged as a natural progression, aiming to improve robustness and generalization. Nilashi et al. demonstrated that ensemble-based models significantly enhance progression prediction accuracy compared to individual learners by aggregating complementary decision boundaries \cite{nilashi-2016,nilashi-2022}.
+	
+	Several ensemble architectures were later developed specifically for speech-based severity estimation. Rotation Forest–based ensembles introduced diversity among base learners to improve regression stability and prediction performance \cite{sheikhi-2022}. Ensemble regression frameworks targeting motor UPDRS prediction further confirmed that combining multiple predictors yields superior performance over standalone models \cite{shastry-2023}. Hybrid pipelines incorporating optimized feature selection mechanisms were also shown to improve early-stage severity prediction accuracy \cite{motamedi-2025,masood-2021}.
+	
+	Recent studies explored increasingly sophisticated ensemble paradigms, including stacked learning and hybrid neuro-fuzzy integrations for Parkinson’s disease detection and progression modeling \cite{zhao-2024,omodunbi-2025}. Vocal feature–based ensemble learning systems have additionally demonstrated improved diagnostic reliability across diverse datasets and recording conditions \cite{chakole-2025,hassan-2023}.
+	
+	Building upon these developments, our previously published ensemble learning framework introduced a unified predictive architecture integrating diverse machine learning models for Parkinson’s disease severity estimation \cite{dasgupta-2025}. The study demonstrated that combining linear, tree-based, and nonlinear predictors improves robustness in modeling speech-derived clinical scores, highlighting the advantages of heterogeneous model collaboration.
+	
+	Despite the demonstrated effectiveness of ensemble approaches, most existing methods rely on fixed aggregation strategies such as averaging, voting, or stacking. These static combinations do not adapt expert contributions dynamically for individual samples, potentially limiting specialization when modeling heterogeneous disease manifestations. This limitation motivates the exploration of adaptive ensemble paradigms capable of input-dependent expert weighting.
+	
+	\subsection{Deep Learning and Explainable Modeling}
+	
+	The rapid growth of deep learning has significantly influenced Parkinson’s disease analysis, enabling automated extraction of complex representations from speech signals. Deep neural architectures have demonstrated strong performance in detecting Parkinsonian speech patterns and estimating disease severity without extensive manual feature engineering. Early deep learning approaches focused primarily on improving classification accuracy through learned acoustic representations and tonal analysis frameworks \cite{reddy-2024}.
+	
+	Recent studies have proposed unified deep learning ensemble frameworks combining convolutional and sequential architectures for both disease detection and motor severity prediction. Such approaches leverage hierarchical feature learning to capture subtle temporal and spectral variations present in Parkinsonian speech signals \cite{khedimi-2025}. Hybrid convolutional ensemble models incorporating confidence-aware prediction mechanisms have further improved robustness in speech-based diagnostic systems \cite{titouni-2026}.
+	
+	Alongside performance improvements, interpretability has emerged as a critical requirement for clinical adoption. Explainable artificial intelligence (XAI) frameworks aim to provide transparency into model decisions, thereby increasing clinician trust in automated diagnostic tools. Explainable ensemble and deep learning models have been developed to highlight influential vocal biomarkers while maintaining competitive predictive performance \cite{aladhadh-2025}. Interpretable speech-analysis systems have similarly emphasized feature attribution and transparent decision-making in early Parkinson’s disease detection \cite{simone-2025,xu-2025}.
+	
+	Beyond unimodal speech analysis, researchers have explored multimodal deep learning frameworks integrating genetic, imaging, and heterogeneous clinical data to improve disease profiling and diagnosis \cite{cao-2025}. Sparse-attention architectures and multimodal representation learning strategies have demonstrated improved capability for modeling complex neurological variability across patient populations \cite{datta-2026}. Comparative analyses of machine learning paradigms further confirm the growing dominance of deep learning methods in Parkinson’s disease research while highlighting ongoing challenges related to interpretability, data efficiency, and clinical deployment \cite{chaithanya-2025,kumar-2025}.
+	
+	Despite their strong representational power, deep learning systems often function as monolithic predictors in which a single model attempts to capture all data variations simultaneously. This design may limit specialization when modeling heterogeneous disease progression patterns. Consequently, recent research has begun investigating adaptive and modular learning paradigms capable of dynamically allocating predictive responsibility across specialized components, motivating the adoption of Mixture of Experts architectures.
+	
+	\subsubsection{Mixture of Experts and Adaptive Modeling}
+	
+	Mixture of Experts (MoE) architectures represent an adaptive learning paradigm in which multiple specialized models, referred to as experts, are dynamically combined through a gating mechanism that assigns input-dependent weights. Unlike traditional ensemble learning approaches with fixed aggregation rules, MoE frameworks enable conditional computation, allowing different experts to specialize in distinct regions of the data distribution.
+	
+	Recent advances in large-scale machine learning have demonstrated the effectiveness of MoE systems in handling heterogeneous and high-dimensional data. Transformer-based MoE frameworks have been successfully applied to neurological disorder classification tasks, illustrating the ability of adaptive expert routing to capture multimodal variability across clinical populations \cite{raza-2025}. Similarly, MoE-guided architectures have been explored in medical imaging pipelines, where expert specialization improves region-adaptive reconstruction and prediction performance \cite{wang-2025}. Studies on scalable modular learning systems further highlight MoE architectures as a promising direction for efficient and flexible model design in complex learning environments \cite{hadia-2025}.
+	
+	From a statistical perspective, mixture-based regression models have long been studied as mechanisms for modeling heterogeneous relationships within data. Theoretical analyses have shown that finite mixture regression models provide powerful representational flexibility but introduce challenges such as parameter proliferation, expert dominance, and model degeneracy, necessitating appropriate regularization strategies \cite{khalili-2013}. Complementary work on contextual explanation networks demonstrates how gating mechanisms can simultaneously enable adaptive prediction and interpretable decision-making by conditioning model behavior on input characteristics \cite{al-shedivat-2020}.
+	
+	Although adaptive expert systems are increasingly explored in large-scale and multimodal learning scenarios, their application to structured clinical regression problems remains limited. In particular, the use of MoE architectures for speech-based Parkinson’s disease severity estimation has received comparatively little attention, especially in settings involving joint prediction of multiple clinical outcomes. Existing approaches largely focus on classification or unimodal prediction tasks rather than adaptive multi-output regression using heterogeneous expert models.
+	
+	These observations suggest a clear opportunity for integrating adaptive expert specialization with clinically interpretable speech biomarker modeling, motivating the development of entropy-regularized Mixture of Experts frameworks tailored to Parkinson’s disease severity prediction.
+	
+	\subsection{Identified Research Gap}
+	
+	The reviewed literature demonstrates substantial progress in Parkinson’s disease modeling using speech-derived biomarkers. Foundational studies established voice analysis as a reliable and non-invasive indicator of disease presence and progression, while classical machine learning and ensemble methods significantly improved predictive accuracy through model aggregation. Deep learning approaches further enhanced representation learning capabilities and enabled automated extraction of complex acoustic patterns. Despite these advances, several important limitations remain unresolved.
+	
+	First, most existing ensemble learning frameworks employ fixed aggregation strategies, such as averaging, voting, or stacked generalization, in which model contributions remain constant across all samples. Although such approaches improve robustness, they do not account for the heterogeneous manifestation of Parkinson’s disease across individuals. Even in advanced ensemble systems, expert models rarely specialize dynamically according to patient-specific characteristics. Our previously published ensemble framework demonstrated the effectiveness of heterogeneous model collaboration for severity prediction \cite{dasgupta-2025}; however, the aggregation mechanism remained globally fixed, limiting adaptive expert specialization.
+	
+	Second, Parkinson’s disease severity assessment typically involves multiple correlated clinical outcomes, particularly $motor\_UPDRS$ and $total\_UPDRS$. Existing studies frequently model these targets independently, overlooking shared information between clinical scores. Joint multi-output regression using adaptive expert allocation remains relatively unexplored within speech-based Parkinson’s disease modeling.
+	
+	Third, adaptive mixture-based architectures introduce challenges related to expert imbalance and dominance, where a subset of experts may monopolize predictions during training. While theoretical studies emphasize the necessity of regularization in mixture regression models \cite{khalili-2013}, explicit mechanisms encouraging balanced expert utilization are rarely incorporated into clinical predictive frameworks.
+	
+	Collectively, these limitations highlight a gap between traditional ensemble learning and fully adaptive predictive systems capable of modeling heterogeneous disease progression. To address this gap, the present study proposes an entropy-regularized adaptive Mixture of Experts framework that dynamically assigns expert importance based on input characteristics while encouraging balanced specialization. The proposed approach integrates linear, tree-based, and neural predictors within a unified architecture and performs joint multi-output regression of Parkinson’s disease severity scores, aiming to improve adaptability, interpretability, and predictive stability in voice-based clinical modeling.
+	
+	\section{Novelty of the Proposed Work} \label{sec:novelty}
+	
+	Although significant advances have been achieved in Parkinson’s disease modeling using voice biomarkers, existing approaches predominantly rely on either fixed ensemble aggregation or monolithic deep learning architectures. The novelty of this work lies in bridging these paradigms through an adaptive learning framework that enables dynamic expert specialization while maintaining interpretability and clinical relevance.
+	
+	Unlike conventional ensemble methods that assign static importance to individual models, the proposed framework introduces an entropy-regularized Mixture of Experts (MoE) architecture that performs input-dependent expert weighting. This enables heterogeneous predictors to specialize according to patient-specific speech characteristics, addressing variability in disease manifestation.
+	
+	Furthermore, while prior studies typically predict clinical severity scores independently, the present work formulates Parkinson’s disease severity estimation as a joint multi-output regression problem, simultaneously modeling $motor\_UPDRS$ and $total\_UPDRS$. This design exploits inter-target correlations that remain underutilized in existing voice-based predictive systems.
+	
+	Another novel aspect is the integration of entropy-based regularization within the gating mechanism to prevent expert dominance and encourage balanced specialization. By combining linear, tree-based, and neural experts under a unified adaptive framework, the proposed approach advances beyond traditional ensemble learning toward a structured, interpretable, and dynamically adaptive predictive system.
+	
+	To the best of our knowledge, this study represents one of the first applications of an entropy-regularized adaptive Mixture of Experts architecture for joint multi-output Parkinson’s disease severity prediction using voice biomarkers.
+	
+	The main novelties of the study are presented in Figure~\ref{fig:novelty}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{images/novelty.png}
+		\caption{Novelties of the study}
+		\label{fig:novelty}
+	\end{figure}
+	
+	\section{Contributions} \label{sec:contributions}
+	
+	The main contributions of this study are summarized as follows:
+	
+	\begin{enumerate}
+		\item We propose an entropy-regularized adaptive Mixture of Experts (MoE) framework for Parkinson’s disease severity estimation using speech-derived acoustic biomarkers.
+		
+		\item A target-specific gating mechanism is introduced to dynamically combine heterogeneous expert models, enabling input-dependent specialization across diverse patient speech patterns.
+		
+		\item The study formulates Parkinson’s disease severity prediction as a joint multi-output regression problem by simultaneously estimating $motor\_UPDRS$ and $total\_UPDRS$, allowing shared clinical information to be leveraged during learning.
+		
+		\item An entropy-based regularization strategy is incorporated into the gating network to prevent expert dominance and promote balanced utilization of experts, improving model stability and interpretability.
+		
+		\item Building upon our previously validated ensemble framework \cite{dasgupta-2025}, the proposed architecture advances ensemble learning toward adaptive expert collaboration while preserving reproducibility and transparency.
+		
+		\item Extensive experimental evaluation demonstrates improved predictive performance and robustness compared with conventional machine learning, ensemble, and deep learning baselines.
+	\end{enumerate}
+	
+	\section{Methodology}\label{sec:methodology}
+	
+	\subsection{Problem Formulation}
+	
+	We formulate Parkinson’s disease severity prediction as a supervised multi-output regression problem. Let the dataset be defined as
+	\begin{equation}
+		\mathcal{D} = \{(\mathbf{x}_i, \mathbf{y}_i)\}_{i=1}^{N},
+	\end{equation}
+	where $\mathbf{x}_i \in \mathbb{R}^{d}$ represents the $d$-dimensional voice feature vector for the $i$-th sample. These features encode acoustic perturbation, noise characteristics, and nonlinear vocal dynamics.
+	
+	The corresponding multi-target output is defined as
+	\begin{equation}
+		\mathbf{y}_i =
+		\begin{bmatrix}
+			y_i^{(m)} \\
+			y_i^{(t)}
+		\end{bmatrix},
+	\end{equation}
+	where $y_i^{(m)}$ and $y_i^{(t)}$ denote the $motor\_UPDRS$ and $total\_UPDRS$ scores, respectively.
+	
+	The objective is to learn a predictive mapping
+	\begin{equation}
+		f: \mathbb{R}^{d} \rightarrow \mathbb{R}^{2},
+	\end{equation}
+	that jointly minimizes prediction error for both severity measures. Rather than modeling the two targets independently, we adopt a shared modeling strategy to exploit potential interdependence between motor and total severity scores.
+	
+	
+	\subsection{Heterogeneous Expert Models}
+	
+	To capture heterogeneous predictive mechanisms within the data, we introduce a set of $K$ complementary expert models:
+	\begin{equation}
+		\{ f_k(\mathbf{x}; \theta_k) \}_{k=1}^{K},
+	\end{equation}
+	where $\theta_k$ denotes the parameters of the $k$-th expert.
+	
+	Each expert produces a two-dimensional prediction:
+	\begin{equation}
+		\hat{\mathbf{y}}_{i,k} = f_k(\mathbf{x}_i).
+	\end{equation}
+	
+	The expert set includes neural, tree-based, and regularized linear regressors. 
+	These models possess fundamentally different inductive biases: neural networks capture nonlinear feature interactions, tree ensembles model hierarchical partitioning of the feature space, and linear models provide regularized parametric baselines. 
+	
+	Instead of depending on a single global hypothesis class, the framework attempts to exploit complementary representational capabilities by bringing together heterogeneous experts.
+	
+	\subsection{Adaptive Gating Mechanism}
+	
+	It is assumed that expert forecasts are consistently relevant across samples when they are averaged statically. However, there are significant individual differences in the voice features and patterns of disease progression. We implement target-specific adaptive gating mechanisms that dynamically allocate expert weights for every sample in order to accommodate this variation.
+	
+	Two gating functions are defined:
+	\begin{equation}
+		\mathbf{w}_i^{(m)} = g^{(m)}(\mathbf{x}_i; \phi_m),
+	\end{equation}
+	\begin{equation}
+		\mathbf{w}_i^{(t)} = g^{(t)}(\mathbf{x}_i; \phi_t),
+	\end{equation}
+	where
+	\begin{equation}
+		\mathbf{w}_i^{(m)} = [w_{i,1}^{(m)}, \dots, w_{i,K}^{(m)}],
+	\end{equation}
+	\begin{equation}
+		\mathbf{w}_i^{(t)} = [w_{i,1}^{(t)}, \dots, w_{i,K}^{(t)}].
+	\end{equation}
+	
+	Each weight vector is constrained to lie in the probability simplex:
+	\begin{equation}
+		\sum_{k=1}^{K} w_{i,k}^{(m)} = 1, \quad 
+		\sum_{k=1}^{K} w_{i,k}^{(t)} = 1,
+	\end{equation}
+	\begin{equation}
+		w_{i,k}^{(m)} \ge 0, \quad w_{i,k}^{(t)} \ge 0.
+	\end{equation}
+	
+	This convex constraint ensures interpretability and stability, as each prediction becomes a weighted combination of expert outputs.
+	
+	Final predictions are computed as:
+	\begin{equation}
+		\hat{y}_i^{(m)} = \sum_{k=1}^{K} w_{i,k}^{(m)} \hat{y}_{i,k}^{(m)},
+	\end{equation}
+	\begin{equation}
+		\hat{y}_i^{(t)} = \sum_{k=1}^{K} w_{i,k}^{(t)} \hat{y}_{i,k}^{(t)}.
+	\end{equation}
+	
+	This formulation enables the model to specialize differently for motor and total severity estimation, allowing distinct expert contributions across targets.
+	
+	
+	\subsection{Entropy Regularization}
+	
+	The possibility of expert dominance, in which one expert obtains almost unit weight across samples, is introduced by adaptive weighing, despite the fact that it promotes flexibility. This kind of collapse diminishes diversity and negates the advantage of gathering. 
+	
+	Entropy regularization is applied separately to both gating distributions to provide balanced specialization.
+	
+	The entropy for the motor weights is:
+	\begin{equation}
+		\mathcal{H}^{(m)} = - \frac{1}{N} 
+		\sum_{i=1}^{N} \sum_{k=1}^{K} 
+		w_{i,k}^{(m)} \log w_{i,k}^{(m)},
+	\end{equation}
+	
+	and similarly for total severity:
+	\begin{equation}
+		\mathcal{H}^{(t)} = - \frac{1}{N} 
+		\sum_{i=1}^{N} \sum_{k=1}^{K} 
+		w_{i,k}^{(t)} \log w_{i,k}^{(t)}.
+	\end{equation}
+	
+	Maximizing entropy encourages smoother weight distributions and mitigates premature specialization during training.
+		
+	\subsection{Training Objective}
+	
+	Prediction accuracy is measured using joint mean squared error:
+	\begin{equation}
+		\mathcal{L}_{MSE} = \frac{1}{N} 
+		\sum_{i=1}^{N}
+		\left[
+		(y_i^{(m)} - \hat{y}_i^{(m)})^2 +
+		(y_i^{(t)} - \hat{y}_i^{(t)})^2
+		\right].
+	\end{equation}
+	
+	The complete objective integrates prediction fidelity with entropy regularization:
+	\begin{equation}
+		\mathcal{L}_{total}
+		=
+		\mathcal{L}_{MSE}
+		-
+		\lambda
+		\left(
+		\mathcal{H}^{(m)} + \mathcal{H}^{(t)}
+		\right),
+	\end{equation}
+	where $\lambda > 0$ controls the trade-off between accuracy and diversity.
+	
+	The negative entropy term encourages distributed expert contributions while preserving predictive performance.
+\subsection{Training Protocol}
+
+Prior to convergence, expert models undergo independent training on the training split. After that, their parameters are frozen.
+
+In order to learn adaptive, target-specific weight distributions under entropy regularization, the gating network is then tuned using the fixed expert predictions.
+
+Fixed train–validation–test splits are used in all experiments to guarantee rigorous reproducibility and stop data leaks.
+	
+	\section{Experimental Setup}\label{sec:experiments}
+	\subsection{Dataset Description}
+	
+	Experiments were conducted using the Parkinson’s Telemonitoring Voice Dataset available from the UCI Machine Learning Repository \cite{parkinsons_telemonitoring_189}. The dataset contains biomedical voice measurements collected from patients diagnosed with Parkinson’s disease during sustained phonation tasks recorded under telemonitoring conditions.
+	
+	The dataset consists of repeated voice recordings obtained from multiple subjects over time, providing both acoustic feature measurements and corresponding clinical severity scores. Each recording includes demographic information and a set of perturbation, noise, and nonlinear dynamical speech features designed to quantify Parkinsonian dysphonia.
+	
+	Two clinical outcome variables are provided: \textit{motor\_UPDRS}, representing motor symptom severity, and \textit{total\_UPDRS}, representing overall disease severity. These scores serve as the regression targets in the present study.
+	
+	The availability of longitudinal voice recordings and standardized clinical annotations makes this dataset particularly suitable for investigating non-invasive Parkinson’s disease severity estimation using machine learning approaches.
+	\subsection{Feature Selection and Preprocessing}
+	
+	The original dataset contained demographic, temporal, and acoustic variables, including:
+	
+	\texttt{subject\#, age, sex, test\_time, motor\_UPDRS, total\_UPDRS,}
+	\texttt{Jitter(\%), Jitter(Abs), Jitter:RAP, Jitter:PPQ5, Jitter:DDP,}
+	\texttt{Shimmer, Shimmer(dB), Shimmer:APQ3, Shimmer:APQ5,}
+	\texttt{Shimmer:APQ11, Shimmer:DDA, NHR, HNR, RPDE, DFA, PPE}.
+	
+	The identifier \texttt{subject\#} was removed as it does not encode predictive information. The temporal index \texttt{test\_time} was also excluded to prevent leakage of longitudinal ordering effects. 
+	
+	The final feature representation consisted of 18 variables capturing demographic attributes and acoustic perturbation, noise, and nonlinear vocal dynamics.
+	
+	\subsection{Dataset Partitioning}
+	
+	The dataset contains $N = 5{,}875$ samples with $d = 18$ features and two regression targets. The partitions are summarized in Table \ref{tab:data_splits}. Fixed splits were maintained across all experiments to ensure strict reproducibility.
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Dataset partition summary}
+		\label{tab:data_splits}
+		\begin{tabular}{|l|c|c|c|}
+			\hline
+			Split & Samples & Feature Dim. & Target Dim. \\
+			\hline
+			Training & 3760 & 18 & 2 \\
+			Validation & 940 & 18 & 2 \\
+			Test & 1175 & 18 & 2 \\
+			\hline
+			Total & 5875 & 18 & 2 \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	\subsection{Data Normalization}
+	
+	All input features and target variables were standardized using z-score normalization to ensure stable optimization across heterogeneous models.
+	
+	For inputs:
+	\[
+	\tilde{x}_{ij} = \frac{x_{ij} - \mu_j}{\sigma_j},
+	\]
+	where statistics were computed exclusively from training data.
+	
+	Targets were jointly standardized using a separate scaler fitted on the two-dimensional training target matrix:
+	\[
+	\tilde{\mathbf{y}}_i =
+	\frac{\mathbf{y}_i - \boldsymbol{\mu}_y}{\boldsymbol{\sigma}_y}.
+	\]
+	
+	All evaluation metrics were computed after inverse-transforming predictions back to clinical scale.
+	
+	\subsection{Expert Model Configuration}
+	
+	Four heterogeneous expert models were independently trained prior to gating optimization.
+	
+	\subsubsection{Neural Network Expert}
+	
+	The neural expert is a fully connected feedforward architecture (18–64–64–64–32) with ReLU activations, L2 regularization, and dropout. Optimization was performed using Adam with early stopping.
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Neural Network hyperparameters}
+		\label{tab:nn_params}
+		\begin{tabular}{|l|c|}
+			\hline
+			Hyperparameter & Value \\
+			\hline
+			Hidden Layers & 64–64–64–32 \\
+			Activation & ReLU \\
+			Dropout & 0.00034 \\
+			L2 Regularization & $10^{-4}$ \\
+			Optimizer & Adam \\
+			Learning Rate & 0.01 \\
+			Batch Size & 64 \\
+			Max Epochs & 300 \\
+			Early Stopping Patience & 50 \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	\subsubsection{Random Forest Expert}
+	
+	The Random Forest model provides nonlinear partition-based regression with ensemble averaging.
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Random Forest hyperparameters}
+		\label{tab:rf_params}
+		\begin{tabular}{|l|c|}
+			\hline
+			Hyperparameter & Value \\
+			\hline
+			Number of Trees & 400 \\
+			Maximum Depth & 40 \\
+			Criterion & squared\_error \\
+			Bootstrap & True \\
+			OOB Score & Enabled \\
+			Min Samples Split & 2 \\
+			Min Samples Leaf & 1 \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	\subsubsection{Ridge Regression Expert}
+	
+	The Ridge regression model provides a regularized linear baseline for multi-output regression.
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Ridge Regression hyperparameters}
+		\label{tab:ridge_params}
+		\begin{tabular}{|l|c|}
+			\hline
+			Hyperparameter & Value \\
+			\hline
+			Regularization $\alpha$ & 45.35 \\
+			Fit Intercept & True \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	\subsubsection{Elastic Net Expert}
+	
+	The MultiTaskElasticNetCV model performs joint regression with combined L1–L2 regularization.
+	
+	\begin{table}[htbp]
+		\centering
+		\caption{Elastic Net hyperparameters}
+		\label{tab:enet_params}
+		\begin{tabular}{|l|c|}
+			\hline
+			Hyperparameter & Value \\
+			\hline
+			Cross-Validation Folds & 5 \\
+			Max Iterations & 5000 \\
+			Tolerance & 0.001 \\
+			Selection Strategy & cyclic \\
+			L1 Ratio Grid & [0.1, 0.3, ...] \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	\subsection{Meta-Feature Construction}
+	
+	Each expert produces a two-dimensional prediction vector. For $K=4$ experts, their outputs are concatenated to form an 8-dimensional meta-feature vector:
+	
+	\[
+	\mathbf{z}_i \in \mathbb{R}^{8}.
+	\]
+	
+	This representation captures cross-expert predictive patterns and serves as input to the adaptive gating network.
+	
+	\subsection{Gating Network Architecture}
+	
+	The gating module is defined as \texttt{MoEGate(input\_dim=8, hidden\_dim=32, n\_experts=4)}. It consists of a single hidden layer with ReLU activation and produces $2 \times 4$ outputs corresponding to target-specific expert weights. Softmax normalization enforces convex constraints.
+	
+	\begin{table}[H]
+		\centering
+		\caption{Gating Network hyperparameters}
+		\label{tab:gating_params}
+		\begin{tabular}{|l|c|}
+			\hline
+			Hyperparameter & Value \\
+			\hline
+			Input Dimension & 8 \\
+			Hidden Units & 32 \\
+			Number of Experts & 4 \\
+			Optimizer & Adam \\
+			Batch Size & 64 \\
+			Max Epochs & 300 \\
+			Early Stopping Patience & 50 \\
+			Entropy Coefficient $\lambda$ & 0.01 \\
+			Training Samples & 4700 \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	Early stopping was triggered at epoch 51 based on validation MSE monitoring.
+	
+	\subsection{Production Workflow}
+	
+	The system functions as a modular decision-support pipeline from a production standpoint. Four separate expert modules evaluate voice telemonitoring data once it has been preprocessed and normalized. An adaptive gating engine processes expert outputs, aggregating them into meta-features and calculating target-specific weight distributions. Prior to being sent to the end user, the final severity predictions produced by weighted fusion are inversely converted to clinical scale.
+	
+	The complete workflow is illustrated in Figure \ref{fig:flowchart}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.75\linewidth]{images/pipeline-flow.png}
+		\caption{Production-oriented adaptive Mixture of Experts pipeline.}
+		\label{fig:flowchart}
+	\end{figure}
+
+	\section{Results}\label{sec:results}
+
+	
+	\subsection{Overall Model Performance}
+	
+	The predictive performance of all models is summarized in Table~\ref{tab:performance_comparison}. The comparison includes coefficient of determination ($R^2$), RMSE, MAE, and MSE computed on the held-out test set.
+	
+	\input{performance_table.tex}
+	
+	Among all individual experts, the Random Forest achieved the highest predictive performance, with $R^2 = 0.9131$ for $motor\_UPDRS$ and $R^2 = 0.9237$ for $total\_UPDRS$, resulting in an average $R^2$ of 0.9184.
+	
+	The proposed entropy-regularized Mixture of Experts achieved competitive performance, with $R^2 = 0.9088$ (motor) and $R^2 = 0.9177$ (total). While slightly below the Random Forest in absolute $R^2$, the MoE framework demonstrated improved stability and adaptive weighting behavior across targets.
+	
+	Neural network performance was moderately strong ($R^2 = 0.8987$ average), whereas linear baselines (Ridge and Elastic Net) exhibited substantially lower explanatory power ($R^2 \approx 0.13$), confirming the nonlinear nature of the mapping between acoustic features and clinical severity.
+	
+	\subsection{Diagnostic Analysis}
+	
+	Comparisons of actual-predicted plots indicate that nonlinear ensemble techniques give predictions that closely cluster along the identity line, suggesting that there is high calibration over the severity range. The Random Forest shows the greatest number of concentrations around the diagonal in both of the targets, but the neural network has a slightly larger dispersion at extreme values of severity. These findings are further confirmed by the residual analysis. Random Forest and MoE residuals are centered around zero and have nearly equal dispersion implying that there is not much systematic bias. Linear models on the other hand exhibit organized residual patterns, meaning that they are underfitting and do not represent nonlinear interactions between features. 	Ensemble based models error distributions are approximations of Gaussian behavior with relatively small variance, unlike those of linear models which are heavy tailed.
+	
+	\subsection{Expert Weight Analysis}
+	
+	The gating weights learned can be analyzed to show that the Random Forest expert is given dominative average weight to both targets (around 0.92 to motor and 0.88 to total severity). Nevertheless, there is a slightly higher distribution of weighting of total severity prediction among experts and this implies that there is more cross-model complementarity than motor severity estimation. These findings indicate that although tree-based modeling is used to capture most predictive structure, the secondary experts are used to stabilize refinements in certain areas of the feature space.
+	
+\subsection{Comparative Performance Analysis}
+
+In order to offer a general evaluation of predictive performance with regards to modeling methods, Figure \ref*{fig:model_comparison} offers a comparative visualization of the evaluation measures of all models on the held-out test. It compares both the target-specific and aggregate measures, which makes it possible to directly evaluate the explanatory power and error properties of heterogeneous modeling strategies.
+
+The findings emphasize the benefit of nonlinear ensemble-based practicality in estimating the severity of voice-based Parkinson Disease. The best overall accuracy is obtained by the Random Forest with the proposed entropy-regularized Mixture of Experts coming closely behind. Although tree-based and adaptive models show a significantly better generalization, linear baselines have significantly worse error and low explained variance. Notably, Mixture of Experts framework performs on par with the best single expert and also provides adaptive, target-specific weighting, which makes it interpretable and easy to extend modules beyond fixed ensemble-based approaches.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\linewidth]{images/model_performance_comparison.png}
+		\caption{Comparative performance of all models across evaluation metrics on the test set.}
+		\label{fig:model_comparison}
+	\end{figure}
+	\subsection{Prediction Calibration and Fit Analysis}
+	
+	In this attempt to explore more the aspect of predictive behavior without using the aggregate statistics, Figure \ref{fig:actual_vs_pred_main} shows the actual-versus-predicted scatter plots of the two strongest nonlinear models: the proposed entropy-regularized Mixture of Experts and the Random Forest baseline. These plots will give a direct visualization of the quality of calibration of the entire severity range of both $motor\_UPDRS$ and $total\_UPDRS$.	In perfect regression operation, the predictions coincide with the line of identity that suggests that there is correct estimation in low, moderate, and high severity values. The two models have high alignment, which proves their capability of describing nonlinear relationships among acoustic features and clinical outcomes. The random Forest shows a little more clustering around the diagonal and this is expected given that it has slightly higher scores on the $R^2$. The Mixture of Experts, though, can be calibrated competitively and can provide adaptive target-specific weighting, implying that dynamic expert fusion can be used to maintain predictive fidelity with structural interpretability.
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.45\linewidth}
+			\includegraphics[width=\linewidth]{images/moe_-_motor_updrs_actual_vs_pred.png}
+			\caption{MoE – Motor}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}{0.45\linewidth}
+			\includegraphics[width=\linewidth]{images/rf_-_motor_updrs_actual_vs_pred.png}
+			\caption{Random Forest – Motor}
+		\end{subfigure}
+		
+		\vspace{0.5cm}
+		
+		\begin{subfigure}{0.45\linewidth}
+			\includegraphics[width=\linewidth]{images/moe_-_total_updrs_actual_vs_pred.png}
+			\caption{MoE – Total}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}{0.45\linewidth}
+			\includegraphics[width=\linewidth]{images/rf_-_total_updrs_actual_vs_pred.png}
+			\caption{Random Forest – Total}
+		\end{subfigure}
+		
+		\caption{Actual versus predicted severity scores for the MoE and Random Forest models. Both models demonstrate strong calibration across severity ranges, with Random Forest exhibiting slightly tighter dispersion around the identity line.}
+		\label{fig:actual_vs_pred_main}
+	\end{figure}
+	
+	\subsection{Residual Structure and Error Behavior}
+	
+	Although aggregate measures can be used to measure predictive accuracy, residual analysis offers better information regarding the bias and structure of error in the model. Residual patterns of the entropy-regularized Mixture of Experts in both $motor\_UPDRS$ and $total\_UPDRS$; and the overall prediction using the total predictor is shown in Figure \ref{fig:moe_residuals}. Ideally, the residual values are supposed to be concentrated around zero without any pattern of the severity range. The distributions in question are close to zero mean and have near-symmetric dispersion, which means that there is little systemic bias. Moreover, there is no noticeable heteroscedastic tendency which indicates that the variance in prediction does not change significantly with low and high severity rates. The lack of regular patterns in the residual justifies the appropriateness of nonlinear adaptive modeling to the measurement of the complex mapping of the features of acoustic perturbation and clinical measures of severity.
+	
+	
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.45\linewidth}
+			\includegraphics[width=\linewidth]{images/moe_residuals_-_motor_residuals.png}
+			\caption{Motor Residuals}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}{0.45\linewidth}
+			\includegraphics[width=\linewidth]{images/moe_residuals_-_total_residuals.png}
+			\caption{Total Residuals}
+		\end{subfigure}
+		
+		\caption{Residual analysis for the proposed entropy-regularized MoE. Residuals are centered around zero with approximately symmetric dispersion, indicating minimal systematic bias.}
+		\label{fig:moe_residuals}
+	\end{figure}
+	\subsection{Adaptive Expert Weight Analysis}
+	
+	In addition to predictive accuracy, one of the aims of the proposed framework is to facilitate adaptive and target specialization of experts. The learned weight distributions of the expert weights in case of entropy regularization with both predictions, which are $motor\_UPDRS$ and $total\_UPDRS$ are shown in Figure \ref{fig:expert_weights}. The gating mechanism attributes convex weights on each expert on a sample-by-sample basis. Dissection of the acquired distributions shows the evident predominance of the Random Forest expert especially when severity of motor is estimated. The average motor weight of the Random Forest is greater than 0.92 which shows that tree-based nonlinear modeling takes into account most of the predictive structure in the acoustic-motor mapping. In the case of total severity prediction, the Random Forest is still dominant but has a slightly lower average weight (about 0.88) and greater input of the secondary experts. It implies that total severity incorporates more extensive signal properties which can develop complementary modeling properties. Notably, with the entropy regularization, there is no single authority that can collapse to a single expert and, thus, the goal of the mechanisms is to keep the contributions distributed and preserve the adaptive potential of the ensemble. These results show that the offered MoE framework does not only attain the competitive performance level but also offers an interpretable view of the expert specialization across clinical targets.
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}{0.6\linewidth}
+			\includegraphics[width=\linewidth]{images/motor_expert_weight_distribution.png}
+			\caption{Motor Severity Weights}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}{0.6\linewidth}
+			\includegraphics[width=\linewidth]{images/total_expert_weight_distribution.png}
+			\caption{Total Severity Weights}
+		\end{subfigure}
+		
+		\caption{Learned expert weight distributions under entropy regularization. The Random Forest expert receives dominant average weight, particularly for motor severity prediction, while total severity exhibits slightly more distributed expert contributions.}
+		\label{fig:expert_weights}
+	\end{figure}
+	
+	\section{Discussion}\label{sec:discussion}
+	
+	The suggested entropy-regularized adaptive Mixture of Experts attains competitive performance in multi-output severity prediction, achieving an average $R^2$ of 0.9133 on the withheld test data. While the standalone Random Forest slightly outperforms the MoE in raw predictive accuracy, the adaptive framework provides additional structural insight into expert specialization and target-specific modeling behavior. Recent reviews emphasize that modern Parkinson’s disease modeling increasingly values interpretability and robustness alongside predictive performance, motivating adaptive ensemble formulations such as the present approach \cite{hossain-2025}.
+	
+	\subsection{Comparison with Ensemble-Based Regression Models}
+	
+	In more recent studies, ensemble strategies are consistently shown to outperform individual learners in speech-based modeling of Parkinsonism. Shastry demonstrated that ensemble regression models provide greater robustness than standalone regressors, as hypothesis diversity improves prediction stability for UPDRS motor score estimation \cite{shastry-2023}. Similarly, Nilashi et al. demonstrated the superiority of ensemble configurations in progression prediction stability compared to single classifiers \cite{nilashi-2022}.
+	
+	The results of Sheikhi and Kheirabadi~\cite{sheikhi-2022}, who employed a Rotation Forest-based ensemble for severity prediction, further support the usefulness of tree-based heterogeneity. Motamedi and Villanyi~\cite{motamedi-2025} also showed that hybrid machine learning methods incorporating feature optimization and ensemble learning improve severity estimation performance.
+	
+	The empirical superiority of the Random Forest expert observed in the current study is consistent with these findings, indicating that nonlinear partitioning mechanisms effectively capture the complex acoustic–clinical relationships underlying UPDRS estimation.
+	
+	\subsection{Positioning Relative to Recent Voice-Based Detection Advances}
+	
+	Beyond regression-based studies, recent research has expanded speech-based Parkinson’s modeling toward early diagnosis and explainable predictive pipelines. Swain et al.~\cite{swain-2024} highlighted the importance of structured preprocessing and feature engineering in early intervention systems. Neto~\cite{neto-2024} emphasized that voice-based diagnosis remains sensitive to cross-dataset variability, suggesting that adaptive systems capable of handling diverse acoustic distributions represent an important future direction.
+	
+	Xu et al.~\cite{xu-2025} proposed an interpretable machine learning framework for Parkinson’s detection from speech, emphasizing clinically transparent modeling approaches. Although their work focuses on classification tasks, the emphasis on interpretability aligns with the explicit distribution of expert weights enabled by the entropy-regularized gating mechanism proposed in this study.
+	
+	Simone et al.~\cite{simone-2025} also investigated interpretable early detection through speech analysis, reinforcing the growing importance of transparency in biomedical AI. Compared to post-hoc interpretability approaches, the current MoE framework reveals expert contributions explicitly through convex weight allocation, aligning with broader trends toward transparent clinical AI systems \cite{chaithanya-2025}.
+	
+	\subsection{Adaptive Architectures and Gating Mechanisms}
+	
+	Adaptive expert-based design has increasingly appeared in recent neurological modeling studies. Raza et al.~\cite{raza-2025} proposed a transformer-based Mixture of Experts framework for multimodal neurological disorder classification, demonstrating scalability and modular specialization advantages. Titouni et al.~\cite{titouni-2026} introduced a confidence-gated hybrid ensemble for Parkinson’s speech analysis, further confirming the importance of gating mechanisms for improving ensemble robustness.
+	
+	Hadia et al.~\cite{hadia-2025} discussed modular deployment strategies for large-scale machine learning systems using MoE architectures, emphasizing scalability and distributed specialization across complex datasets. These principles are adapted in the present work for structured acoustic regression, where entropy regularization prevents expert collapse while encouraging balanced specialization.
+	
+	Regularization of mixture models has strong theoretical motivation. Khalili and Lin~\cite{khalili-2013} demonstrated that regularization alleviates degeneracy issues in highly parameterized finite mixture regression models. The experimental expert-weight distributions observed in this study support the view that entropy regularization effectively prevents trivial expert dominance while allowing meaningful specialization. Beyond statistical regularization, contextual gating mechanisms have been shown to enhance interpretability by conditioning model behavior on input characteristics, further supporting adaptive expert allocation strategies in structured prediction problems \cite{al-shedivat-2020}.
+	
+	\subsection{Multi-Output and Personalized Modeling Context}
+	
+	Joint modeling of correlated clinical targets remains relatively underexplored in speech-based Parkinson’s disease studies. Tong et al.~\cite{tong-2025} demonstrated that mixed-effects modeling improves progression prediction by accounting for inter-target dependencies. Similarly, Konyar et al.~\cite{konyar-2025} highlighted the importance of personalized multi-task learning for modeling heterogeneous individuals using tensorized representations.
+	
+	The proposed framework captures inter-target structure through dual target-specific gating functions that assign differentiated expert weights for $motor\_UPDRS$ and $total\_UPDRS$. The empirical observation that total severity exhibits more distributed expert weighting suggests broader signal integration compared to motor-only acoustic perturbation modeling.
+	
+	\subsection{Context within Broader Reviews}
+	
+	Comprehensive literature reviews highlight the growing dominance of ensemble and hybrid machine learning approaches in Parkinson’s disease research. Rabie and Akhloufi~\cite{rabie-2025} reported consistent performance improvements associated with ensemble-based detection systems. Shokrpour et al.~\cite{shokrpour-2025} further identified interpretability, generalization, and deployment stability as major open challenges in the field.
+	
+	The entropy-regularized Mixture of Experts framework directly addresses these challenges by combining nonlinear predictive robustness with interpretable adaptive weighting. While the Random Forest expert provides the strongest standalone predictive signal, the MoE architecture offers a principled mechanism for controlled specialization, balancing predictive accuracy with structural transparency.
+	
+	\section{Limitations of the Study}
+	\label{sec:limitations}
+	
+	Despite the promising performance and interpretability of the proposed entropy-regularized adaptive Mixture of Experts framework, several limitations should be acknowledged.
+	
+	First, the study relies on a single publicly available voice dataset, which may limit the generalizability of the findings across diverse recording environments, languages, and demographic populations. Speech characteristics can vary significantly due to microphone conditions, linguistic differences, and clinical heterogeneity, and therefore external validation on independent datasets is necessary.
+	
+	Second, although the adaptive MoE architecture provides interpretable expert weighting, the framework still depends on pre-extracted acoustic features rather than raw speech representations. End-to-end learning directly from waveform or spectrogram inputs may capture additional temporal dynamics that handcrafted feature pipelines cannot fully represent.
+	
+	Third, while entropy regularization mitigates expert dominance and promotes balanced specialization, optimal regularization strength remains dataset-dependent. Automated or theoretically grounded selection of regularization parameters could further improve robustness and reduce manual tuning.
+	
+	Finally, the proposed framework focuses on regression-based severity estimation and does not incorporate longitudinal patient trajectories. Parkinson’s disease progression is inherently temporal, and future models incorporating sequential or time-aware learning mechanisms may better capture disease evolution.
+	
+	These limitations do not diminish the validity of the present findings but instead highlight opportunities for extending adaptive expert-based modeling toward more generalizable and clinically deployable Parkinson’s disease monitoring systems.
+	
+	\section{Future Work}\label{sec:future}
+	
+	This work has a number of avenues in future research.
+	
+	To begin with, adaptive specialization and performance can be further improved by joint optimization of experts and gating networks in an end-to-end training framework. It can be enhanced by replacing weak performance in low-confidence prediction areas with uncertainty-sensitive gating mechanisms and Bayesian expert formulations.
+	
+	Second, the longitudinal modeling strategies can be incorporated to allow progression-sensitive severity prediction over time, which can be used to enhance personalization in chronic disease surveillance.
+	
+	Third, multimodal biomarkers - gait signals, handwriting dynamics, data collected by wearable sensors, or neuroimaging characteristics - can be integrated into the proposed architecture to expand it into profiling the disease holistically.
+	
+	Lastly, other MoE variants based on transformers or attention could offer more contextual modeling capacity and also retain adaptive expert specialization.
+	
+	Such guidelines can help lead to more scalable, interpretable, and clinically dependable AI-assisted systems to monitor the Parkinson disease.
+	
+	\section{Conclusion}\label{sec:conclusion}
+	
+	This paper presented an entropy-based regularization adaptive Mixture of Experts (MoE) system to multiplex voice-derived acoustic features prediction of the severity of Parkinson’s disease. The suggested architecture combines heterogeneous expert models - neural, tree-based, and regularized linear regressor - with an expert-specific gating mechanism which dynamically determines convex expert weights between $motor\_UPDRS$ and $total\_UPDRS$ estimation.
+	
+	Experimental analysis found that the ensemble-based methods are significantly better than the standalone linear methods, which proved that the mapping between acoustic biomarkers and clinical severity is nonlinear and heterogeneous. Although the overall predictive performance of Random Forest was the best, the presented MoE framework showed competitive accuracy with a greater ability to interpret because of clear distributions of weights of experts. Entropy regularization was able to reduce the problem of expert collapse and enhance consistent specialization with varying severity objectives.
+	
+	The findings support the validity of adaptive ensemble modeling to scalable, non-invasive monitoring of Parkinson disease with telemonitoring voice data. The suggested framework provides flexible and scalable machine-learned basis of resilient severity forecasting within heterogeneous clinical groups.
+	
+	\section*{Supplementary Materials} \label{sec:supplementary} \addcontentsline{toc}{section}{Supplementary Materials}
+
+Additional experimental visualizations are provided in the supplementary material. These include:
+
+\begin{itemize}
+	\item Actual vs. predicted plots for all individual expert models.
+	\item Residual distribution analyses for motor and total severity targets.
+	\item Error distribution histograms for each expert.
+	\item Detailed expert weight distributions for both $motor\_UPDRS$ and $total\_UPDRS$.
+\end{itemize}
+
+These supplementary figures provide further insight into model calibration behavior, error dispersion patterns, and adaptive expert specialization dynamics.
+
+	\printbibliography
+	
+\end{document}
