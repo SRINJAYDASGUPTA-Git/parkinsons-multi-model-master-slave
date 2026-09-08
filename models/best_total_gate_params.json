@@ -1,0 +1,8 @@
+{
+    "hidden_dim": 32,
+    "learning_rate": 0.0018123769960513428,
+    "dropout_rate": 0.07826676875662475,
+    "temperature": 1.0,
+    "entropy_lambda": 0.05,
+    "batch_size": 128
+}

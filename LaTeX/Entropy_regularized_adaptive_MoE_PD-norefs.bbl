@@ -1,0 +1,4933 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/apasortcite//global/global}
+    \entry{maetzler-2009}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=88b2e28764f1cd4579b49a483f2dbe54}{%
+           family={Maetzler},
+           familyi={M\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5525a404ee5ba9c595ab553e777a05b6}{%
+           family={Liepelt},
+           familyi={L\bibinitperiod},
+           given={Inga},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=519be70c6b2931cd4b29fe403e8638e8}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f4c55f908a003acf8ff2675ce548749d}
+      \strng{fullhash}{07673665a1f3d9a0def4213147269b6c}
+      \strng{bibnamehash}{07673665a1f3d9a0def4213147269b6c}
+      \strng{authorbibnamehash}{07673665a1f3d9a0def4213147269b6c}
+      \strng{authornamehash}{f4c55f908a003acf8ff2675ce548749d}
+      \strng{authorfullhash}{07673665a1f3d9a0def4213147269b6c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet Neurology}
+      \field{month}{11}
+      \field{number}{12}
+      \field{title}{{Progression of Parkinson's disease in the clinical phase: potential markers}}
+      \field{volume}{8}
+      \field{year}{2009}
+      \field{pages}{1158\bibrangedash 1171}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/s1474-4422(09)70291-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/s1474-4422(09)70291-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/s1474-4422(09)70291-1
+      \endverb
+    \endentry
+    \entry{tsanas-2009}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2b9a93cecab091a6ee56c4003984f1f1}{%
+           family={Tsanas},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb24ebcd82bb2b2247d1edfede1204fb}{%
+           family={Little},
+           familyi={L\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38e4ef3c7e9d3a1f281e77963687673d}{%
+           family={McSharry},
+           familyi={M\bibinitperiod},
+           given={P.E.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd3e21cfb08b9999ed683bb6ce252cbb}{%
+           family={Ramig},
+           familyi={R\bibinitperiod},
+           given={L.O.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{333ab34b2de08e696eeeae2837a42861}
+      \strng{fullhash}{6293c57a9f3e67f577ee820909d47d20}
+      \strng{bibnamehash}{6293c57a9f3e67f577ee820909d47d20}
+      \strng{authorbibnamehash}{6293c57a9f3e67f577ee820909d47d20}
+      \strng{authornamehash}{333ab34b2de08e696eeeae2837a42861}
+      \strng{authorfullhash}{6293c57a9f3e67f577ee820909d47d20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{{Accurate telemonitoring of Parkinson's disease progression by noninvasive speech tests}}
+      \field{volume}{57}
+      \field{year}{2009}
+      \field{pages}{884\bibrangedash 893}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/tbme.2009.2036000
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/tbme.2009.2036000
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/tbme.2009.2036000
+      \endverb
+    \endentry
+    \entry{tracy-2019}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2b0cfc67e0c7e7a13e9dbfd92afba516}{%
+           family={Tracy},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc2ad0ada1826a64ade9472d2e8aa348}{%
+           family={Özkanca},
+           familyi={Ö\bibinitperiod},
+           given={Yasin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8431e3293fe1b17dbed8508ec4bc039e}{%
+           family={Atkins},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6907987b752e2a4cb9da7f7213301be}{%
+           family={Ghomi},
+           familyi={G\bibinitperiod},
+           given={Reza\bibnamedelima Hosseini},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8aa98ef26d79df8f34f82f71803c41f}
+      \strng{fullhash}{e78298de970adbc43e26f4d6975e7a77}
+      \strng{bibnamehash}{e78298de970adbc43e26f4d6975e7a77}
+      \strng{authorbibnamehash}{e78298de970adbc43e26f4d6975e7a77}
+      \strng{authornamehash}{f8aa98ef26d79df8f34f82f71803c41f}
+      \strng{authorfullhash}{e78298de970adbc43e26f4d6975e7a77}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biomedical Informatics}
+      \field{month}{12}
+      \field{title}{{Investigating voice as a biomarker: Deep phenotyping methods for early detection of Parkinson's disease}}
+      \field{volume}{104}
+      \field{year}{2019}
+      \field{pages}{103362}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jbi.2019.103362
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jbi.2019.103362
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jbi.2019.103362
+      \endverb
+    \endentry
+    \entry{little-2007}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=9ca96e13676d21525a3ba7e3817b47df}{%
+           family={Little},
+           familyi={L\bibinitperiod},
+           given={Max\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=1a540e2b3ae52f63240d835a6f25db2c}{%
+           family={McSharry},
+           familyi={M\bibinitperiod},
+           given={Patrick\bibnamedelima E},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4235e6d0ea2516b47932531f5f280c2}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Stephen\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88f08cd79ed926e9e48271130f6c2655}{%
+           family={Costello},
+           familyi={C\bibinitperiod},
+           given={Declan\bibnamedelima Ae},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=977534c39e55cc37d1ee87fa904d83a2}{%
+           family={Moroz},
+           familyi={M\bibinitperiod},
+           given={Irene\bibnamedelima M},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{034ee15c7c35107917a28a953e4073a1}
+      \strng{fullhash}{dd3ddc1bfa50ebefbe98968115f60594}
+      \strng{bibnamehash}{dd3ddc1bfa50ebefbe98968115f60594}
+      \strng{authorbibnamehash}{dd3ddc1bfa50ebefbe98968115f60594}
+      \strng{authornamehash}{034ee15c7c35107917a28a953e4073a1}
+      \strng{authorfullhash}{dd3ddc1bfa50ebefbe98968115f60594}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BioMedical Engineering OnLine}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection}}
+      \field{volume}{6}
+      \field{year}{2007}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1475-925x-6-23
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/1475-925x-6-23
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/1475-925x-6-23
+      \endverb
+    \endentry
+    \entry{little-2008}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=fb24ebcd82bb2b2247d1edfede1204fb}{%
+           family={Little},
+           familyi={L\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=38e4ef3c7e9d3a1f281e77963687673d}{%
+           family={McSharry},
+           familyi={M\bibinitperiod},
+           given={P.E.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fb1e1dbcf42d126a0d8c210f16a20c6}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={E.J.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6162308e32513911cafd900f8cf96572}{%
+           family={Spielman},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd3e21cfb08b9999ed683bb6ce252cbb}{%
+           family={Ramig},
+           familyi={R\bibinitperiod},
+           given={L.O.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{72f59eec7ac2ebebde20ab306a8a75d5}
+      \strng{fullhash}{433fd2bcad2ce372fb008e40dbf34894}
+      \strng{bibnamehash}{433fd2bcad2ce372fb008e40dbf34894}
+      \strng{authorbibnamehash}{433fd2bcad2ce372fb008e40dbf34894}
+      \strng{authornamehash}{72f59eec7ac2ebebde20ab306a8a75d5}
+      \strng{authorfullhash}{433fd2bcad2ce372fb008e40dbf34894}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
+      \field{month}{9}
+      \field{number}{4}
+      \field{title}{{Suitability of dysphonia measurements for telemonitoring of Parkinson's disease}}
+      \field{volume}{56}
+      \field{year}{2008}
+      \field{pages}{1015\bibrangedash 1022}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/tbme.2008.2005954
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/tbme.2008.2005954
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/tbme.2008.2005954
+      \endverb
+    \endentry
+    \entry{shastry-2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=07b45714f5a57086f76d66d5909bbe61}{%
+           family={Shastry},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi Aditya},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07b45714f5a57086f76d66d5909bbe61}
+      \strng{fullhash}{07b45714f5a57086f76d66d5909bbe61}
+      \strng{bibnamehash}{07b45714f5a57086f76d66d5909bbe61}
+      \strng{authorbibnamehash}{07b45714f5a57086f76d66d5909bbe61}
+      \strng{authornamehash}{07b45714f5a57086f76d66d5909bbe61}
+      \strng{authorfullhash}{07b45714f5a57086f76d66d5909bbe61}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Speech Technology}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{{Ensemble machine learning regression model based predictive framework for Parkinson's UPDRS motor score prediction from speech data}}
+      \field{volume}{26}
+      \field{year}{2023}
+      \field{pages}{433\bibrangedash 457}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/s10772-023-10026-z
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10772-023-10026-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10772-023-10026-z
+      \endverb
+    \endentry
+    \entry{nilashi-2022}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=08268e0e916e9accc65f42d6a570ae8b}{%
+           family={Nilashi},
+           familyi={N\bibinitperiod},
+           given={Mehrbakhsh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d86c3a42ccd8ac853b47a2b43b47f294}{%
+           family={Abumalloh},
+           familyi={A\bibinitperiod},
+           given={Rabab\bibnamedelima Ali},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2aaf88d956b5957625b1b0a44ee1ffa2}{%
+           family={Minaei-Bidgoli},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={Behrouz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=358ce569b3dec0e13236555d30f88671}{%
+           family={Samad},
+           familyi={S\bibinitperiod},
+           given={Sarminah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7423c792b49d1cffd8145f3ef0dd243a}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={Muhammed\bibnamedelima Yousoof},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff610a6d35e790bddaa56e1bf03ebf98}{%
+           family={Alhargan},
+           familyi={A\bibinitperiod},
+           given={Ashwaq},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5dafcde30307777e72c9cdac6045af6b}{%
+           family={Zogaan},
+           familyi={Z\bibinitperiod},
+           given={Waleed\bibnamedelima Abdu},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76a6f9bf428dba0a5b0a6b7bc993e69d}
+      \strng{fullhash}{58848a021a080334507f41a8756dc0c6}
+      \strng{bibnamehash}{58848a021a080334507f41a8756dc0c6}
+      \strng{authorbibnamehash}{58848a021a080334507f41a8756dc0c6}
+      \strng{authornamehash}{76a6f9bf428dba0a5b0a6b7bc993e69d}
+      \strng{authorfullhash}{58848a021a080334507f41a8756dc0c6}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Healthcare Engineering}
+      \field{month}{2}
+      \field{title}{{Predicting Parkinson's disease progression: Evaluation of ensemble methods in machine learning}}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1155/2022/2793361
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1155/2022/2793361
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1155/2022/2793361
+      \endverb
+    \endentry
+    \entry{neto-2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4220b1acf806e27fc3bce05acfda1f62}{%
+           family={Neto},
+           familyi={N\bibinitperiod},
+           given={Osmar\bibnamedelima Pinto},
+           giveni={O\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4220b1acf806e27fc3bce05acfda1f62}
+      \strng{fullhash}{4220b1acf806e27fc3bce05acfda1f62}
+      \strng{bibnamehash}{4220b1acf806e27fc3bce05acfda1f62}
+      \strng{authorbibnamehash}{4220b1acf806e27fc3bce05acfda1f62}
+      \strng{authornamehash}{4220b1acf806e27fc3bce05acfda1f62}
+      \strng{authorfullhash}{4220b1acf806e27fc3bce05acfda1f62}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Voice}
+      \field{month}{5}
+      \field{title}{{Harnessing voice analysis and machine learning for early diagnosis of Parkinson's disease: a comparative study across three datasets}}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1016/j.jvoice.2024.04.020
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jvoice.2024.04.020
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jvoice.2024.04.020
+      \endverb
+    \endentry
+    \entry{sheikhi-2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=054be4e1e947fdedfa682782fbed012f}{%
+           family={Sheikhi},
+           familyi={S\bibinitperiod},
+           given={Saeid},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab0512ea431f8c595a179110f030e228}{%
+           family={Kheirabadi},
+           familyi={K\bibinitperiod},
+           given={Mohammad\bibnamedelima Taghi},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \strng{fullhash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \strng{bibnamehash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \strng{authorbibnamehash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \strng{authornamehash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \strng{authorfullhash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Healthcare Engineering}
+      \field{month}{6}
+      \field{title}{{An efficient rotation Forest-Based ensemble approach for predicting severity of Parkinson's disease}}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1155/2022/5524852
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1155/2022/5524852
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1155/2022/5524852
+      \endverb
+    \endentry
+    \entry{motamedi-2025}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3db3f6ba8b31a8b6d70a04a997f96649}{%
+           family={Motamedi},
+           familyi={M\bibinitperiod},
+           given={Behnaz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff8a58e30b4a6d9c84a9079c96044083}{%
+           family={Villányi},
+           familyi={V\bibinitperiod},
+           given={Balázs},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bce3c33d17c7d655df74ee13028f9778}
+      \strng{fullhash}{bce3c33d17c7d655df74ee13028f9778}
+      \strng{bibnamehash}{bce3c33d17c7d655df74ee13028f9778}
+      \strng{authorbibnamehash}{bce3c33d17c7d655df74ee13028f9778}
+      \strng{authornamehash}{bce3c33d17c7d655df74ee13028f9778}
+      \strng{authorfullhash}{bce3c33d17c7d655df74ee13028f9778}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Intelligence-Based Medicine}
+      \field{month}{1}
+      \field{title}{{A novel hybrid machine learning approach for early prediction of Parkinson's disease severity using optimized feature selection and ensemble learning}}
+      \field{volume}{12}
+      \field{year}{2025}
+      \field{pages}{100276}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ibmed.2025.100276
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.ibmed.2025.100276
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.ibmed.2025.100276
+      \endverb
+    \endentry
+    \entry{khedimi-2025}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fa80e7bea4eac379dac484649014e7b3}{%
+           family={Khedimi},
+           familyi={K\bibinitperiod},
+           given={Madjda},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=228dd687961f3612985beeddec81f72a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6f32adec0a89f29b7f25b96dd9fb109}{%
+           family={Dehmani},
+           familyi={D\bibinitperiod},
+           given={Chaima},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61a5f11b3a300a191d13bd823c06cf4c}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acde6b02d36c3b7f8a135bf4d8cdd323}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Yanzhang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eea5c0df82cd2a9d2c6dd61d73ae8238}
+      \strng{fullhash}{7f796d0814eb7ef0a41ce0eff9b444ef}
+      \strng{bibnamehash}{7f796d0814eb7ef0a41ce0eff9b444ef}
+      \strng{authorbibnamehash}{7f796d0814eb7ef0a41ce0eff9b444ef}
+      \strng{authornamehash}{eea5c0df82cd2a9d2c6dd61d73ae8238}
+      \strng{authorfullhash}{7f796d0814eb7ef0a41ce0eff9b444ef}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioengineering}
+      \field{month}{6}
+      \field{number}{7}
+      \field{title}{{A unified deep learning ensemble framework for Voice-Based Parkinson's disease detection and motor severity prediction}}
+      \field{volume}{12}
+      \field{year}{2025}
+      \field{pages}{699}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/bioengineering12070699
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/bioengineering12070699
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/bioengineering12070699
+      \endverb
+    \endentry
+    \entry{dasgupta-2025}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=08470cb7bebba096afbc07b091ff640f}{%
+           family={Dasgupta},
+           familyi={D\bibinitperiod},
+           given={Srinjay},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a890a06399663a6a05c5d26941e49b2}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Debopriya},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26b9d0b24781f25c4a24301f7a30aa0b}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Debrupa},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c49dd7878a6853e6bf381c709a0b49e}{%
+           family={Karmakar},
+           familyi={K\bibinitperiod},
+           given={Samadrita},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=250251e2949318993360ab0fc4fe82a6}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Prabuddha},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33297e460ca04eef9efb363d81c2f6a1}{%
+           family={Baul},
+           familyi={B\bibinitperiod},
+           given={Anik},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5814fc8ac48609b4ecb7748c25d2bde0}{%
+           family={Guraia},
+           familyi={G\bibinitperiod},
+           given={Mrinmoy},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc3e873930ff418f6c769b3d2f7c808e}
+      \strng{fullhash}{3baccabbc6119c56e18b8b4da7969f7c}
+      \strng{bibnamehash}{3baccabbc6119c56e18b8b4da7969f7c}
+      \strng{authorbibnamehash}{3baccabbc6119c56e18b8b4da7969f7c}
+      \strng{authornamehash}{fc3e873930ff418f6c769b3d2f7c808e}
+      \strng{authorfullhash}{3baccabbc6119c56e18b8b4da7969f7c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2025 IEEE Pune Section International Conference (PuneCon)}
+      \field{title}{UPDRS Score Estimation from Telemonitoring Voice Data Using Hybrid Ensemble Methods}
+      \field{year}{2025}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/PuneCon67554.2025.11379148
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/11379148
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/11379148
+      \endverb
+      \keyw{Parkinson's disease;Telemedicine;Stacking;Neural networks;Restful API;Predictive models;Biomarkers;Motors;Reliability;Random forests;Parkinson's disease;Unified Parkinson's Disease Rating Scale (UPDRS);Voice biomarkers;Stacking ensemble learning;Random forest regression;Neural network}
+    \endentry
+    \entry{khalili-2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5b2bad2391c653f9f66f684f63ae1ac1}{%
+           family={Khalili},
+           familyi={K\bibinitperiod},
+           given={Abbas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=628fe8191c9b4398679da0461d58df0b}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Shili},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{18d44cf9fee05d863c8c2313426d1694}
+      \strng{fullhash}{18d44cf9fee05d863c8c2313426d1694}
+      \strng{bibnamehash}{18d44cf9fee05d863c8c2313426d1694}
+      \strng{authorbibnamehash}{18d44cf9fee05d863c8c2313426d1694}
+      \strng{authornamehash}{18d44cf9fee05d863c8c2313426d1694}
+      \strng{authorfullhash}{18d44cf9fee05d863c8c2313426d1694}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrics}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{{Regularization in finite mixture of regression models with diverging number of parameters}}
+      \field{volume}{69}
+      \field{year}{2013}
+      \field{pages}{436\bibrangedash 446}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/biom.12020
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/biom.12020
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/biom.12020
+      \endverb
+    \endentry
+    \entry{raza-2025}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=db152fb0a8c4994dd81b1760b80407b6}{%
+           family={Raza},
+           familyi={R\bibinitperiod},
+           given={Wajih\bibnamedelima Hassan},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a8e19f07f0e15658938956178ef19b6}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Aamir\bibnamedelima Bader},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec371b90b8ae22570142a8679fab55eb}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1229017167c6ef72e845a35d616d0317}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Yidan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7390092d56d76d28d386ce0b9fd68387}{%
+           family={Lemus},
+           familyi={L\bibinitperiod},
+           given={Juan\bibnamedelimb Diego\bibnamedelima Martinez},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=614d3456683d64e221dca9acf06bc8f3}{%
+           family={Schiess},
+           familyi={S\bibinitperiod},
+           given={Mya\bibnamedelima Caryn},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6445f69fe374a6ebe1dcbf4f7ac35d66}{%
+           family={Ellmore},
+           familyi={E\bibinitperiod},
+           given={Timothy\bibnamedelima Michael},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bb10ff4ca607f394dae4fc3003e8708}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Renjie},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95789caff6f27b41fe7cccffd1062d44}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{57b57e5223b21b0833931c22ee6b49c3}
+      \strng{fullhash}{b28d156df373454e8c3c2c2703d71cd3}
+      \strng{bibnamehash}{b28d156df373454e8c3c2c2703d71cd3}
+      \strng{authorbibnamehash}{b28d156df373454e8c3c2c2703d71cd3}
+      \strng{authornamehash}{57b57e5223b21b0833931c22ee6b49c3}
+      \strng{authorfullhash}{b28d156df373454e8c3c2c2703d71cd3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{6}
+      \field{title}{{NEUROMOE: A Transformer-Based Mixture-of-Experts Framework for Multi-Modal Neurological Disorder Classification}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arxiv.2506.14970
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2506.14970
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2506.14970
+      \endverb
+    \endentry
+    \entry{tsiouris-2017}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5b5cea026a7868e9f42cc89e81893d0d}{%
+           family={Tsiouris},
+           familyi={T\bibinitperiod},
+           given={Kostas\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1ad97d44ab39c5c550045db8509e06e}{%
+           family={Rigas},
+           familyi={R\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1db73d8a4d2347799fdb8db61865ad8d}{%
+           family={Gatsios},
+           familyi={G\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26ebdc514a33eccfdb4afbb4b5fa6a2f}{%
+           family={Antonini},
+           familyi={A\bibinitperiod},
+           given={Angelo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0c90d8761a8e8b35fdf1ba74f3df271}{%
+           family={Konitsiotis},
+           familyi={K\bibinitperiod},
+           given={Spiros},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1561bcd911ae4dbabfa6cdd24e771737}{%
+           family={Koutsouris},
+           familyi={K\bibinitperiod},
+           given={Dimitrios\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c71e2e9256f9b3f845f5eefc9e8815af}{%
+           family={Fotiadis},
+           familyi={F\bibinitperiod},
+           given={Dimitrios\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e011eab718c8047fa311441134347f3d}
+      \strng{fullhash}{ecc8327202f45894bfb2cc834f05cbec}
+      \strng{bibnamehash}{ecc8327202f45894bfb2cc834f05cbec}
+      \strng{authorbibnamehash}{ecc8327202f45894bfb2cc834f05cbec}
+      \strng{authornamehash}{e011eab718c8047fa311441134347f3d}
+      \strng{authorfullhash}{ecc8327202f45894bfb2cc834f05cbec}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2017 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)}
+      \field{month}{7}
+      \field{title}{{Predicting rapid progression of Parkinson's Disease at baseline patients evaluation}}
+      \field{volume}{71}
+      \field{year}{2017}
+      \field{pages}{3898\bibrangedash 3901}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/embc.2017.8037708
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/embc.2017.8037708
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/embc.2017.8037708
+      \endverb
+    \endentry
+    \entry{swain-2024}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=826f97f2edea08fe51c824da0910250b}{%
+           family={Swain},
+           familyi={S\bibinitperiod},
+           given={K.P.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e850adebdc91d01e0f4f5f8b9270308e}{%
+           family={Samal},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=937565a2691acb753d5e1699c09c59ab}{%
+           family={Ravi},
+           familyi={R\bibinitperiod},
+           given={Vinayakumar},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4008266b4234fbd141e00038ea8d82de}{%
+           family={Nayak},
+           familyi={N\bibinitperiod},
+           given={Soumya\bibnamedelima Ranjan},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e4ad19cd4721310e32d7d61cd44eed4}{%
+           family={Alahmadi},
+           familyi={A\bibinitperiod},
+           given={Tahani\bibnamedelima Jaser},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b12d0dbab5d09a79866c63f7db43387}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Prabhishek},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a27fac5ece6ebd5b41875f3b0de99bdf}{%
+           family={Diwakar},
+           familyi={D\bibinitperiod},
+           given={Manoj},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{363da526aa94606358a0e5cf34be84f4}
+      \strng{fullhash}{19567c2984deea59bb061c5fe21a3444}
+      \strng{bibnamehash}{19567c2984deea59bb061c5fe21a3444}
+      \strng{authorbibnamehash}{19567c2984deea59bb061c5fe21a3444}
+      \strng{authornamehash}{363da526aa94606358a0e5cf34be84f4}
+      \strng{authorfullhash}{19567c2984deea59bb061c5fe21a3444}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Open Biomedical Engineering Journal}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{{Towards Early Intervention: Detecting Parkinson's Disease through Voice Analysis with Machine Learning}}
+      \field{volume}{18}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.2174/0118741207294056240322075602
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2174/0118741207294056240322075602
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2174/0118741207294056240322075602
+      \endverb
+    \endentry
+    \entry{sechidis-2021}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ad5a19fa24860e83c0622bf6b9193b36}{%
+           family={Sechidis},
+           familyi={S\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d9d6b54f8e18fa70c77e89c336b53b3}{%
+           family={Fusaroli},
+           familyi={F\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f191f78a13100e38dac0d7965293458}{%
+           family={Orozco-Arroyave},
+           familyi={O\bibinithyphendelim A\bibinitperiod},
+           given={Juan\bibnamedelima Rafael},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=220908d0ea6b4fe8f0c12ffaa2ea1b3a}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Detlef},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a683165b513eac4d01d8b4489db2f86d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yan-Ping},
+           giveni={Y\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{891438ab01c40552c4300c632afaa84c}
+      \strng{fullhash}{d6324d44b69155a43d087ca82c7b5f4a}
+      \strng{bibnamehash}{d6324d44b69155a43d087ca82c7b5f4a}
+      \strng{authorbibnamehash}{d6324d44b69155a43d087ca82c7b5f4a}
+      \strng{authornamehash}{891438ab01c40552c4300c632afaa84c}
+      \strng{authorfullhash}{d6324d44b69155a43d087ca82c7b5f4a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Artificial Intelligence in Medicine}
+      \field{month}{4}
+      \field{title}{{A machine learning perspective on the emotional content of Parkinsonian speech}}
+      \field{volume}{115}
+      \field{year}{2021}
+      \field{pages}{102061}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.artmed.2021.102061
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.artmed.2021.102061
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.artmed.2021.102061
+      \endverb
+    \endentry
+    \entry{xu-2025}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ef48cb6f77cd8e8bfb95c546dd8d26e2}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Huanqing},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3f94462dfa72557cc934d7e6b213092}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0be99b103cb10ae1c16198c9289e05bd}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Mingzhen},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c15dca1dd47bb240c99f7cf6481272a5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ya},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87a326fe218c5108ff63c309fd5a933e}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Luhua},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1629480aff5051db296b89c7c6fd1ed4}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Fangliang},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebfc844714a1a68a0822a5039de8dea8}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Xian},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e439d831e57be4513063fa893f966a7}
+      \strng{fullhash}{3dbf3e4a940fbb393cf1b9982ac0fb91}
+      \strng{bibnamehash}{3dbf3e4a940fbb393cf1b9982ac0fb91}
+      \strng{authorbibnamehash}{3dbf3e4a940fbb393cf1b9982ac0fb91}
+      \strng{authornamehash}{3e439d831e57be4513063fa893f966a7}
+      \strng{authorfullhash}{3dbf3e4a940fbb393cf1b9982ac0fb91}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Aging Neuroscience}
+      \field{month}{4}
+      \field{title}{{Non-invasive detection of Parkinson's disease based on speech analysis and interpretable machine learning}}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{pages}{1586273}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fnagi.2025.1586273
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3389/fnagi.2025.1586273
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3389/fnagi.2025.1586273
+      \endverb
+    \endentry
+    \entry{jasim-2025}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=06f34766a7804987570b8f1989598c4e}{%
+           family={Jasim},
+           familyi={J\bibinitperiod},
+           given={Huda},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c5666275bd23bf3bb2d588ea7808c76}{%
+           family={Alshakarchy},
+           familyi={A\bibinitperiod},
+           given={Noor\bibnamedelima D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{866647f066a4739aa44b6bb9a06204cd}
+      \strng{fullhash}{866647f066a4739aa44b6bb9a06204cd}
+      \strng{bibnamehash}{866647f066a4739aa44b6bb9a06204cd}
+      \strng{authorbibnamehash}{866647f066a4739aa44b6bb9a06204cd}
+      \strng{authornamehash}{866647f066a4739aa44b6bb9a06204cd}
+      \strng{authorfullhash}{866647f066a4739aa44b6bb9a06204cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Communications in computer and information science}
+      \field{month}{1}
+      \field{title}{{Parkinson's Disease Prediction and Progression Based on Voice Analysis: A Literature survey}}
+      \field{year}{2025}
+      \field{pages}{57\bibrangedash 71}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/978-3-031-81065-7_4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-031-81065-7_4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-031-81065-7_4
+      \endverb
+    \endentry
+    \entry{hossain-2025}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=34e464ee391b9296982096eea91abed8}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={Mohammad\bibnamedelima Amran},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d09070b49221ec8b001e6e25f73303e1}{%
+           family={Traini},
+           familyi={T\bibinitperiod},
+           given={Enea},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a0c254213d1e04931b5acdafeaee810}{%
+           family={Amenta},
+           familyi={A\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c1ba79f81c1fa96189b9ccb050791a16}
+      \strng{fullhash}{15065e577db35b613d7d58431f9ac7ad}
+      \strng{bibnamehash}{15065e577db35b613d7d58431f9ac7ad}
+      \strng{authorbibnamehash}{15065e577db35b613d7d58431f9ac7ad}
+      \strng{authornamehash}{c1ba79f81c1fa96189b9ccb050791a16}
+      \strng{authorfullhash}{15065e577db35b613d7d58431f9ac7ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inventions}
+      \field{month}{6}
+      \field{number}{4}
+      \field{title}{{Machine Learning Applications for Diagnosing Parkinson's Disease via Speech, Language, and Voice Changes: A Systematic review}}
+      \field{volume}{10}
+      \field{year}{2025}
+      \field{pages}{48}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/inventions10040048
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/inventions10040048
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/inventions10040048
+      \endverb
+    \endentry
+    \entry{shokrpour-2025}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=0a5100f0127c6b49c81fbb726e518eed}{%
+           family={Shokrpour},
+           familyi={S\bibinitperiod},
+           given={Sahar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34c1f5156d5e7f0f15790bb45e30255d}{%
+           family={MoghadamFarid},
+           familyi={M\bibinitperiod},
+           given={AmirMehdi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ee7f3d0c955f7ef9e73affbc0ef83d9}{%
+           family={Abkenar},
+           familyi={A\bibinitperiod},
+           given={Sepideh\bibnamedelima Bazzaz},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4d18e84b7d09573b53416db6a0509fb}{%
+           family={Kashani},
+           familyi={K\bibinitperiod},
+           given={Mostafa\bibnamedelima Haghi},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d912761b8168d2b51fdc1db3289c4b8c}{%
+           family={Akbari},
+           familyi={A\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54c1419373fa1ce62dc88bcd702a1802}{%
+           family={Sarvizadeh},
+           familyi={S\bibinitperiod},
+           given={Mostafa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{04918fa78509b7a8fe6f1794c3217942}
+      \strng{fullhash}{5a13dae85cf635157c978d41257d35c5}
+      \strng{bibnamehash}{5a13dae85cf635157c978d41257d35c5}
+      \strng{authorbibnamehash}{5a13dae85cf635157c978d41257d35c5}
+      \strng{authornamehash}{04918fa78509b7a8fe6f1794c3217942}
+      \strng{authorfullhash}{5a13dae85cf635157c978d41257d35c5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{npj Parkinson s Disease}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{{Machine learning for Parkinson's disease: a comprehensive review of datasets, algorithms, and challenges}}
+      \field{volume}{11}
+      \field{year}{2025}
+      \field{pages}{187}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41531-025-01025-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41531-025-01025-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41531-025-01025-9
+      \endverb
+    \endentry
+    \entry{rabie-2025}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4a80ecb06d64d21f486543342d5ff8e9}{%
+           family={Rabie},
+           familyi={R\bibinitperiod},
+           given={Hajar},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=168aae55cd16ed87094587f50ca31b0a}{%
+           family={Akhloufi},
+           familyi={A\bibinitperiod},
+           given={Moulay\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d5e0f97471e7968b410569ba5a089cd}
+      \strng{fullhash}{1d5e0f97471e7968b410569ba5a089cd}
+      \strng{bibnamehash}{1d5e0f97471e7968b410569ba5a089cd}
+      \strng{authorbibnamehash}{1d5e0f97471e7968b410569ba5a089cd}
+      \strng{authornamehash}{1d5e0f97471e7968b410569ba5a089cd}
+      \strng{authorfullhash}{1d5e0f97471e7968b410569ba5a089cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discover Artificial Intelligence}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{{A review of machine learning and deep learning for Parkinson's disease detection}}
+      \field{volume}{5}
+      \field{year}{2025}
+      \field{pages}{24}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s44163-025-00241-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s44163-025-00241-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s44163-025-00241-9
+      \endverb
+    \endentry
+    \entry{cai-2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=44844e33b5604c0a2f517c0d1cddf620}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Zhennao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da8c33f15266831f31f375b82d7e7ffe}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Jianhua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f978aa78e5c9179fca494c7482710cc5}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hui-Ling},
+           giveni={H\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{553f242fe82725ea94cfa830d5cbc931}
+      \strng{fullhash}{29bd4273fe6cf23811486a75cbcf305c}
+      \strng{bibnamehash}{29bd4273fe6cf23811486a75cbcf305c}
+      \strng{authorbibnamehash}{29bd4273fe6cf23811486a75cbcf305c}
+      \strng{authornamehash}{553f242fe82725ea94cfa830d5cbc931}
+      \strng{authorfullhash}{29bd4273fe6cf23811486a75cbcf305c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{month}{1}
+      \field{title}{{A new hybrid intelligent framework for predicting Parkinson's disease}}
+      \field{volume}{5}
+      \field{year}{2017}
+      \field{pages}{17188\bibrangedash 17200}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/access.2017.2741521
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/access.2017.2741521
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/access.2017.2741521
+      \endverb
+    \endentry
+    \entry{nilashi-2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=08268e0e916e9accc65f42d6a570ae8b}{%
+           family={Nilashi},
+           familyi={N\bibinitperiod},
+           given={Mehrbakhsh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9171e10b329e27546c58a10de799518}{%
+           family={Ibrahim},
+           familyi={I\bibinitperiod},
+           given={Othman},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1332c4970b963530c03da835de993f8b}{%
+           family={Ahani},
+           familyi={A\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76a6f9bf428dba0a5b0a6b7bc993e69d}
+      \strng{fullhash}{a24c327f880aae5b81609e005d9b5d36}
+      \strng{bibnamehash}{a24c327f880aae5b81609e005d9b5d36}
+      \strng{authorbibnamehash}{a24c327f880aae5b81609e005d9b5d36}
+      \strng{authornamehash}{76a6f9bf428dba0a5b0a6b7bc993e69d}
+      \strng{authorfullhash}{a24c327f880aae5b81609e005d9b5d36}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{{Accuracy improvement for predicting Parkinson's disease progression}}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{pages}{34181}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/srep34181
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/srep34181
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/srep34181
+      \endverb
+    \endentry
+    \entry{masood-2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=71ce4ec29b38de38351cdddaa9421b65}{%
+           family={Masood},
+           familyi={M\bibinitperiod},
+           given={Sarfaraz},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9aa42332594763cbe9a7d00d590c55f3}{%
+           family={Maqsood},
+           familyi={M\bibinitperiod},
+           given={Khwaja\bibnamedelima Wisal},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6be2c2a89af0733989b2ef878faad08a}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Om},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99f0e9b772d0d137016cd058e449915b}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Chanchal},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{677bb0f422db178083dcd4ee6c52f959}
+      \strng{fullhash}{f78694bf1459efd47bfcdb96dd0398a0}
+      \strng{bibnamehash}{f78694bf1459efd47bfcdb96dd0398a0}
+      \strng{authorbibnamehash}{f78694bf1459efd47bfcdb96dd0398a0}
+      \strng{authornamehash}{677bb0f422db178083dcd4ee6c52f959}
+      \strng{authorfullhash}{f78694bf1459efd47bfcdb96dd0398a0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Methods in the Applied Sciences}
+      \field{month}{11}
+      \field{title}{{An ensemble‐based feature selection framework for early detection of Parkinson's disease based on feature correlation analysis}}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1002/mma.7835
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/mma.7835
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/mma.7835
+      \endverb
+    \endentry
+    \entry{zhao-2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9d7bbd4cf81b62f58fac4600512e09ae}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Siren},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=328c676a860e2acdd5c2b6221a26f74e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jilun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f0092ec8ad9825f8a84b2eb73d8a630}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jianbin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{766092945791685c5ba272b2a13107fb}
+      \strng{fullhash}{6c51616642ffcddc103d7d62f35bc788}
+      \strng{bibnamehash}{6c51616642ffcddc103d7d62f35bc788}
+      \strng{authorbibnamehash}{6c51616642ffcddc103d7d62f35bc788}
+      \strng{authornamehash}{766092945791685c5ba272b2a13107fb}
+      \strng{authorfullhash}{6c51616642ffcddc103d7d62f35bc788}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cloud Computing Advances Systems and Applications}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{{Predicting UPDRS in Parkinson's disease using ensembles of self-organizing map and neuro-fuzzy}}
+      \field{volume}{13}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1186/s13677-024-00641-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s13677-024-00641-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s13677-024-00641-9
+      \endverb
+    \endentry
+    \entry{omodunbi-2025}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=4306b93b0d1aba7a4312791508d2234e}{%
+           family={Omodunbi},
+           familyi={O\bibinitperiod},
+           given={Bolaji\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81004c0639756190d4de97cc118b66ac}{%
+           family={Olawade},
+           familyi={O\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdbe419a66b986ca15c3411a0fededc9}{%
+           family={Awe},
+           familyi={A\bibinitperiod},
+           given={Omosigho\bibnamedelima F.},
+           giveni={O\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e73ea331f385415d3b39e18077e8120}{%
+           family={Soladoye},
+           familyi={S\bibinitperiod},
+           given={Afeez\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d14b81104d68e253f7d9156bbe3e1955}{%
+           family={Aderinto},
+           familyi={A\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5db5a3729f55f1800b43bb026a587b7c}{%
+           family={Ovsepian},
+           familyi={O\bibinitperiod},
+           given={Saak\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca12c58f4bddda2fe9de537aad9f098f}{%
+           family={Boussios},
+           familyi={B\bibinitperiod},
+           given={Stergios},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4667dbf59d4f8895cc6b3d3e4eaa48bb}
+      \strng{fullhash}{da0c338ef977a041e6168f97a58b3781}
+      \strng{bibnamehash}{da0c338ef977a041e6168f97a58b3781}
+      \strng{authorbibnamehash}{da0c338ef977a041e6168f97a58b3781}
+      \strng{authornamehash}{4667dbf59d4f8895cc6b3d3e4eaa48bb}
+      \strng{authorfullhash}{da0c338ef977a041e6168f97a58b3781}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diagnostics}
+      \field{month}{6}
+      \field{number}{12}
+      \field{title}{{Stacked ensemble learning for classification of Parkinson's disease using telemonitoring vocal features}}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{1467}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/diagnostics15121467
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/diagnostics15121467
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/diagnostics15121467
+      \endverb
+    \endentry
+    \entry{chakole-2025}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=84b5a41b34558625a23aa5524923878a}{%
+           family={Chakole},
+           familyi={C\bibinitperiod},
+           given={Megha},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13ebd14e4179f2280ebdcd8279ff6a05}{%
+           family={Dorle},
+           familyi={D\bibinitperiod},
+           given={Sanjay},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e398f15c401932e4c66b4efc92c7a70}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcda49817ec3494e557181d368389352}{%
+           family={Dasarwar},
+           familyi={D\bibinitperiod},
+           given={Priya},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4d6f785675aea8442497e3165496908}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Uma},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=805276c037dc7c614f44375a93ec8d1b}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Rashmi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{03f8ed5c2fdab388a9b753bc9866cdeb}
+      \strng{fullhash}{4f723021e88965bbc4019573d265267b}
+      \strng{bibnamehash}{4f723021e88965bbc4019573d265267b}
+      \strng{authorbibnamehash}{4f723021e88965bbc4019573d265267b}
+      \strng{authornamehash}{03f8ed5c2fdab388a9b753bc9866cdeb}
+      \strng{authorfullhash}{4f723021e88965bbc4019573d265267b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MethodsX}
+      \field{month}{10}
+      \field{title}{{Vocal features based Parkinson's detection: An ensemble learning approach}}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{103662}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.mex.2025.103662
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.mex.2025.103662
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.mex.2025.103662
+      \endverb
+    \endentry
+    \entry{hassan-2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d34e4c75e845ab8be2bc21c86dd64837}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Ahmad},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9021f823f1986315f4f4a8ac7f59663}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Arslan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab37342f3f94fdb1b871c96152f296f2}
+      \strng{fullhash}{ab37342f3f94fdb1b871c96152f296f2}
+      \strng{bibnamehash}{ab37342f3f94fdb1b871c96152f296f2}
+      \strng{authorbibnamehash}{ab37342f3f94fdb1b871c96152f296f2}
+      \strng{authornamehash}{ab37342f3f94fdb1b871c96152f296f2}
+      \strng{authorfullhash}{ab37342f3f94fdb1b871c96152f296f2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Science}
+      \field{month}{9}
+      \field{title}{{Predicting Parkinson's Disease Progression: A Non-Invasive Method Leveraging Voice Inputs}}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.53070/bbd.1350356
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.53070/bbd.1350356
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.53070/bbd.1350356
+      \endverb
+    \endentry
+    \entry{reddy-2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d9742d10e2ef7dfda3d096b893af2e5}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Varun},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \strng{fullhash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \strng{bibnamehash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \strng{authorbibnamehash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \strng{authornamehash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \strng{authorfullhash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{6}
+      \field{title}{{PPINToNUS: Early detection of Parkinson's Disease using Deep-Learning Tonal Analysis}}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.48550/arxiv.2406.02608
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2406.02608
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2406.02608
+      \endverb
+    \endentry
+    \entry{titouni-2026}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=6674f333cd1cc34c0043729b18c77ecf}{%
+           family={Titouni},
+           familyi={T\bibinitperiod},
+           given={Salem},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50ccf35919f1ff6e4ea3e01508536d34}{%
+           family={Djeffal},
+           familyi={D\bibinitperiod},
+           given={Nadhir},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6bdd19d162ae2d61f251f732d22bae16}{%
+           family={Belazzoug},
+           familyi={B\bibinitperiod},
+           given={Massinissa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b27a0a86ba35d1a4cba385395b3f806}{%
+           family={Hammache},
+           familyi={H\bibinitperiod},
+           given={Boualem},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b57d275cd7b324b11203f07e91b63e11}{%
+           family={Messaoudene},
+           familyi={M\bibinitperiod},
+           given={Idris},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95a50e119f6a02d2b1a8cb97a36cc99a}{%
+           family={Hedir},
+           familyi={H\bibinitperiod},
+           given={Abdallah},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{55e8e342274480d18b877cf38604b680}
+      \strng{fullhash}{82acab70579092c9855fb0c06957ade1}
+      \strng{bibnamehash}{82acab70579092c9855fb0c06957ade1}
+      \strng{authorbibnamehash}{82acab70579092c9855fb0c06957ade1}
+      \strng{authornamehash}{55e8e342274480d18b877cf38604b680}
+      \strng{authorfullhash}{82acab70579092c9855fb0c06957ade1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronics}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{{A Confidence-Gated hybrid CNN ensemble for accurate detection of Parkinson's disease using speech analysis}}
+      \field{volume}{15}
+      \field{year}{2026}
+      \field{pages}{587}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/electronics15030587
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/electronics15030587
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/electronics15030587
+      \endverb
+    \endentry
+    \entry{aladhadh-2025}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b39484de6e70d909fe7ab02d5d4f0b1}{%
+           family={Aladhadh},
+           familyi={A\bibinitperiod},
+           given={Suliman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \strng{fullhash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \strng{bibnamehash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \strng{authorbibnamehash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \strng{authornamehash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \strng{authorfullhash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diagnostics}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{{An Explainable Ensemble and Deep Learning Framework for Accurate and Interpretable Parkinson's Disease Detection from Voice Biomarkers}}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{2892}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/diagnostics15222892
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/diagnostics15222892
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/diagnostics15222892
+      \endverb
+    \endentry
+    \entry{simone-2025}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f11656833bbb653aa6cc7907644a1a73}{%
+           family={Simone},
+           familyi={S\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3ea555103bcab260f706d9c2e1a78df}{%
+           family={Camporeale},
+           familyi={C\bibinitperiod},
+           given={Mauro\bibnamedelima Giuseppe},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cda1260be5f1c693e6ec5fbb362949f}{%
+           family={Rubino},
+           familyi={R\bibinitperiod},
+           given={Vito\bibnamedelima Marco},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be8a8b12148aab1f8010f9a49e004b85}{%
+           family={Gervasi},
+           familyi={G\bibinitperiod},
+           given={Vincenzo},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecd8bc8cc8c95a58dc8b9a4f7bc9510b}{%
+           family={Dimauro},
+           familyi={D\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{434819d62cb9fdad35bcc118b4cd9c2c}
+      \strng{fullhash}{86cc29f4f858173e762cbc50522d47a7}
+      \strng{bibnamehash}{86cc29f4f858173e762cbc50522d47a7}
+      \strng{authorbibnamehash}{86cc29f4f858173e762cbc50522d47a7}
+      \strng{authornamehash}{434819d62cb9fdad35bcc118b4cd9c2c}
+      \strng{authorfullhash}{86cc29f4f858173e762cbc50522d47a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{4}
+      \field{title}{{Interpretable Early Detection of Parkinson's Disease through Speech Analysis}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arxiv.2504.17739
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2504.17739
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2504.17739
+      \endverb
+    \endentry
+    \entry{cao-2025}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=63507b72b02c4a11170f47e2519ac0f9}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Jiangbo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cef02825b375483d8ad6e0fd94aff559}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Xiaojing},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \strng{fullhash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \strng{bibnamehash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \strng{authorbibnamehash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \strng{authornamehash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \strng{authorfullhash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{month}{4}
+      \field{number}{8}
+      \field{title}{{RACF: a multimodal deep learning framework for Parkinson's disease diagnosis using SNP and MRI data}}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{4513}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app15084513
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/app15084513
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/app15084513
+      \endverb
+    \endentry
+    \entry{datta-2026}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8cc1a4174f6da2c497e91d37b2541ced}{%
+           family={Datta},
+           familyi={D\bibinitperiod},
+           given={Dristi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c38f259179eadd2be39346a54e962e3}{%
+           family={Debnath},
+           familyi={D\bibinitperiod},
+           given={Tanmoy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04694a9e9a8ec0f14453fad5f0e1b4ef}{%
+           family={Chau},
+           familyi={C\bibinitperiod},
+           given={Minh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b8f346a56c3c2c3b40bb9d5371e275d}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Manoranjan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c8ef1f306c089f2a364b7f17d4ab38c}{%
+           family={Adhikary},
+           familyi={A\bibinitperiod},
+           given={Gourab},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d21ee59f42014dc92fc32e62bed53168}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Md\bibnamedelima Geaur},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{22946b3868551ffca73c1fe86df6289c}
+      \strng{fullhash}{299c9c41e717787c048103a08af43e15}
+      \strng{bibnamehash}{299c9c41e717787c048103a08af43e15}
+      \strng{authorbibnamehash}{299c9c41e717787c048103a08af43e15}
+      \strng{authornamehash}{22946b3868551ffca73c1fe86df6289c}
+      \strng{authorfullhash}{299c9c41e717787c048103a08af43e15}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{1}
+      \field{title}{{A Sparse-Attention deep learning model integrating heterogeneous multimodal features for Parkinson's disease severity profiling}}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.48550/arxiv.2601.00519
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.48550/arxiv.2601.00519
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.48550/arxiv.2601.00519
+      \endverb
+    \endentry
+    \entry{chaithanya-2025}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e203d8c0fd04c20c785643149350681b}{%
+           family={Chaithanya},
+           familyi={C\bibinitperiod},
+           given={Aravalli\bibnamedelima Sainath},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13fe3dde02bdf01c7970dcb2a452a19e}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Nadipudi\bibnamedelima Kiran},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d40130ae84e28497d1ab366308b5909}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={Gugulothu\bibnamedelima Venkatesh},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0726a8f8f22bfb7b2b3c00c3cf2538d2}{%
+           family={Keerthana},
+           familyi={K\bibinitperiod},
+           given={Bejawada},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c1dd8708283055e8f8bfab901a3cf30}
+      \strng{fullhash}{18e6dece367bc1514bba64df8368803a}
+      \strng{bibnamehash}{18e6dece367bc1514bba64df8368803a}
+      \strng{authorbibnamehash}{18e6dece367bc1514bba64df8368803a}
+      \strng{authornamehash}{5c1dd8708283055e8f8bfab901a3cf30}
+      \strng{authorfullhash}{18e6dece367bc1514bba64df8368803a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Healthcare Informatics Research}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{{Advancements in Parkinson's Disease Prediction Using Machine Learning: A Neurological perspective}}
+      \field{volume}{31}
+      \field{year}{2025}
+      \field{pages}{274\bibrangedash 283}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.4258/hir.2025.31.3.274
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4258/hir.2025.31.3.274
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4258/hir.2025.31.3.274
+      \endverb
+    \endentry
+    \entry{kumar-2025}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=eb6a64cf20a5b21db872c9ca0d491ed9}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a1cc4851339c3a4206795334875b03d}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Jay\bibnamedelima Parkash},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=117130b69f41a546ba839aeb5f5db7b5}{%
+           family={Paygude},
+           familyi={P\bibinitperiod},
+           given={Priyanka},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01120da629dffdbfea8fc0f299a8d000}{%
+           family={Daimary},
+           familyi={D\bibinitperiod},
+           given={Rachan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=335a434a7c9a84ef78c285a4c266e2d2}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={Sandeep},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{26bfad445f6d35314108349318157311}
+      \strng{fullhash}{6a01170d7bee6686c8088fff97884b5a}
+      \strng{bibnamehash}{6a01170d7bee6686c8088fff97884b5a}
+      \strng{authorbibnamehash}{6a01170d7bee6686c8088fff97884b5a}
+      \strng{authornamehash}{26bfad445f6d35314108349318157311}
+      \strng{authorfullhash}{6a01170d7bee6686c8088fff97884b5a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Digital Health}
+      \field{month}{5}
+      \field{title}{{Advanced comparative analysis of machine learning algorithms for early Parkinson's disease detection using vocal biomarkers}}
+      \field{volume}{11}
+      \field{year}{2025}
+      \field{pages}{20552076251342878}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/20552076251342878
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/20552076251342878
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/20552076251342878
+      \endverb
+    \endentry
+    \entry{wang-2025}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=edcb27361de88ed2a8ec1c9dca30dd7a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac06021085e6827ad58086c6d4004c27}{%
+           family={Ru},
+           familyi={R\bibinitperiod},
+           given={Yuhua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa72a3a2cdfcc762837fe6fdd287ca40}{%
+           family={Chetouani},
+           familyi={C\bibinitperiod},
+           given={Aladine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5de529f763fe493fc1be5a3fa71d53d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4a9d82152d114f4d09234ff36951fde}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc948bcf523b83a8724c7ec20d7957d0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=252754a73d8873722e1aec6202c6598c}{%
+           family={Hans},
+           familyi={H\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c464eff31e0fb1e1d73ff4d5640f367}{%
+           family={Jennane},
+           familyi={J\bibinitperiod},
+           given={Rachid},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a08a171658c0f36c0fe7311e43ddd48}{%
+           family={Jarraya},
+           familyi={J\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a6be41079a0543c203a000bc8affb41}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yung\bibnamedelima Hsin},
+           giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c5ddbd536081e8661b153cdc721738d}
+      \strng{fullhash}{c9646c9c4c0aecdfaae40638117f30be}
+      \strng{bibnamehash}{c9646c9c4c0aecdfaae40638117f30be}
+      \strng{authorbibnamehash}{c9646c9c4c0aecdfaae40638117f30be}
+      \strng{authornamehash}{8c5ddbd536081e8661b153cdc721738d}
+      \strng{authorfullhash}{c9646c9c4c0aecdfaae40638117f30be}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{4}
+      \field{title}{{MOEDIFF-SR: Mixture of Experts-Guided Diffusion Model for Region-Adaptive MRI Super-Resolution}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arxiv.2504.07308
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.48550/arxiv.2504.07308
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.48550/arxiv.2504.07308
+      \endverb
+    \endentry
+    \entry{hadia-2025}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=57809d8bcbd8f492ae190d0e2ad63749}{%
+           family={Hadia},
+           familyi={H\bibinitperiod},
+           given={Aliyya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dca7e691f60c07c82beca170cbcb508c}{%
+           family={Afifa},
+           familyi={A\bibinitperiod},
+           given={Tariq},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74cb08d4e10c1572c748bf40bc052ab9}{%
+           family={Gamal},
+           familyi={G\bibinitperiod},
+           given={Fawzi},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{621f2e0e01a0b615d7875474b4de41d9}
+      \strng{fullhash}{35678807cbac173f6549db43e87d6bd6}
+      \strng{bibnamehash}{35678807cbac173f6549db43e87d6bd6}
+      \strng{authorbibnamehash}{35678807cbac173f6549db43e87d6bd6}
+      \strng{authornamehash}{621f2e0e01a0b615d7875474b4de41d9}
+      \strng{authorfullhash}{35678807cbac173f6549db43e87d6bd6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprints.org}
+      \field{month}{4}
+      \field{title}{{MOE at Scale: From modular design to deployment in Large-Scale Machine Learning systems}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.20944/preprints202504.1313.v1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.20944/preprints202504.1313.v1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.20944/preprints202504.1313.v1
+      \endverb
+    \endentry
+    \entry{al-shedivat-2020}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=194214effb6203580636518d503b0a4d}{%
+           family={Al-Shedivat},
+           familyi={A\bibinithyphendelim S\bibinitperiod},
+           given={Maruan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=903b8d53a85552eae354601eebde48b9}{%
+           family={Dubey},
+           familyi={D\bibinitperiod},
+           given={Avinava},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f7feba05afbc06e3af82e433944989b}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{02cf793cc309d7c52b441c2fe2530882}
+      \strng{fullhash}{d2656189cb7ee6c0a695f7bfefb8fe04}
+      \strng{bibnamehash}{d2656189cb7ee6c0a695f7bfefb8fe04}
+      \strng{authorbibnamehash}{d2656189cb7ee6c0a695f7bfefb8fe04}
+      \strng{authornamehash}{02cf793cc309d7c52b441c2fe2530882}
+      \strng{authorfullhash}{d2656189cb7ee6c0a695f7bfefb8fe04}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{{Contextual Explanation Networks}}
+      \field{type}{techreport}
+      \field{volume}{21}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.jmlr.org/papers/volume21/18-856/18-856.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.jmlr.org/papers/volume21/18-856/18-856.pdf
+      \endverb
+    \endentry
+    \entry{parkinsons_telemonitoring_189}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=48608b54aa6a0cbddb28bc61484924e9}{%
+           family={Tsanas},
+           familyi={T\bibinitperiod},
+           given={Athanasios},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=880393f87bc98a60732478495483854f}{%
+           family={Little},
+           familyi={L\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \strng{fullhash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \strng{bibnamehash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \strng{authorbibnamehash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \strng{authornamehash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \strng{authorfullhash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{UCI Machine Learning Repository}
+      \field{note}{{DOI}: https://doi.org/10.24432/C5ZS3N}
+      \field{title}{{Parkinsons Telemonitoring}}
+      \field{year}{2009}
+    \endentry
+    \entry{tong-2025}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a281cae3c16af7c344d55b0d70c92fa2}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6f8fe2729e6bb945689e0f825d6fe20}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lanruo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd43e70e50bdee025388fc70cac570d6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Tong},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b459e44437fc24e4949f65c11b70da06}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{deadf5b89af518643aa73b41a3a1f7c7}
+      \strng{fullhash}{08d07155780dca13531c228f16284d13}
+      \strng{bibnamehash}{08d07155780dca13531c228f16284d13}
+      \strng{authorbibnamehash}{08d07155780dca13531c228f16284d13}
+      \strng{authornamehash}{deadf5b89af518643aa73b41a3a1f7c7}
+      \strng{authorfullhash}{08d07155780dca13531c228f16284d13}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{7}
+      \field{title}{{Predicting Parkinson's disease progression using statistical and neural mixed effects models: Comparative study on longitudinal biomarkers}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arxiv.2507.20058
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.48550/arxiv.2507.20058
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.48550/arxiv.2507.20058
+      \endverb
+    \endentry
+    \entry{konyar-2025}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3fbdf2840b16e564c3cfa26a009cb192}{%
+           family={Konyar},
+           familyi={K\bibinitperiod},
+           given={Elif},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfc225bd29d38bd8189fad6cea2e8433}{%
+           family={Gahrooei},
+           familyi={G\bibinitperiod},
+           given={Mostafa\bibnamedelima Reisi},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a519b5c666710d3ae8e4ac51133af58e}{%
+           family={Paynabar},
+           familyi={P\bibinitperiod},
+           given={Kamran},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90ad388447efd1d1d38b24993670f34d}
+      \strng{fullhash}{e46bbe1fcde002872b127e80ba8809d8}
+      \strng{bibnamehash}{e46bbe1fcde002872b127e80ba8809d8}
+      \strng{authorbibnamehash}{e46bbe1fcde002872b127e80ba8809d8}
+      \strng{authornamehash}{90ad388447efd1d1d38b24993670f34d}
+      \strng{authorfullhash}{e46bbe1fcde002872b127e80ba8809d8}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{8}
+      \field{title}{{Tensorized Multi-Task Learning for Personalized Modeling of Heterogeneous Individuals with High-Dimensional Data}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arxiv.2508.15676
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2508.15676
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2508.15676
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{none/global//global/global}
+    \entry{maetzler-2009}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=88b2e28764f1cd4579b49a483f2dbe54}{%
+           family={Maetzler},
+           familyi={M\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5525a404ee5ba9c595ab553e777a05b6}{%
+           family={Liepelt},
+           familyi={L\bibinitperiod},
+           given={Inga},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=519be70c6b2931cd4b29fe403e8638e8}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f4c55f908a003acf8ff2675ce548749d}
+      \strng{fullhash}{07673665a1f3d9a0def4213147269b6c}
+      \strng{bibnamehash}{07673665a1f3d9a0def4213147269b6c}
+      \strng{authorbibnamehash}{07673665a1f3d9a0def4213147269b6c}
+      \strng{authornamehash}{f4c55f908a003acf8ff2675ce548749d}
+      \strng{authorfullhash}{07673665a1f3d9a0def4213147269b6c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Lancet Neurology}
+      \field{month}{11}
+      \field{number}{12}
+      \field{title}{{Progression of Parkinson's disease in the clinical phase: potential markers}}
+      \field{volume}{8}
+      \field{year}{2009}
+      \field{pages}{1158\bibrangedash 1171}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/s1474-4422(09)70291-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/s1474-4422(09)70291-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/s1474-4422(09)70291-1
+      \endverb
+    \endentry
+    \entry{tsanas-2009}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2b9a93cecab091a6ee56c4003984f1f1}{%
+           family={Tsanas},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb24ebcd82bb2b2247d1edfede1204fb}{%
+           family={Little},
+           familyi={L\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38e4ef3c7e9d3a1f281e77963687673d}{%
+           family={McSharry},
+           familyi={M\bibinitperiod},
+           given={P.E.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd3e21cfb08b9999ed683bb6ce252cbb}{%
+           family={Ramig},
+           familyi={R\bibinitperiod},
+           given={L.O.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{333ab34b2de08e696eeeae2837a42861}
+      \strng{fullhash}{6293c57a9f3e67f577ee820909d47d20}
+      \strng{bibnamehash}{6293c57a9f3e67f577ee820909d47d20}
+      \strng{authorbibnamehash}{6293c57a9f3e67f577ee820909d47d20}
+      \strng{authornamehash}{333ab34b2de08e696eeeae2837a42861}
+      \strng{authorfullhash}{6293c57a9f3e67f577ee820909d47d20}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{{Accurate telemonitoring of Parkinson's disease progression by noninvasive speech tests}}
+      \field{volume}{57}
+      \field{year}{2009}
+      \field{pages}{884\bibrangedash 893}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/tbme.2009.2036000
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/tbme.2009.2036000
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/tbme.2009.2036000
+      \endverb
+    \endentry
+    \entry{tracy-2019}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2b0cfc67e0c7e7a13e9dbfd92afba516}{%
+           family={Tracy},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc2ad0ada1826a64ade9472d2e8aa348}{%
+           family={Özkanca},
+           familyi={Ö\bibinitperiod},
+           given={Yasin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8431e3293fe1b17dbed8508ec4bc039e}{%
+           family={Atkins},
+           familyi={A\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6907987b752e2a4cb9da7f7213301be}{%
+           family={Ghomi},
+           familyi={G\bibinitperiod},
+           given={Reza\bibnamedelima Hosseini},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8aa98ef26d79df8f34f82f71803c41f}
+      \strng{fullhash}{e78298de970adbc43e26f4d6975e7a77}
+      \strng{bibnamehash}{e78298de970adbc43e26f4d6975e7a77}
+      \strng{authorbibnamehash}{e78298de970adbc43e26f4d6975e7a77}
+      \strng{authornamehash}{f8aa98ef26d79df8f34f82f71803c41f}
+      \strng{authorfullhash}{e78298de970adbc43e26f4d6975e7a77}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biomedical Informatics}
+      \field{month}{12}
+      \field{title}{{Investigating voice as a biomarker: Deep phenotyping methods for early detection of Parkinson's disease}}
+      \field{volume}{104}
+      \field{year}{2019}
+      \field{pages}{103362}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jbi.2019.103362
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jbi.2019.103362
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jbi.2019.103362
+      \endverb
+    \endentry
+    \entry{little-2007}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=9ca96e13676d21525a3ba7e3817b47df}{%
+           family={Little},
+           familyi={L\bibinitperiod},
+           given={Max\bibnamedelima A},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=1a540e2b3ae52f63240d835a6f25db2c}{%
+           family={McSharry},
+           familyi={M\bibinitperiod},
+           given={Patrick\bibnamedelima E},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4235e6d0ea2516b47932531f5f280c2}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Stephen\bibnamedelima J},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88f08cd79ed926e9e48271130f6c2655}{%
+           family={Costello},
+           familyi={C\bibinitperiod},
+           given={Declan\bibnamedelima Ae},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=977534c39e55cc37d1ee87fa904d83a2}{%
+           family={Moroz},
+           familyi={M\bibinitperiod},
+           given={Irene\bibnamedelima M},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{034ee15c7c35107917a28a953e4073a1}
+      \strng{fullhash}{dd3ddc1bfa50ebefbe98968115f60594}
+      \strng{bibnamehash}{dd3ddc1bfa50ebefbe98968115f60594}
+      \strng{authorbibnamehash}{dd3ddc1bfa50ebefbe98968115f60594}
+      \strng{authornamehash}{034ee15c7c35107917a28a953e4073a1}
+      \strng{authorfullhash}{dd3ddc1bfa50ebefbe98968115f60594}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BioMedical Engineering OnLine}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{{Exploiting nonlinear recurrence and fractal scaling properties for voice disorder detection}}
+      \field{volume}{6}
+      \field{year}{2007}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/1475-925x-6-23
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/1475-925x-6-23
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/1475-925x-6-23
+      \endverb
+    \endentry
+    \entry{little-2008}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=fb24ebcd82bb2b2247d1edfede1204fb}{%
+           family={Little},
+           familyi={L\bibinitperiod},
+           given={M.A.},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=38e4ef3c7e9d3a1f281e77963687673d}{%
+           family={McSharry},
+           familyi={M\bibinitperiod},
+           given={P.E.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1fb1e1dbcf42d126a0d8c210f16a20c6}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={E.J.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6162308e32513911cafd900f8cf96572}{%
+           family={Spielman},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd3e21cfb08b9999ed683bb6ce252cbb}{%
+           family={Ramig},
+           familyi={R\bibinitperiod},
+           given={L.O.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{72f59eec7ac2ebebde20ab306a8a75d5}
+      \strng{fullhash}{433fd2bcad2ce372fb008e40dbf34894}
+      \strng{bibnamehash}{433fd2bcad2ce372fb008e40dbf34894}
+      \strng{authorbibnamehash}{433fd2bcad2ce372fb008e40dbf34894}
+      \strng{authornamehash}{72f59eec7ac2ebebde20ab306a8a75d5}
+      \strng{authorfullhash}{433fd2bcad2ce372fb008e40dbf34894}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Biomedical Engineering}
+      \field{month}{9}
+      \field{number}{4}
+      \field{title}{{Suitability of dysphonia measurements for telemonitoring of Parkinson's disease}}
+      \field{volume}{56}
+      \field{year}{2008}
+      \field{pages}{1015\bibrangedash 1022}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/tbme.2008.2005954
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/tbme.2008.2005954
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/tbme.2008.2005954
+      \endverb
+    \endentry
+    \entry{shastry-2023}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=07b45714f5a57086f76d66d5909bbe61}{%
+           family={Shastry},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi Aditya},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{07b45714f5a57086f76d66d5909bbe61}
+      \strng{fullhash}{07b45714f5a57086f76d66d5909bbe61}
+      \strng{bibnamehash}{07b45714f5a57086f76d66d5909bbe61}
+      \strng{authorbibnamehash}{07b45714f5a57086f76d66d5909bbe61}
+      \strng{authornamehash}{07b45714f5a57086f76d66d5909bbe61}
+      \strng{authorfullhash}{07b45714f5a57086f76d66d5909bbe61}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Speech Technology}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{{Ensemble machine learning regression model based predictive framework for Parkinson's UPDRS motor score prediction from speech data}}
+      \field{volume}{26}
+      \field{year}{2023}
+      \field{pages}{433\bibrangedash 457}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1007/s10772-023-10026-z
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10772-023-10026-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10772-023-10026-z
+      \endverb
+    \endentry
+    \entry{nilashi-2022}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=08268e0e916e9accc65f42d6a570ae8b}{%
+           family={Nilashi},
+           familyi={N\bibinitperiod},
+           given={Mehrbakhsh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d86c3a42ccd8ac853b47a2b43b47f294}{%
+           family={Abumalloh},
+           familyi={A\bibinitperiod},
+           given={Rabab\bibnamedelima Ali},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2aaf88d956b5957625b1b0a44ee1ffa2}{%
+           family={Minaei-Bidgoli},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={Behrouz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=358ce569b3dec0e13236555d30f88671}{%
+           family={Samad},
+           familyi={S\bibinitperiod},
+           given={Sarminah},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7423c792b49d1cffd8145f3ef0dd243a}{%
+           family={Ismail},
+           familyi={I\bibinitperiod},
+           given={Muhammed\bibnamedelima Yousoof},
+           giveni={M\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff610a6d35e790bddaa56e1bf03ebf98}{%
+           family={Alhargan},
+           familyi={A\bibinitperiod},
+           given={Ashwaq},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5dafcde30307777e72c9cdac6045af6b}{%
+           family={Zogaan},
+           familyi={Z\bibinitperiod},
+           given={Waleed\bibnamedelima Abdu},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76a6f9bf428dba0a5b0a6b7bc993e69d}
+      \strng{fullhash}{58848a021a080334507f41a8756dc0c6}
+      \strng{bibnamehash}{58848a021a080334507f41a8756dc0c6}
+      \strng{authorbibnamehash}{58848a021a080334507f41a8756dc0c6}
+      \strng{authornamehash}{76a6f9bf428dba0a5b0a6b7bc993e69d}
+      \strng{authorfullhash}{58848a021a080334507f41a8756dc0c6}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Healthcare Engineering}
+      \field{month}{2}
+      \field{title}{{Predicting Parkinson's disease progression: Evaluation of ensemble methods in machine learning}}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1155/2022/2793361
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1155/2022/2793361
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1155/2022/2793361
+      \endverb
+    \endentry
+    \entry{neto-2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4220b1acf806e27fc3bce05acfda1f62}{%
+           family={Neto},
+           familyi={N\bibinitperiod},
+           given={Osmar\bibnamedelima Pinto},
+           giveni={O\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4220b1acf806e27fc3bce05acfda1f62}
+      \strng{fullhash}{4220b1acf806e27fc3bce05acfda1f62}
+      \strng{bibnamehash}{4220b1acf806e27fc3bce05acfda1f62}
+      \strng{authorbibnamehash}{4220b1acf806e27fc3bce05acfda1f62}
+      \strng{authornamehash}{4220b1acf806e27fc3bce05acfda1f62}
+      \strng{authorfullhash}{4220b1acf806e27fc3bce05acfda1f62}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Voice}
+      \field{month}{5}
+      \field{title}{{Harnessing voice analysis and machine learning for early diagnosis of Parkinson's disease: a comparative study across three datasets}}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1016/j.jvoice.2024.04.020
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.jvoice.2024.04.020
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.jvoice.2024.04.020
+      \endverb
+    \endentry
+    \entry{sheikhi-2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=054be4e1e947fdedfa682782fbed012f}{%
+           family={Sheikhi},
+           familyi={S\bibinitperiod},
+           given={Saeid},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab0512ea431f8c595a179110f030e228}{%
+           family={Kheirabadi},
+           familyi={K\bibinitperiod},
+           given={Mohammad\bibnamedelima Taghi},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \strng{fullhash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \strng{bibnamehash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \strng{authorbibnamehash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \strng{authornamehash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \strng{authorfullhash}{ac12f07c0a4e4bae1289a1fe93e53224}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Healthcare Engineering}
+      \field{month}{6}
+      \field{title}{{An efficient rotation Forest-Based ensemble approach for predicting severity of Parkinson's disease}}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1155/2022/5524852
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1155/2022/5524852
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1155/2022/5524852
+      \endverb
+    \endentry
+    \entry{motamedi-2025}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3db3f6ba8b31a8b6d70a04a997f96649}{%
+           family={Motamedi},
+           familyi={M\bibinitperiod},
+           given={Behnaz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff8a58e30b4a6d9c84a9079c96044083}{%
+           family={Villányi},
+           familyi={V\bibinitperiod},
+           given={Balázs},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bce3c33d17c7d655df74ee13028f9778}
+      \strng{fullhash}{bce3c33d17c7d655df74ee13028f9778}
+      \strng{bibnamehash}{bce3c33d17c7d655df74ee13028f9778}
+      \strng{authorbibnamehash}{bce3c33d17c7d655df74ee13028f9778}
+      \strng{authornamehash}{bce3c33d17c7d655df74ee13028f9778}
+      \strng{authorfullhash}{bce3c33d17c7d655df74ee13028f9778}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Intelligence-Based Medicine}
+      \field{month}{1}
+      \field{title}{{A novel hybrid machine learning approach for early prediction of Parkinson's disease severity using optimized feature selection and ensemble learning}}
+      \field{volume}{12}
+      \field{year}{2025}
+      \field{pages}{100276}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ibmed.2025.100276
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.ibmed.2025.100276
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.ibmed.2025.100276
+      \endverb
+    \endentry
+    \entry{khedimi-2025}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fa80e7bea4eac379dac484649014e7b3}{%
+           family={Khedimi},
+           familyi={K\bibinitperiod},
+           given={Madjda},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=228dd687961f3612985beeddec81f72a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6f32adec0a89f29b7f25b96dd9fb109}{%
+           family={Dehmani},
+           familyi={D\bibinitperiod},
+           given={Chaima},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61a5f11b3a300a191d13bd823c06cf4c}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acde6b02d36c3b7f8a135bf4d8cdd323}{%
+           family={Geng},
+           familyi={G\bibinitperiod},
+           given={Yanzhang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eea5c0df82cd2a9d2c6dd61d73ae8238}
+      \strng{fullhash}{7f796d0814eb7ef0a41ce0eff9b444ef}
+      \strng{bibnamehash}{7f796d0814eb7ef0a41ce0eff9b444ef}
+      \strng{authorbibnamehash}{7f796d0814eb7ef0a41ce0eff9b444ef}
+      \strng{authornamehash}{eea5c0df82cd2a9d2c6dd61d73ae8238}
+      \strng{authorfullhash}{7f796d0814eb7ef0a41ce0eff9b444ef}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bioengineering}
+      \field{month}{6}
+      \field{number}{7}
+      \field{title}{{A unified deep learning ensemble framework for Voice-Based Parkinson's disease detection and motor severity prediction}}
+      \field{volume}{12}
+      \field{year}{2025}
+      \field{pages}{699}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/bioengineering12070699
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/bioengineering12070699
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/bioengineering12070699
+      \endverb
+    \endentry
+    \entry{dasgupta-2025}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=08470cb7bebba096afbc07b091ff640f}{%
+           family={Dasgupta},
+           familyi={D\bibinitperiod},
+           given={Srinjay},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a890a06399663a6a05c5d26941e49b2}{%
+           family={Dey},
+           familyi={D\bibinitperiod},
+           given={Debopriya},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26b9d0b24781f25c4a24301f7a30aa0b}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Debrupa},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c49dd7878a6853e6bf381c709a0b49e}{%
+           family={Karmakar},
+           familyi={K\bibinitperiod},
+           given={Samadrita},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=250251e2949318993360ab0fc4fe82a6}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Prabuddha},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33297e460ca04eef9efb363d81c2f6a1}{%
+           family={Baul},
+           familyi={B\bibinitperiod},
+           given={Anik},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5814fc8ac48609b4ecb7748c25d2bde0}{%
+           family={Guraia},
+           familyi={G\bibinitperiod},
+           given={Mrinmoy},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc3e873930ff418f6c769b3d2f7c808e}
+      \strng{fullhash}{3baccabbc6119c56e18b8b4da7969f7c}
+      \strng{bibnamehash}{3baccabbc6119c56e18b8b4da7969f7c}
+      \strng{authorbibnamehash}{3baccabbc6119c56e18b8b4da7969f7c}
+      \strng{authornamehash}{fc3e873930ff418f6c769b3d2f7c808e}
+      \strng{authorfullhash}{3baccabbc6119c56e18b8b4da7969f7c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2025 IEEE Pune Section International Conference (PuneCon)}
+      \field{title}{UPDRS Score Estimation from Telemonitoring Voice Data Using Hybrid Ensemble Methods}
+      \field{year}{2025}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/PuneCon67554.2025.11379148
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/11379148
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/11379148
+      \endverb
+      \keyw{Parkinson's disease;Telemedicine;Stacking;Neural networks;Restful API;Predictive models;Biomarkers;Motors;Reliability;Random forests;Parkinson's disease;Unified Parkinson's Disease Rating Scale (UPDRS);Voice biomarkers;Stacking ensemble learning;Random forest regression;Neural network}
+    \endentry
+    \entry{khalili-2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5b2bad2391c653f9f66f684f63ae1ac1}{%
+           family={Khalili},
+           familyi={K\bibinitperiod},
+           given={Abbas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=628fe8191c9b4398679da0461d58df0b}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Shili},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{18d44cf9fee05d863c8c2313426d1694}
+      \strng{fullhash}{18d44cf9fee05d863c8c2313426d1694}
+      \strng{bibnamehash}{18d44cf9fee05d863c8c2313426d1694}
+      \strng{authorbibnamehash}{18d44cf9fee05d863c8c2313426d1694}
+      \strng{authornamehash}{18d44cf9fee05d863c8c2313426d1694}
+      \strng{authorfullhash}{18d44cf9fee05d863c8c2313426d1694}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biometrics}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{{Regularization in finite mixture of regression models with diverging number of parameters}}
+      \field{volume}{69}
+      \field{year}{2013}
+      \field{pages}{436\bibrangedash 446}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/biom.12020
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/biom.12020
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/biom.12020
+      \endverb
+    \endentry
+    \entry{raza-2025}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=db152fb0a8c4994dd81b1760b80407b6}{%
+           family={Raza},
+           familyi={R\bibinitperiod},
+           given={Wajih\bibnamedelima Hassan},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a8e19f07f0e15658938956178ef19b6}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Aamir\bibnamedelima Bader},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec371b90b8ae22570142a8679fab55eb}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1229017167c6ef72e845a35d616d0317}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Yidan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7390092d56d76d28d386ce0b9fd68387}{%
+           family={Lemus},
+           familyi={L\bibinitperiod},
+           given={Juan\bibnamedelimb Diego\bibnamedelima Martinez},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=614d3456683d64e221dca9acf06bc8f3}{%
+           family={Schiess},
+           familyi={S\bibinitperiod},
+           given={Mya\bibnamedelima Caryn},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6445f69fe374a6ebe1dcbf4f7ac35d66}{%
+           family={Ellmore},
+           familyi={E\bibinitperiod},
+           given={Timothy\bibnamedelima Michael},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bb10ff4ca607f394dae4fc3003e8708}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Renjie},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95789caff6f27b41fe7cccffd1062d44}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{57b57e5223b21b0833931c22ee6b49c3}
+      \strng{fullhash}{b28d156df373454e8c3c2c2703d71cd3}
+      \strng{bibnamehash}{b28d156df373454e8c3c2c2703d71cd3}
+      \strng{authorbibnamehash}{b28d156df373454e8c3c2c2703d71cd3}
+      \strng{authornamehash}{57b57e5223b21b0833931c22ee6b49c3}
+      \strng{authorfullhash}{b28d156df373454e8c3c2c2703d71cd3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{6}
+      \field{title}{{NEUROMOE: A Transformer-Based Mixture-of-Experts Framework for Multi-Modal Neurological Disorder Classification}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arxiv.2506.14970
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2506.14970
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2506.14970
+      \endverb
+    \endentry
+    \entry{tsiouris-2017}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=5b5cea026a7868e9f42cc89e81893d0d}{%
+           family={Tsiouris},
+           familyi={T\bibinitperiod},
+           given={Kostas\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1ad97d44ab39c5c550045db8509e06e}{%
+           family={Rigas},
+           familyi={R\bibinitperiod},
+           given={Georgios},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1db73d8a4d2347799fdb8db61865ad8d}{%
+           family={Gatsios},
+           familyi={G\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26ebdc514a33eccfdb4afbb4b5fa6a2f}{%
+           family={Antonini},
+           familyi={A\bibinitperiod},
+           given={Angelo},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0c90d8761a8e8b35fdf1ba74f3df271}{%
+           family={Konitsiotis},
+           familyi={K\bibinitperiod},
+           given={Spiros},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1561bcd911ae4dbabfa6cdd24e771737}{%
+           family={Koutsouris},
+           familyi={K\bibinitperiod},
+           given={Dimitrios\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c71e2e9256f9b3f845f5eefc9e8815af}{%
+           family={Fotiadis},
+           familyi={F\bibinitperiod},
+           given={Dimitrios\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e011eab718c8047fa311441134347f3d}
+      \strng{fullhash}{ecc8327202f45894bfb2cc834f05cbec}
+      \strng{bibnamehash}{ecc8327202f45894bfb2cc834f05cbec}
+      \strng{authorbibnamehash}{ecc8327202f45894bfb2cc834f05cbec}
+      \strng{authornamehash}{e011eab718c8047fa311441134347f3d}
+      \strng{authorfullhash}{ecc8327202f45894bfb2cc834f05cbec}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2017 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)}
+      \field{month}{7}
+      \field{title}{{Predicting rapid progression of Parkinson's Disease at baseline patients evaluation}}
+      \field{volume}{71}
+      \field{year}{2017}
+      \field{pages}{3898\bibrangedash 3901}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/embc.2017.8037708
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/embc.2017.8037708
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/embc.2017.8037708
+      \endverb
+    \endentry
+    \entry{swain-2024}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=826f97f2edea08fe51c824da0910250b}{%
+           family={Swain},
+           familyi={S\bibinitperiod},
+           given={K.P.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e850adebdc91d01e0f4f5f8b9270308e}{%
+           family={Samal},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=937565a2691acb753d5e1699c09c59ab}{%
+           family={Ravi},
+           familyi={R\bibinitperiod},
+           given={Vinayakumar},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4008266b4234fbd141e00038ea8d82de}{%
+           family={Nayak},
+           familyi={N\bibinitperiod},
+           given={Soumya\bibnamedelima Ranjan},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e4ad19cd4721310e32d7d61cd44eed4}{%
+           family={Alahmadi},
+           familyi={A\bibinitperiod},
+           given={Tahani\bibnamedelima Jaser},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b12d0dbab5d09a79866c63f7db43387}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Prabhishek},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a27fac5ece6ebd5b41875f3b0de99bdf}{%
+           family={Diwakar},
+           familyi={D\bibinitperiod},
+           given={Manoj},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{363da526aa94606358a0e5cf34be84f4}
+      \strng{fullhash}{19567c2984deea59bb061c5fe21a3444}
+      \strng{bibnamehash}{19567c2984deea59bb061c5fe21a3444}
+      \strng{authorbibnamehash}{19567c2984deea59bb061c5fe21a3444}
+      \strng{authornamehash}{363da526aa94606358a0e5cf34be84f4}
+      \strng{authorfullhash}{19567c2984deea59bb061c5fe21a3444}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Open Biomedical Engineering Journal}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{{Towards Early Intervention: Detecting Parkinson's Disease through Voice Analysis with Machine Learning}}
+      \field{volume}{18}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.2174/0118741207294056240322075602
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.2174/0118741207294056240322075602
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.2174/0118741207294056240322075602
+      \endverb
+    \endentry
+    \entry{sechidis-2021}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=ad5a19fa24860e83c0622bf6b9193b36}{%
+           family={Sechidis},
+           familyi={S\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d9d6b54f8e18fa70c77e89c336b53b3}{%
+           family={Fusaroli},
+           familyi={F\bibinitperiod},
+           given={Riccardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3f191f78a13100e38dac0d7965293458}{%
+           family={Orozco-Arroyave},
+           familyi={O\bibinithyphendelim A\bibinitperiod},
+           given={Juan\bibnamedelima Rafael},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=220908d0ea6b4fe8f0c12ffaa2ea1b3a}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Detlef},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a683165b513eac4d01d8b4489db2f86d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yan-Ping},
+           giveni={Y\bibinithyphendelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{891438ab01c40552c4300c632afaa84c}
+      \strng{fullhash}{d6324d44b69155a43d087ca82c7b5f4a}
+      \strng{bibnamehash}{d6324d44b69155a43d087ca82c7b5f4a}
+      \strng{authorbibnamehash}{d6324d44b69155a43d087ca82c7b5f4a}
+      \strng{authornamehash}{891438ab01c40552c4300c632afaa84c}
+      \strng{authorfullhash}{d6324d44b69155a43d087ca82c7b5f4a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Artificial Intelligence in Medicine}
+      \field{month}{4}
+      \field{title}{{A machine learning perspective on the emotional content of Parkinsonian speech}}
+      \field{volume}{115}
+      \field{year}{2021}
+      \field{pages}{102061}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.artmed.2021.102061
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.artmed.2021.102061
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.artmed.2021.102061
+      \endverb
+    \endentry
+    \entry{xu-2025}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=ef48cb6f77cd8e8bfb95c546dd8d26e2}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Huanqing},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3f94462dfa72557cc934d7e6b213092}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0be99b103cb10ae1c16198c9289e05bd}{%
+           family={Pang},
+           familyi={P\bibinitperiod},
+           given={Mingzhen},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c15dca1dd47bb240c99f7cf6481272a5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ya},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87a326fe218c5108ff63c309fd5a933e}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Luhua},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1629480aff5051db296b89c7c6fd1ed4}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Fangliang},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebfc844714a1a68a0822a5039de8dea8}{%
+           family={Shao},
+           familyi={S\bibinitperiod},
+           given={Xian},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e439d831e57be4513063fa893f966a7}
+      \strng{fullhash}{3dbf3e4a940fbb393cf1b9982ac0fb91}
+      \strng{bibnamehash}{3dbf3e4a940fbb393cf1b9982ac0fb91}
+      \strng{authorbibnamehash}{3dbf3e4a940fbb393cf1b9982ac0fb91}
+      \strng{authornamehash}{3e439d831e57be4513063fa893f966a7}
+      \strng{authorfullhash}{3dbf3e4a940fbb393cf1b9982ac0fb91}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Aging Neuroscience}
+      \field{month}{4}
+      \field{title}{{Non-invasive detection of Parkinson's disease based on speech analysis and interpretable machine learning}}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{pages}{1586273}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3389/fnagi.2025.1586273
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3389/fnagi.2025.1586273
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3389/fnagi.2025.1586273
+      \endverb
+    \endentry
+    \entry{jasim-2025}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=06f34766a7804987570b8f1989598c4e}{%
+           family={Jasim},
+           familyi={J\bibinitperiod},
+           given={Huda},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3c5666275bd23bf3bb2d588ea7808c76}{%
+           family={Alshakarchy},
+           familyi={A\bibinitperiod},
+           given={Noor\bibnamedelima D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{866647f066a4739aa44b6bb9a06204cd}
+      \strng{fullhash}{866647f066a4739aa44b6bb9a06204cd}
+      \strng{bibnamehash}{866647f066a4739aa44b6bb9a06204cd}
+      \strng{authorbibnamehash}{866647f066a4739aa44b6bb9a06204cd}
+      \strng{authornamehash}{866647f066a4739aa44b6bb9a06204cd}
+      \strng{authorfullhash}{866647f066a4739aa44b6bb9a06204cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Communications in computer and information science}
+      \field{month}{1}
+      \field{title}{{Parkinson's Disease Prediction and Progression Based on Voice Analysis: A Literature survey}}
+      \field{year}{2025}
+      \field{pages}{57\bibrangedash 71}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/978-3-031-81065-7_4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-031-81065-7_4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-031-81065-7_4
+      \endverb
+    \endentry
+    \entry{hossain-2025}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=34e464ee391b9296982096eea91abed8}{%
+           family={Hossain},
+           familyi={H\bibinitperiod},
+           given={Mohammad\bibnamedelima Amran},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d09070b49221ec8b001e6e25f73303e1}{%
+           family={Traini},
+           familyi={T\bibinitperiod},
+           given={Enea},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a0c254213d1e04931b5acdafeaee810}{%
+           family={Amenta},
+           familyi={A\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c1ba79f81c1fa96189b9ccb050791a16}
+      \strng{fullhash}{15065e577db35b613d7d58431f9ac7ad}
+      \strng{bibnamehash}{15065e577db35b613d7d58431f9ac7ad}
+      \strng{authorbibnamehash}{15065e577db35b613d7d58431f9ac7ad}
+      \strng{authornamehash}{c1ba79f81c1fa96189b9ccb050791a16}
+      \strng{authorfullhash}{15065e577db35b613d7d58431f9ac7ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Inventions}
+      \field{month}{6}
+      \field{number}{4}
+      \field{title}{{Machine Learning Applications for Diagnosing Parkinson's Disease via Speech, Language, and Voice Changes: A Systematic review}}
+      \field{volume}{10}
+      \field{year}{2025}
+      \field{pages}{48}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/inventions10040048
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/inventions10040048
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/inventions10040048
+      \endverb
+    \endentry
+    \entry{shokrpour-2025}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=0a5100f0127c6b49c81fbb726e518eed}{%
+           family={Shokrpour},
+           familyi={S\bibinitperiod},
+           given={Sahar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34c1f5156d5e7f0f15790bb45e30255d}{%
+           family={MoghadamFarid},
+           familyi={M\bibinitperiod},
+           given={AmirMehdi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ee7f3d0c955f7ef9e73affbc0ef83d9}{%
+           family={Abkenar},
+           familyi={A\bibinitperiod},
+           given={Sepideh\bibnamedelima Bazzaz},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4d18e84b7d09573b53416db6a0509fb}{%
+           family={Kashani},
+           familyi={K\bibinitperiod},
+           given={Mostafa\bibnamedelima Haghi},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d912761b8168d2b51fdc1db3289c4b8c}{%
+           family={Akbari},
+           familyi={A\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=54c1419373fa1ce62dc88bcd702a1802}{%
+           family={Sarvizadeh},
+           familyi={S\bibinitperiod},
+           given={Mostafa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{04918fa78509b7a8fe6f1794c3217942}
+      \strng{fullhash}{5a13dae85cf635157c978d41257d35c5}
+      \strng{bibnamehash}{5a13dae85cf635157c978d41257d35c5}
+      \strng{authorbibnamehash}{5a13dae85cf635157c978d41257d35c5}
+      \strng{authornamehash}{04918fa78509b7a8fe6f1794c3217942}
+      \strng{authorfullhash}{5a13dae85cf635157c978d41257d35c5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{npj Parkinson s Disease}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{{Machine learning for Parkinson's disease: a comprehensive review of datasets, algorithms, and challenges}}
+      \field{volume}{11}
+      \field{year}{2025}
+      \field{pages}{187}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41531-025-01025-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41531-025-01025-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41531-025-01025-9
+      \endverb
+    \endentry
+    \entry{rabie-2025}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4a80ecb06d64d21f486543342d5ff8e9}{%
+           family={Rabie},
+           familyi={R\bibinitperiod},
+           given={Hajar},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=168aae55cd16ed87094587f50ca31b0a}{%
+           family={Akhloufi},
+           familyi={A\bibinitperiod},
+           given={Moulay\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1d5e0f97471e7968b410569ba5a089cd}
+      \strng{fullhash}{1d5e0f97471e7968b410569ba5a089cd}
+      \strng{bibnamehash}{1d5e0f97471e7968b410569ba5a089cd}
+      \strng{authorbibnamehash}{1d5e0f97471e7968b410569ba5a089cd}
+      \strng{authornamehash}{1d5e0f97471e7968b410569ba5a089cd}
+      \strng{authorfullhash}{1d5e0f97471e7968b410569ba5a089cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Discover Artificial Intelligence}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{{A review of machine learning and deep learning for Parkinson's disease detection}}
+      \field{volume}{5}
+      \field{year}{2025}
+      \field{pages}{24}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s44163-025-00241-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s44163-025-00241-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s44163-025-00241-9
+      \endverb
+    \endentry
+    \entry{cai-2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=44844e33b5604c0a2f517c0d1cddf620}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Zhennao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da8c33f15266831f31f375b82d7e7ffe}{%
+           family={Gu},
+           familyi={G\bibinitperiod},
+           given={Jianhua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f978aa78e5c9179fca494c7482710cc5}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Hui-Ling},
+           giveni={H\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{553f242fe82725ea94cfa830d5cbc931}
+      \strng{fullhash}{29bd4273fe6cf23811486a75cbcf305c}
+      \strng{bibnamehash}{29bd4273fe6cf23811486a75cbcf305c}
+      \strng{authorbibnamehash}{29bd4273fe6cf23811486a75cbcf305c}
+      \strng{authornamehash}{553f242fe82725ea94cfa830d5cbc931}
+      \strng{authorfullhash}{29bd4273fe6cf23811486a75cbcf305c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{month}{1}
+      \field{title}{{A new hybrid intelligent framework for predicting Parkinson's disease}}
+      \field{volume}{5}
+      \field{year}{2017}
+      \field{pages}{17188\bibrangedash 17200}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1109/access.2017.2741521
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/access.2017.2741521
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/access.2017.2741521
+      \endverb
+    \endentry
+    \entry{nilashi-2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=08268e0e916e9accc65f42d6a570ae8b}{%
+           family={Nilashi},
+           familyi={N\bibinitperiod},
+           given={Mehrbakhsh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9171e10b329e27546c58a10de799518}{%
+           family={Ibrahim},
+           familyi={I\bibinitperiod},
+           given={Othman},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1332c4970b963530c03da835de993f8b}{%
+           family={Ahani},
+           familyi={A\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{76a6f9bf428dba0a5b0a6b7bc993e69d}
+      \strng{fullhash}{a24c327f880aae5b81609e005d9b5d36}
+      \strng{bibnamehash}{a24c327f880aae5b81609e005d9b5d36}
+      \strng{authorbibnamehash}{a24c327f880aae5b81609e005d9b5d36}
+      \strng{authornamehash}{76a6f9bf428dba0a5b0a6b7bc993e69d}
+      \strng{authorfullhash}{a24c327f880aae5b81609e005d9b5d36}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{9}
+      \field{number}{1}
+      \field{title}{{Accuracy improvement for predicting Parkinson's disease progression}}
+      \field{volume}{6}
+      \field{year}{2016}
+      \field{pages}{34181}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/srep34181
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/srep34181
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/srep34181
+      \endverb
+    \endentry
+    \entry{masood-2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=71ce4ec29b38de38351cdddaa9421b65}{%
+           family={Masood},
+           familyi={M\bibinitperiod},
+           given={Sarfaraz},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9aa42332594763cbe9a7d00d590c55f3}{%
+           family={Maqsood},
+           familyi={M\bibinitperiod},
+           given={Khwaja\bibnamedelima Wisal},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6be2c2a89af0733989b2ef878faad08a}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Om},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99f0e9b772d0d137016cd058e449915b}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Chanchal},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{677bb0f422db178083dcd4ee6c52f959}
+      \strng{fullhash}{f78694bf1459efd47bfcdb96dd0398a0}
+      \strng{bibnamehash}{f78694bf1459efd47bfcdb96dd0398a0}
+      \strng{authorbibnamehash}{f78694bf1459efd47bfcdb96dd0398a0}
+      \strng{authornamehash}{677bb0f422db178083dcd4ee6c52f959}
+      \strng{authorfullhash}{f78694bf1459efd47bfcdb96dd0398a0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Methods in the Applied Sciences}
+      \field{month}{11}
+      \field{title}{{An ensemble‐based feature selection framework for early detection of Parkinson's disease based on feature correlation analysis}}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1002/mma.7835
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/mma.7835
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/mma.7835
+      \endverb
+    \endentry
+    \entry{zhao-2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9d7bbd4cf81b62f58fac4600512e09ae}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Siren},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=328c676a860e2acdd5c2b6221a26f74e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jilun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f0092ec8ad9825f8a84b2eb73d8a630}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Jianbin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{766092945791685c5ba272b2a13107fb}
+      \strng{fullhash}{6c51616642ffcddc103d7d62f35bc788}
+      \strng{bibnamehash}{6c51616642ffcddc103d7d62f35bc788}
+      \strng{authorbibnamehash}{6c51616642ffcddc103d7d62f35bc788}
+      \strng{authornamehash}{766092945791685c5ba272b2a13107fb}
+      \strng{authorfullhash}{6c51616642ffcddc103d7d62f35bc788}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Cloud Computing Advances Systems and Applications}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{{Predicting UPDRS in Parkinson's disease using ensembles of self-organizing map and neuro-fuzzy}}
+      \field{volume}{13}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1186/s13677-024-00641-9
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s13677-024-00641-9
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s13677-024-00641-9
+      \endverb
+    \endentry
+    \entry{omodunbi-2025}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=4306b93b0d1aba7a4312791508d2234e}{%
+           family={Omodunbi},
+           familyi={O\bibinitperiod},
+           given={Bolaji\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=81004c0639756190d4de97cc118b66ac}{%
+           family={Olawade},
+           familyi={O\bibinitperiod},
+           given={David\bibnamedelima B.},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdbe419a66b986ca15c3411a0fededc9}{%
+           family={Awe},
+           familyi={A\bibinitperiod},
+           given={Omosigho\bibnamedelima F.},
+           giveni={O\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e73ea331f385415d3b39e18077e8120}{%
+           family={Soladoye},
+           familyi={S\bibinitperiod},
+           given={Afeez\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d14b81104d68e253f7d9156bbe3e1955}{%
+           family={Aderinto},
+           familyi={A\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5db5a3729f55f1800b43bb026a587b7c}{%
+           family={Ovsepian},
+           familyi={O\bibinitperiod},
+           given={Saak\bibnamedelima V.},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca12c58f4bddda2fe9de537aad9f098f}{%
+           family={Boussios},
+           familyi={B\bibinitperiod},
+           given={Stergios},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4667dbf59d4f8895cc6b3d3e4eaa48bb}
+      \strng{fullhash}{da0c338ef977a041e6168f97a58b3781}
+      \strng{bibnamehash}{da0c338ef977a041e6168f97a58b3781}
+      \strng{authorbibnamehash}{da0c338ef977a041e6168f97a58b3781}
+      \strng{authornamehash}{4667dbf59d4f8895cc6b3d3e4eaa48bb}
+      \strng{authorfullhash}{da0c338ef977a041e6168f97a58b3781}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diagnostics}
+      \field{month}{6}
+      \field{number}{12}
+      \field{title}{{Stacked ensemble learning for classification of Parkinson's disease using telemonitoring vocal features}}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{1467}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/diagnostics15121467
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/diagnostics15121467
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/diagnostics15121467
+      \endverb
+    \endentry
+    \entry{chakole-2025}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=84b5a41b34558625a23aa5524923878a}{%
+           family={Chakole},
+           familyi={C\bibinitperiod},
+           given={Megha},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13ebd14e4179f2280ebdcd8279ff6a05}{%
+           family={Dorle},
+           familyi={D\bibinitperiod},
+           given={Sanjay},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e398f15c401932e4c66b4efc92c7a70}{%
+           family={Agrawal},
+           familyi={A\bibinitperiod},
+           given={Rahul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcda49817ec3494e557181d368389352}{%
+           family={Dasarwar},
+           familyi={D\bibinitperiod},
+           given={Priya},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4d6f785675aea8442497e3165496908}{%
+           family={Yadav},
+           familyi={Y\bibinitperiod},
+           given={Uma},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=805276c037dc7c614f44375a93ec8d1b}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Rashmi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{03f8ed5c2fdab388a9b753bc9866cdeb}
+      \strng{fullhash}{4f723021e88965bbc4019573d265267b}
+      \strng{bibnamehash}{4f723021e88965bbc4019573d265267b}
+      \strng{authorbibnamehash}{4f723021e88965bbc4019573d265267b}
+      \strng{authornamehash}{03f8ed5c2fdab388a9b753bc9866cdeb}
+      \strng{authorfullhash}{4f723021e88965bbc4019573d265267b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MethodsX}
+      \field{month}{10}
+      \field{title}{{Vocal features based Parkinson's detection: An ensemble learning approach}}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{103662}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.mex.2025.103662
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.mex.2025.103662
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.mex.2025.103662
+      \endverb
+    \endentry
+    \entry{hassan-2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d34e4c75e845ab8be2bc21c86dd64837}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Ahmad},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9021f823f1986315f4f4a8ac7f59663}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={Arslan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ab37342f3f94fdb1b871c96152f296f2}
+      \strng{fullhash}{ab37342f3f94fdb1b871c96152f296f2}
+      \strng{bibnamehash}{ab37342f3f94fdb1b871c96152f296f2}
+      \strng{authorbibnamehash}{ab37342f3f94fdb1b871c96152f296f2}
+      \strng{authornamehash}{ab37342f3f94fdb1b871c96152f296f2}
+      \strng{authorfullhash}{ab37342f3f94fdb1b871c96152f296f2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computer Science}
+      \field{month}{9}
+      \field{title}{{Predicting Parkinson's Disease Progression: A Non-Invasive Method Leveraging Voice Inputs}}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.53070/bbd.1350356
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.53070/bbd.1350356
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.53070/bbd.1350356
+      \endverb
+    \endentry
+    \entry{reddy-2024}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d9742d10e2ef7dfda3d096b893af2e5}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Varun},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \strng{fullhash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \strng{bibnamehash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \strng{authorbibnamehash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \strng{authornamehash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \strng{authorfullhash}{5d9742d10e2ef7dfda3d096b893af2e5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{6}
+      \field{title}{{PPINToNUS: Early detection of Parkinson's Disease using Deep-Learning Tonal Analysis}}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.48550/arxiv.2406.02608
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2406.02608
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2406.02608
+      \endverb
+    \endentry
+    \entry{titouni-2026}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=6674f333cd1cc34c0043729b18c77ecf}{%
+           family={Titouni},
+           familyi={T\bibinitperiod},
+           given={Salem},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50ccf35919f1ff6e4ea3e01508536d34}{%
+           family={Djeffal},
+           familyi={D\bibinitperiod},
+           given={Nadhir},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6bdd19d162ae2d61f251f732d22bae16}{%
+           family={Belazzoug},
+           familyi={B\bibinitperiod},
+           given={Massinissa},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b27a0a86ba35d1a4cba385395b3f806}{%
+           family={Hammache},
+           familyi={H\bibinitperiod},
+           given={Boualem},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b57d275cd7b324b11203f07e91b63e11}{%
+           family={Messaoudene},
+           familyi={M\bibinitperiod},
+           given={Idris},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95a50e119f6a02d2b1a8cb97a36cc99a}{%
+           family={Hedir},
+           familyi={H\bibinitperiod},
+           given={Abdallah},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{55e8e342274480d18b877cf38604b680}
+      \strng{fullhash}{82acab70579092c9855fb0c06957ade1}
+      \strng{bibnamehash}{82acab70579092c9855fb0c06957ade1}
+      \strng{authorbibnamehash}{82acab70579092c9855fb0c06957ade1}
+      \strng{authornamehash}{55e8e342274480d18b877cf38604b680}
+      \strng{authorfullhash}{82acab70579092c9855fb0c06957ade1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Electronics}
+      \field{month}{1}
+      \field{number}{3}
+      \field{title}{{A Confidence-Gated hybrid CNN ensemble for accurate detection of Parkinson's disease using speech analysis}}
+      \field{volume}{15}
+      \field{year}{2026}
+      \field{pages}{587}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/electronics15030587
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/electronics15030587
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/electronics15030587
+      \endverb
+    \endentry
+    \entry{aladhadh-2025}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b39484de6e70d909fe7ab02d5d4f0b1}{%
+           family={Aladhadh},
+           familyi={A\bibinitperiod},
+           given={Suliman},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \strng{fullhash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \strng{bibnamehash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \strng{authorbibnamehash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \strng{authornamehash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \strng{authorfullhash}{5b39484de6e70d909fe7ab02d5d4f0b1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diagnostics}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{{An Explainable Ensemble and Deep Learning Framework for Accurate and Interpretable Parkinson's Disease Detection from Voice Biomarkers}}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{2892}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/diagnostics15222892
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/diagnostics15222892
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/diagnostics15222892
+      \endverb
+    \endentry
+    \entry{simone-2025}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=f11656833bbb653aa6cc7907644a1a73}{%
+           family={Simone},
+           familyi={S\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3ea555103bcab260f706d9c2e1a78df}{%
+           family={Camporeale},
+           familyi={C\bibinitperiod},
+           given={Mauro\bibnamedelima Giuseppe},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cda1260be5f1c693e6ec5fbb362949f}{%
+           family={Rubino},
+           familyi={R\bibinitperiod},
+           given={Vito\bibnamedelima Marco},
+           giveni={V\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be8a8b12148aab1f8010f9a49e004b85}{%
+           family={Gervasi},
+           familyi={G\bibinitperiod},
+           given={Vincenzo},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecd8bc8cc8c95a58dc8b9a4f7bc9510b}{%
+           family={Dimauro},
+           familyi={D\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{434819d62cb9fdad35bcc118b4cd9c2c}
+      \strng{fullhash}{86cc29f4f858173e762cbc50522d47a7}
+      \strng{bibnamehash}{86cc29f4f858173e762cbc50522d47a7}
+      \strng{authorbibnamehash}{86cc29f4f858173e762cbc50522d47a7}
+      \strng{authornamehash}{434819d62cb9fdad35bcc118b4cd9c2c}
+      \strng{authorfullhash}{86cc29f4f858173e762cbc50522d47a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{4}
+      \field{title}{{Interpretable Early Detection of Parkinson's Disease through Speech Analysis}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arxiv.2504.17739
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2504.17739
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2504.17739
+      \endverb
+    \endentry
+    \entry{cao-2025}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=63507b72b02c4a11170f47e2519ac0f9}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Jiangbo},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cef02825b375483d8ad6e0fd94aff559}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Xiaojing},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \strng{fullhash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \strng{bibnamehash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \strng{authorbibnamehash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \strng{authornamehash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \strng{authorfullhash}{5c5cae8ae7c10a628dbbbe9d3571fae8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{month}{4}
+      \field{number}{8}
+      \field{title}{{RACF: a multimodal deep learning framework for Parkinson's disease diagnosis using SNP and MRI data}}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{4513}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app15084513
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/app15084513
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/app15084513
+      \endverb
+    \endentry
+    \entry{datta-2026}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8cc1a4174f6da2c497e91d37b2541ced}{%
+           family={Datta},
+           familyi={D\bibinitperiod},
+           given={Dristi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c38f259179eadd2be39346a54e962e3}{%
+           family={Debnath},
+           familyi={D\bibinitperiod},
+           given={Tanmoy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04694a9e9a8ec0f14453fad5f0e1b4ef}{%
+           family={Chau},
+           familyi={C\bibinitperiod},
+           given={Minh},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b8f346a56c3c2c3b40bb9d5371e275d}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Manoranjan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c8ef1f306c089f2a364b7f17d4ab38c}{%
+           family={Adhikary},
+           familyi={A\bibinitperiod},
+           given={Gourab},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d21ee59f42014dc92fc32e62bed53168}{%
+           family={Rahman},
+           familyi={R\bibinitperiod},
+           given={Md\bibnamedelima Geaur},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{22946b3868551ffca73c1fe86df6289c}
+      \strng{fullhash}{299c9c41e717787c048103a08af43e15}
+      \strng{bibnamehash}{299c9c41e717787c048103a08af43e15}
+      \strng{authorbibnamehash}{299c9c41e717787c048103a08af43e15}
+      \strng{authornamehash}{22946b3868551ffca73c1fe86df6289c}
+      \strng{authorfullhash}{299c9c41e717787c048103a08af43e15}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{1}
+      \field{title}{{A Sparse-Attention deep learning model integrating heterogeneous multimodal features for Parkinson's disease severity profiling}}
+      \field{year}{2026}
+      \verb{doi}
+      \verb 10.48550/arxiv.2601.00519
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.48550/arxiv.2601.00519
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.48550/arxiv.2601.00519
+      \endverb
+    \endentry
+    \entry{chaithanya-2025}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e203d8c0fd04c20c785643149350681b}{%
+           family={Chaithanya},
+           familyi={C\bibinitperiod},
+           given={Aravalli\bibnamedelima Sainath},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13fe3dde02bdf01c7970dcb2a452a19e}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Nadipudi\bibnamedelima Kiran},
+           giveni={N\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d40130ae84e28497d1ab366308b5909}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={Gugulothu\bibnamedelima Venkatesh},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0726a8f8f22bfb7b2b3c00c3cf2538d2}{%
+           family={Keerthana},
+           familyi={K\bibinitperiod},
+           given={Bejawada},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c1dd8708283055e8f8bfab901a3cf30}
+      \strng{fullhash}{18e6dece367bc1514bba64df8368803a}
+      \strng{bibnamehash}{18e6dece367bc1514bba64df8368803a}
+      \strng{authorbibnamehash}{18e6dece367bc1514bba64df8368803a}
+      \strng{authornamehash}{5c1dd8708283055e8f8bfab901a3cf30}
+      \strng{authorfullhash}{18e6dece367bc1514bba64df8368803a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Healthcare Informatics Research}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{{Advancements in Parkinson's Disease Prediction Using Machine Learning: A Neurological perspective}}
+      \field{volume}{31}
+      \field{year}{2025}
+      \field{pages}{274\bibrangedash 283}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.4258/hir.2025.31.3.274
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4258/hir.2025.31.3.274
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4258/hir.2025.31.3.274
+      \endverb
+    \endentry
+    \entry{kumar-2025}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=eb6a64cf20a5b21db872c9ca0d491ed9}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Ajay},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a1cc4851339c3a4206795334875b03d}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Jay\bibnamedelima Parkash},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=117130b69f41a546ba839aeb5f5db7b5}{%
+           family={Paygude},
+           familyi={P\bibinitperiod},
+           given={Priyanka},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01120da629dffdbfea8fc0f299a8d000}{%
+           family={Daimary},
+           familyi={D\bibinitperiod},
+           given={Rachan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=335a434a7c9a84ef78c285a4c266e2d2}{%
+           family={Prasad},
+           familyi={P\bibinitperiod},
+           given={Sandeep},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{26bfad445f6d35314108349318157311}
+      \strng{fullhash}{6a01170d7bee6686c8088fff97884b5a}
+      \strng{bibnamehash}{6a01170d7bee6686c8088fff97884b5a}
+      \strng{authorbibnamehash}{6a01170d7bee6686c8088fff97884b5a}
+      \strng{authornamehash}{26bfad445f6d35314108349318157311}
+      \strng{authorfullhash}{6a01170d7bee6686c8088fff97884b5a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Digital Health}
+      \field{month}{5}
+      \field{title}{{Advanced comparative analysis of machine learning algorithms for early Parkinson's disease detection using vocal biomarkers}}
+      \field{volume}{11}
+      \field{year}{2025}
+      \field{pages}{20552076251342878}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1177/20552076251342878
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/20552076251342878
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/20552076251342878
+      \endverb
+    \endentry
+    \entry{wang-2025}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=edcb27361de88ed2a8ec1c9dca30dd7a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac06021085e6827ad58086c6d4004c27}{%
+           family={Ru},
+           familyi={R\bibinitperiod},
+           given={Yuhua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa72a3a2cdfcc762837fe6fdd287ca40}{%
+           family={Chetouani},
+           familyi={C\bibinitperiod},
+           given={Aladine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5de529f763fe493fc1be5a3fa71d53d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4a9d82152d114f4d09234ff36951fde}{%
+           family={Bauer},
+           familyi={B\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc948bcf523b83a8724c7ec20d7957d0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Liping},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=252754a73d8873722e1aec6202c6598c}{%
+           family={Hans},
+           familyi={H\bibinitperiod},
+           given={Didier},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c464eff31e0fb1e1d73ff4d5640f367}{%
+           family={Jennane},
+           familyi={J\bibinitperiod},
+           given={Rachid},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a08a171658c0f36c0fe7311e43ddd48}{%
+           family={Jarraya},
+           familyi={J\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a6be41079a0543c203a000bc8affb41}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yung\bibnamedelima Hsin},
+           giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8c5ddbd536081e8661b153cdc721738d}
+      \strng{fullhash}{c9646c9c4c0aecdfaae40638117f30be}
+      \strng{bibnamehash}{c9646c9c4c0aecdfaae40638117f30be}
+      \strng{authorbibnamehash}{c9646c9c4c0aecdfaae40638117f30be}
+      \strng{authornamehash}{8c5ddbd536081e8661b153cdc721738d}
+      \strng{authorfullhash}{c9646c9c4c0aecdfaae40638117f30be}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{4}
+      \field{title}{{MOEDIFF-SR: Mixture of Experts-Guided Diffusion Model for Region-Adaptive MRI Super-Resolution}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arxiv.2504.07308
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.48550/arxiv.2504.07308
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.48550/arxiv.2504.07308
+      \endverb
+    \endentry
+    \entry{hadia-2025}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=57809d8bcbd8f492ae190d0e2ad63749}{%
+           family={Hadia},
+           familyi={H\bibinitperiod},
+           given={Aliyya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dca7e691f60c07c82beca170cbcb508c}{%
+           family={Afifa},
+           familyi={A\bibinitperiod},
+           given={Tariq},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74cb08d4e10c1572c748bf40bc052ab9}{%
+           family={Gamal},
+           familyi={G\bibinitperiod},
+           given={Fawzi},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{621f2e0e01a0b615d7875474b4de41d9}
+      \strng{fullhash}{35678807cbac173f6549db43e87d6bd6}
+      \strng{bibnamehash}{35678807cbac173f6549db43e87d6bd6}
+      \strng{authorbibnamehash}{35678807cbac173f6549db43e87d6bd6}
+      \strng{authornamehash}{621f2e0e01a0b615d7875474b4de41d9}
+      \strng{authorfullhash}{35678807cbac173f6549db43e87d6bd6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprints.org}
+      \field{month}{4}
+      \field{title}{{MOE at Scale: From modular design to deployment in Large-Scale Machine Learning systems}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.20944/preprints202504.1313.v1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.20944/preprints202504.1313.v1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.20944/preprints202504.1313.v1
+      \endverb
+    \endentry
+    \entry{al-shedivat-2020}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=194214effb6203580636518d503b0a4d}{%
+           family={Al-Shedivat},
+           familyi={A\bibinithyphendelim S\bibinitperiod},
+           given={Maruan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=903b8d53a85552eae354601eebde48b9}{%
+           family={Dubey},
+           familyi={D\bibinitperiod},
+           given={Avinava},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f7feba05afbc06e3af82e433944989b}{%
+           family={Xing},
+           familyi={X\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{02cf793cc309d7c52b441c2fe2530882}
+      \strng{fullhash}{d2656189cb7ee6c0a695f7bfefb8fe04}
+      \strng{bibnamehash}{d2656189cb7ee6c0a695f7bfefb8fe04}
+      \strng{authorbibnamehash}{d2656189cb7ee6c0a695f7bfefb8fe04}
+      \strng{authornamehash}{02cf793cc309d7c52b441c2fe2530882}
+      \strng{authorfullhash}{d2656189cb7ee6c0a695f7bfefb8fe04}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{{Contextual Explanation Networks}}
+      \field{type}{techreport}
+      \field{volume}{21}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.jmlr.org/papers/volume21/18-856/18-856.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.jmlr.org/papers/volume21/18-856/18-856.pdf
+      \endverb
+    \endentry
+    \entry{parkinsons_telemonitoring_189}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=48608b54aa6a0cbddb28bc61484924e9}{%
+           family={Tsanas},
+           familyi={T\bibinitperiod},
+           given={Athanasios},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=880393f87bc98a60732478495483854f}{%
+           family={Little},
+           familyi={L\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \strng{fullhash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \strng{bibnamehash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \strng{authorbibnamehash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \strng{authornamehash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \strng{authorfullhash}{6dc89b74ac3b8ce5d197cdf8122061df}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{UCI Machine Learning Repository}
+      \field{note}{{DOI}: https://doi.org/10.24432/C5ZS3N}
+      \field{title}{{Parkinsons Telemonitoring}}
+      \field{year}{2009}
+    \endentry
+    \entry{tong-2025}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a281cae3c16af7c344d55b0d70c92fa2}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6f8fe2729e6bb945689e0f825d6fe20}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Lanruo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd43e70e50bdee025388fc70cac570d6}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Tong},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b459e44437fc24e4949f65c11b70da06}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{deadf5b89af518643aa73b41a3a1f7c7}
+      \strng{fullhash}{08d07155780dca13531c228f16284d13}
+      \strng{bibnamehash}{08d07155780dca13531c228f16284d13}
+      \strng{authorbibnamehash}{08d07155780dca13531c228f16284d13}
+      \strng{authornamehash}{deadf5b89af518643aa73b41a3a1f7c7}
+      \strng{authorfullhash}{08d07155780dca13531c228f16284d13}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{7}
+      \field{title}{{Predicting Parkinson's disease progression using statistical and neural mixed effects models: Comparative study on longitudinal biomarkers}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arxiv.2507.20058
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.48550/arxiv.2507.20058
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.48550/arxiv.2507.20058
+      \endverb
+    \endentry
+    \entry{konyar-2025}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3fbdf2840b16e564c3cfa26a009cb192}{%
+           family={Konyar},
+           familyi={K\bibinitperiod},
+           given={Elif},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfc225bd29d38bd8189fad6cea2e8433}{%
+           family={Gahrooei},
+           familyi={G\bibinitperiod},
+           given={Mostafa\bibnamedelima Reisi},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a519b5c666710d3ae8e4ac51133af58e}{%
+           family={Paynabar},
+           familyi={P\bibinitperiod},
+           given={Kamran},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90ad388447efd1d1d38b24993670f34d}
+      \strng{fullhash}{e46bbe1fcde002872b127e80ba8809d8}
+      \strng{bibnamehash}{e46bbe1fcde002872b127e80ba8809d8}
+      \strng{authorbibnamehash}{e46bbe1fcde002872b127e80ba8809d8}
+      \strng{authornamehash}{90ad388447efd1d1d38b24993670f34d}
+      \strng{authorfullhash}{e46bbe1fcde002872b127e80ba8809d8}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv (Cornell University)}
+      \field{month}{8}
+      \field{title}{{Tensorized Multi-Task Learning for Personalized Modeling of Heterogeneous Individuals with High-Dimensional Data}}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.48550/arxiv.2508.15676
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2508.15676
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2508.15676
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
