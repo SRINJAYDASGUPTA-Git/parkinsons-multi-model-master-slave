@@ -1,0 +1,11 @@
+{
+    "static_rf_weight": 0.6666666666666666,
+    "static_nn_weight": 0.3333333333333333,
+    "lambda_no_entropy": 0.0,
+    "lambda_proposed": 0.05,
+    "motor_gate_no_entropy": "../models/motor_gate_lambda0.pt",
+    "total_gate_no_entropy": "../models/total_gate_lambda0.pt",
+    "metrics_csv": "../results/r2_ablation_metrics.csv",
+    "routing_csv": "../results/r2_ablation_routing.csv",
+    "paired_error_csv": "../results/r2_ablation_paired_errors.csv"
+}

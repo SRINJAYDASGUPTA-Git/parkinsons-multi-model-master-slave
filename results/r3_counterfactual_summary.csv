@@ -1,0 +1,5 @@
+target,direction,success_rate,mean_changed_features,median_changed_features,mean_l1_distance,mean_prediction_change
+Motor-UPDRS,higher,0.95,1.55,1.0,0.4853213674060492,1.3646668196974248
+Motor-UPDRS,lower,0.65,2.4,2.5,0.7231681837126038,-0.8597857128505115
+Total-UPDRS,higher,1.0,1.75,1.5,0.5514688111643534,1.7188100293977115
+Total-UPDRS,lower,0.65,2.2,1.5,0.72,-1.2125226894893644

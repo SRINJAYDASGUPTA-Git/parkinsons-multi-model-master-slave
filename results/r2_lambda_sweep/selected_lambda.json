@@ -1,0 +1,8 @@
+{
+    "Motor-UPDRS": {
+        "selected_lambda": 0.0005
+    },
+    "Total-UPDRS": {
+        "selected_lambda": 0.0
+    }
+}

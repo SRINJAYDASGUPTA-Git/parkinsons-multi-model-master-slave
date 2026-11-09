@@ -1,0 +1,7 @@
+Target,Comparison,Mean absolute-error difference (new - baseline),New better (%)
+Motor-UPDRS,lambda=0 vs static 2:1,-0.0076058116832918915,52.08510638297872
+Motor-UPDRS,lambda=0.05 vs lambda=0,0.015227683341536938,48.0
+Motor-UPDRS,lambda=0.05 vs static 2:1,0.007621871658245047,45.70212765957447
+Total-UPDRS,lambda=0 vs static 2:1,0.0033892290682472083,50.808510638297875
+Total-UPDRS,lambda=0.05 vs lambda=0,-0.0013473931171587095,49.87234042553192
+Total-UPDRS,lambda=0.05 vs static 2:1,0.002041835951088499,47.65957446808511
